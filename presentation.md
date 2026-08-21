@@ -45,6 +45,25 @@ p, li {
   color: #546e7a;
   font-size: 15px;
 }
+.color-legend {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px 16px;
+  margin: 12px 0 24px;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: #33444c;
+}
+.swatch {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #8a969d;
+  flex: 0 0 16px;
+}
 .two {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -82,7 +101,7 @@ code {
   }
 }
 @media (max-width: 760px) {
-  .two, .stats {
+  .two, .stats, .color-legend {
     grid-template-columns: 1fr;
   }
   h1 {
@@ -93,11 +112,11 @@ code {
 
 # Circuit Diagram Processing
 
-<p class="lead">The current pipeline parses dense automotive wiring diagrams by progressively removing and recording visual structures: page frame, sheet text, module rectangles, wires, endpoint objects, and OCR text. The final `vis.py` stage aggregates the recognized content into one review artifact.</p>
+<p class="lead">The pipeline parses dense wiring diagrams by progressively removing and recording visual structures: page frame, sheet text, module rectangles, wires, endpoint objects, and OCR text. Its goal is to recover connection relationships and module-level information from complex diagrams, while producing smaller module crops that can be passed to downstream circuit-analysis tools.</p>
 
-The main case study here is `bmw-328i-1997`, pages 1-5, using the current artifacts under `outputs/`. The pipeline now consists of `01_circuit.py` through `06_text.py`, followed by `vis.py`.
+The figures below use `bmw-328i-1997` page 1 to illustrate the processing flow. The `outputs/` directory includes results for pages 1-5 from three circuit sets: `bmw-328i-1997`, `honda-accord-1994`, and `mitsubishi-montero-sport-1997-1999`. The pipeline consists of `01_circuit.py` through `06_text.py`, followed by `vis.py`.
 
-## Why this is hard
+## Key challenge
 
 <div class="two">
   <div class="figure">
@@ -110,12 +129,12 @@ The main case study here is `bmw-328i-1997`, pages 1-5, using the current artifa
   </div>
 </div>
 
-Many recognition pipelines are easier when components, wires, labels, and page metadata are already isolated. In this benchmark, those primitives overlap heavily. A direct one-shot recognizer has to solve layout, topology, OCR, and symbol separation at the same time.
+Recognition is easier when components, wires, labels, and page metadata are already separated. In these pages, those primitives overlap heavily. A direct one-shot recognizer must solve layout, topology, OCR, and symbol separation at the same time.
 
-## Core idea: staged decomposition
+## Main method
 
 <div class="callout">
-The method does not try to recognize every circuit object from the original page at once. It first establishes page/circuit coordinates, then removes or records high-confidence structures in a deliberate order. Later stages operate on cleaner images and inherit structured JSON from earlier stages.
+The method is based on computational geometry and OCR rather than large models or trained recognition networks for specific circuit components. It avoids recognizing every object from the original page in one pass. It first establishes page/circuit coordinates, then records or removes high-confidence structures in a fixed order. Each stage receives a cleaner image and structured JSON from previous stages, which makes connection extraction and module localization easier to verify.
 </div>
 
 The active processing order is:
@@ -126,11 +145,11 @@ The active processing order is:
 4. `04_wire.py`: detect solid wires, diagonal extensions, dashed wire groups, and basic wire contacts.
 5. `05_endpoint.py`: classify wire endpoints, infer endpoint-attached physical objects, and assign local net IDs.
 6. `06_text.py`: run whole-page OCR on the cleaned endpoint image and erase only high-confidence text ink.
-7. `vis.py`: aggregate `03_rect`, `04_wire`, `05_endpoint`, and `06_text` into final review JSON/images and copied module crops.
+7. `vis.py`: combine `03_rect`, `04_wire`, `05_endpoint`, and `06_text` into final review JSON/images and copied module crops.
 
-This replaces the older 10-step narrative. There is no current tile-splitting stage and no current NN component-recognition stage in the active 01-06+vis flow.
+The workflow below uses the active 01-06+vis sequence. Tile splitting, large-model inference, and trained component-specific recognition networks are not part of these outputs.
 
-# Current Pipeline
+# Pipeline
 
 ## Stage 01 - Circuit and sheet separation
 
@@ -139,11 +158,7 @@ This replaces the older 10-step narrative. There is no current tile-splitting st
   <div class="caption">`01_circuit`: detects the main circuit frame and creates both `circuit_images` and `sheet_images`.</div>
 </div>
 
-This stage establishes the coordinate system for later work. For page 001, it finds one closed outer frame and outputs:
-
-- `circuit_images/page_001.png`: the circuit region with page framing removed.
-- `sheet_images/page_001.png`: the page-level title/sheet content outside the circuit frame.
-- `json/page_001.json`: frame geometry, frame calibration, and image dimensions.
+Role: separate the dense circuit region from the surrounding sheet/title region. Goal: provide a stable page coordinate system and clean input images for downstream OCR, rectangle detection, and wire analysis.
 
 ## Stage 02 - Sheet text OCR
 
@@ -152,7 +167,7 @@ This stage establishes the coordinate system for later work. For page 001, it fi
   <div class="caption">`02_sheet_text`: OCRs the sheet/title region rather than the dense circuit body.</div>
 </div>
 
-This stage consumes `01_circuit/sheet_images`. On page 001, it finds one OCR region and extracts three sheet/title strings: `SYSTEM WIRING DIAGRAMS`, `Air Conditioning Circuits`, and `1997 BMW 328i`.
+Role: extract sheet-level text from the outside-sheet/title region rather than from the dense circuit body. Goal: record document metadata while keeping later circuit parsing focused on the circuit region.
 
 ## Stage 03 - Rectangle and module frames
 
@@ -161,9 +176,7 @@ This stage consumes `01_circuit/sheet_images`. On page 001, it finds one OCR reg
   <div class="caption">`03_rect`: detects rectangular/module frames, writes masks, and exports `module_images` crops with borders erased.</div>
 </div>
 
-This stage is intentionally separate from wire extraction. It finds component or switch border frames made from connected or near-connected axis-aligned sides. Its cleaned `circuit_images` become the input for wire detection.
-
-For pages 1-5, the current BMW artifacts contain 64 rectangle/module frames. Page 001 contains 27 frames.
+Role: detect component, switch, and module frames before wire extraction. Goal: remove rectangular borders from the working image and export module crops that can be analyzed as smaller local circuit regions.
 
 ## Stage 04 - Solid and dashed wires
 
@@ -172,9 +185,7 @@ For pages 1-5, the current BMW artifacts contain 64 rectangle/module frames. Pag
   <div class="caption">`04_wire`: detects solid wire seeds/extensions, diagonal extensions, dashed wire groups, and connection contacts from `03_rect/circuit_images`.</div>
 </div>
 
-The wire stage consumes the rectangle-cleaned circuit image, not the raw page. Its JSON normalizes solid and dashed detections into `wires`, including centerline geometry, masks, type, and connection records.
-
-For pages 1-5, the current BMW artifacts contain 643 wires total: 598 solid wires, 6 diagonal extensions, and 45 dashed wire groups. Page 001 contains 221 wires: 215 solid, 3 diagonal extensions, and 6 dashed groups.
+Role: detect wire geometry from the rectangle-cleaned circuit image, including solid wires, diagonal extensions, dashed wire groups, and basic contacts. Goal: convert visual line structures into normalized wire records for endpoint and net analysis.
 
 ## Stage 05 - Endpoints and local nets
 
@@ -183,76 +194,71 @@ For pages 1-5, the current BMW artifacts contain 643 wires total: 598 solid wire
   <div class="caption">`05_endpoint`: classifies endpoint states, infers endpoint-attached structures, and assigns local net IDs.</div>
 </div>
 
-This stage consumes `03_rect/circuit_images`, `04_wire/json`, and `03_rect/json`. It suppresses rectangle-owned wires/dash groups, classifies connected and disconnected endpoints, records small endpoint-attached residual structures, and builds local net IDs without merging distinct GND terminals.
-
-For pages 1-5, the current visual aggregate records 451 endpoint objects and 98 nets. Page 001 records 148 endpoint objects, 421 endpoint classification records, and 39 nets.
+Role: classify wire endpoints and infer endpoint-attached physical structures from the wire and rectangle outputs. Goal: build local connectivity records while keeping distinct ground terminals and disconnected endpoints explicit.
 
 ## Stage 06 - Whole-page OCR and text erasure
 
-This is a major change from the older presentation: no tile-splitting stage exists in the current pipeline. OCR is run on `05_endpoint/circuit_images`. Detections are categorized as wire color codes, numbers, or other text. Only detections with OCR confidence at least `--erase-min-confidence` are erased, and erasure removes the text's ink pixels rather than the whole bounding box.
+<div class="figure">
+  <img src="outputs/06_text/bmw-328i-1997/images/page_001.png" alt="Stage 06 OCR text review">
+  <div class="caption">`06_text`: detects page-level circuit text and erases high-confidence text ink from the endpoint-cleaned circuit image.</div>
+</div>
 
-For pages 1-5, the current BMW artifacts contain 1122 text detections: 395 wire color labels, 222 numbers, and 505 other text detections. 1101 detections are erased. Page 001 contains 348 text detections, of which 339 are erased.
+Role: run OCR on `05_endpoint/circuit_images` and categorize detections as wire color codes, numbers, or other text. Goal: preserve recognized text as structured data while removing high-confidence text ink from the image for downstream visual parsing.
 
-## Final visualization - Aggregate review
+## Final visualization - Combined review
 
 <div class="figure">
-  <img src="outputs/vis/bmw-328i-1997/images/page_001.png" alt="Final visual aggregate review">
+  <img src="outputs/vis/bmw-328i-1997/images/page_001.png" alt="Final combined visual review">
   <div class="caption">`vis.py`: overlays recognized rectangles, wires, endpoint objects, and text on the `01_circuit` base image.</div>
 </div>
 
-`vis.py` is an aggregation and review layer. It does not recompute detection or connectivity. Its `images/page_NNN.png` output is the main visual review: a base `01_circuit` circuit image with overlays for recognized rectangles, wires, endpoint objects, and OCR text. It also copies the module crops from `03_rect/module_images` into `vis/module_images`, making the detected module regions easy to inspect as standalone local circuit images.
+Role: combine the outputs from `03_rect`, `04_wire`, `05_endpoint`, and `06_text` into one review layer. Goal: provide a single visual and JSON representation for checking recognized rectangles, wires, endpoint objects, OCR text, and copied module crops without recomputing detection.
 
-<div class="two">
-  <div class="figure">
-    <img src="outputs/vis/bmw-328i-1997/module_images/page_001/module_0005.png" alt="Detected module 0005 crop from page 001">
-    <div class="caption">`vis/module_images/page_001/module_0005.png`: detected module crop carried forward by `vis.py`.</div>
-  </div>
-  <div class="figure">
-    <img src="outputs/vis/bmw-328i-1997/module_images/page_001/module_0006.png" alt="Detected module 0006 crop from page 001">
-    <div class="caption">`vis/module_images/page_001/module_0006.png`: another page 001 module crop for local analysis.</div>
-  </div>
+Color meanings in the `vis.py` combined review:
+
+<div class="color-legend">
+  <div class="legend-item"><span class="swatch" style="background:#DC0000"></span>Rectangular/module frames</div>
+  <div class="legend-item"><span class="swatch" style="background:#00BE00"></span>Solid wires</div>
+  <div class="legend-item"><span class="swatch" style="background:#FF9100"></span>Dashed wire groups</div>
+  <div class="legend-item"><span class="swatch" style="background:#0078FF"></span>Connection dots and arrow structures</div>
+  <div class="legend-item"><span class="swatch" style="background:#0050FF"></span>Round terminal objects</div>
+  <div class="legend-item"><span class="swatch" style="background:#FF0000"></span>Ground terminals</div>
+  <div class="legend-item"><span class="swatch" style="background:#00D2D2"></span>Small connected endpoint structures</div>
+  <div class="legend-item"><span class="swatch" style="background:#BE007D"></span>Brace structures</div>
+  <div class="legend-item"><span class="swatch" style="background:#AA782D"></span>Rectangle-frame suppression boundaries</div>
+  <div class="legend-item"><span class="swatch" style="background:#005AFF"></span>OCR wire-color labels</div>
+  <div class="legend-item"><span class="swatch" style="background:#FF9600"></span>OCR numbers</div>
+  <div class="legend-item"><span class="swatch" style="background:#00AA00"></span>Other OCR text</div>
 </div>
 
-These module crops are the bridge to the next phase. After the global page has been decomposed into frames, wires, endpoints, nets, and text, the key next problem is analyzing the circuit inside each module: recovering local internal connections, extracting component symbols, and linking those local component structures back to the page-level wiring graph.
+The module crops are intended for downstream analysis. After the global page is decomposed into frames, wires, endpoints, nets, and text, each crop contains a smaller local circuit problem. Users can process these crops with tools designed for small-scale circuit recognition or component-level analysis.
 
-# Current Results
+# Results
 
-Current aggregate counts for `bmw-328i-1997`, pages 1-5:
+The manually reviewed coverage check uses the first five pages from each of three circuit sets: `bmw-328i-1997`, `honda-accord-1994`, and `mitsubishi-montero-sport-1997-1999` (15 pages total). From visual inspection, recognized detections were almost all correct, so this table focuses on retrieval coverage: for each metric, the denominator is `recognized + manually observed missed`.
 
-<div class="stats">
-  <div class="stat"><strong>64</strong>rectangle/module frames</div>
-  <div class="stat"><strong>643</strong>wires</div>
-  <div class="stat"><strong>451</strong>endpoint objects</div>
-  <div class="stat"><strong>98</strong>local nets</div>
-  <div class="stat"><strong>1122</strong>text detections</div>
-</div>
+| Metric | BMW | Honda | Mitsubishi | Total |
+|---|---:|---:|---:|---:|
+| Box | 64 / 64 = **100.0%** | 76 / 79 = **96.2%** | 61 / 63 = **96.8%** | 201 / 206 = **97.6%** |
+| Solid wire | 598 / 607 = **98.5%** | 461 / 471 = **97.9%** | 291 / 313 = **93.0%** | 1350 / 1391 = **97.1%** |
+| Dash wire | 45 / 47 = **95.7%** | 53 / 64 = **82.8%** | 17 / 24 = **70.8%** | 115 / 135 = **85.2%** |
 
-Page 001 demonstrates the full representation shift: 27 rectangles, 221 wires, 148 endpoint objects, 39 nets, and 348 OCR text detections are collected into a single `vis/json/page_001.json` review record.
+The box metric corresponds to `03_rect.py`. The solid-wire and dash-wire metrics correspond to `04_wire.py`; they are reported separately because solid wires and dashed wire groups are different visual primitives with different failure modes.
 
-These are artifact counts from the current pipeline outputs, not accuracy or benchmark performance metrics.
-
-# Current Limitations
+# Limitations
 
 ### 1. Rule and threshold dependence
 
-The method still relies heavily on geometry rules: line length, side coverage, corner tolerance, wire width estimates, endpoint search radii, and OCR confidence thresholds. These settings work as a controlled parsing strategy, but they need broader validation across other diagram families.
+The method relies on geometry rules: line length, side coverage, corner tolerance, wire width estimates, endpoint search radii, and OCR confidence thresholds. These settings work for the reviewed diagrams, but they need broader validation across other diagram families.
 
 ### 2. OCR and erasure sensitivity
 
-`06_text.py` erases only high-confidence text ink to avoid damaging nearby wires. This conservative behavior is safer, but it can leave low-confidence text residuals or miss labels when OCR quality drops.
-
-### 3. Endpoint and net validation
-
-`05_endpoint.py` records connected/disconnected endpoint classifications and local nets, but these should still be validated against a ground-truth wiring graph before they are treated as final electrical connectivity.
-
-### 4. Module-level circuit analysis is still the next key step
-
-The current 01-06+vis pipeline exports module crops from `03_rect/module_images` and copies them into `vis/module_images`. The next key stage is not just classification of isolated symbols; it is module-level circuit parsing: internal wire analysis, component extraction, local connectivity recovery, and integration of each module's internal graph with the page-level nets. A trained component-recognition model can support this, but the active artifact set does not yet include quantitative module-level or NN evaluation.
+`06_text.py` erases only high-confidence text ink to avoid damaging nearby wires. This conservative behavior reduces accidental wire damage, but it can leave low-confidence text residuals or miss labels when OCR quality drops.
 
 # Final Summary
 
-- The active workflow is now `01_circuit` -> `02_sheet_text` -> `03_rect` -> `04_wire` -> `05_endpoint` -> `06_text` -> `vis`.
-- The pipeline no longer uses the older tile/OCR-rescue/component-candidate sequence in this presentation.
-- `vis.py` is the final review and data aggregation layer: its `images` output combines recognized rectangles, wires, endpoint objects, nets, and text without recomputing detection.
-- The module crops in `vis/module_images` define the next important work: module-internal circuit analysis and component extraction.
-- The main remaining work is robustness validation, OCR cleanup, endpoint/net ground truth evaluation, and module-level parsing.
+- The workflow is `01_circuit` -> `02_sheet_text` -> `03_rect` -> `04_wire` -> `05_endpoint` -> `06_text` -> `vis`.
+- The pipeline extracts page regions, module frames, wires, endpoints, nets, and OCR text through staged image cleanup and JSON handoff.
+- `vis.py` produces review images and combined JSON without recomputing detection.
+- `vis/module_images` contains smaller module crops that can be passed to other small-scale circuit analysis tools.
+- Remaining work includes broader validation, OCR cleanup, and endpoint/net ground truth evaluation.

@@ -199,7 +199,6 @@ Outputs:
 outputs/05_endpoint/<pdf_stem>/image/page_NNN.png
 outputs/05_endpoint/<pdf_stem>/circuit_images/page_NNN.png
 outputs/05_endpoint/<pdf_stem>/json/page_NNN.json
-outputs/05_endpoint/<pdf_stem>/legend
 outputs/05_endpoint/<pdf_stem>/review.pdf
 outputs/05_endpoint/<pdf_stem>/result.pdf
 ```
@@ -209,7 +208,6 @@ Output meaning:
 - `image/`: endpoint and physical-object review images.
 - `circuit_images/`: endpoint-processed circuit images used by `06_text.py`.
 - `json/`: wire objects, endpoint classification records, physical endpoint objects, and local nets.
-- `legend`: color legend for review images.
 - `review.pdf` / `result.pdf`: combined endpoint review and result PDFs.
 
 Endpoint-attached object types include connection dots, round terminals, ground terminals, arrows, braces, and small connected structures.
@@ -276,7 +274,6 @@ outputs/vis/<pdf_stem>/json/page_NNN.json
 outputs/vis/<pdf_stem>/debug/page_NNN.json
 outputs/vis/<pdf_stem>/json/summary.json
 outputs/vis/<pdf_stem>/debug/summary.json
-outputs/vis/<pdf_stem>/legend
 outputs/vis/<pdf_stem>/review.pdf
 ```
 
@@ -287,6 +284,7 @@ Output meaning:
 - `module_images/`: module crops copied from `03_rect/module_images`. These are the preferred starting point for module-internal circuit parsing, component extraction, and local graph recovery.
 - `json/page_NNN.json`: aggregate recognized content, including `rects`, `wires`, `endpoint_objects`, `endpoint_classification_records`, `nets`, and `texts`.
 - `debug/`: source JSON paths, source debug paths, overlay statistics, and summary counts.
+- `legend`: optional color legend file, written only with `--write-legend`.
 - `json/summary.json`: cross-page totals for rectangles, wires, endpoint objects, nets, texts, text categories, and copied module images.
 
 ## Running the Pipeline
@@ -322,7 +320,7 @@ Common output directories:
 - `masks/`: structure masks.
 - `json/`: per-page structured records and summary files.
 - `debug/`: candidates, filtering decisions, rejection reasons, runtime settings, and diagnostics.
-- `legend`: color legend for visual review outputs.
+- `legend`: optional color legend for visual review outputs.
 - `review.pdf`: combined review images.
 - `result.pdf`: combined stage result images. The exact visual meaning depends on the stage.
 

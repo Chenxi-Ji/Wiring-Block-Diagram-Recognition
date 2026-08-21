@@ -6,17 +6,17 @@ Inputs:
 
 Outputs:
   * outputs/06_text/<pdf_stem>/images/page_NNN.png (05_endpoint circuit image + detected-text overlay)
-  * outputs/06_text/<pdf_stem>/circuit_images/page_NNN.png (high-confidence text ink erased)
+  * outputs/06_text/<pdf_stem>/circuit_images/page_NNN.png (optional, with --save-circuit-images)
   * outputs/06_text/<pdf_stem>/json/page_NNN.json (text position + content)
   * outputs/06_text/<pdf_stem>/debug/page_NNN.json (raw OCR output, rejections, erasure stats)
   * outputs/06_text/<pdf_stem>/review.pdf
-  * outputs/06_text/<pdf_stem>/result.pdf
+  * outputs/06_text/<pdf_stem>/result.pdf (optional, with --save-circuit-images)
 
 This stage runs PaddleOCR directly on the whole page (no tile-splitting stage
 exists in the current pipeline). Detected text is classified (wire color code /
 number / other text) and quality-filtered the same way as backup/07_text.py's
 recognition logic. Only text whose OCR confidence is >= --erase-min-confidence
-(strict, default 0.80) has its ink pixels erased from circuit_images; every
+(strict, default 0.80) has its ink pixels erased from the result image; every
 kept detection (regardless of erasure) is recorded in json/ and drawn in
 images/. Erasure only removes the text's own ink pixels (via a per-polygon
 gray threshold + small dilation), not the whole bounding box, so nearby wire
@@ -183,17 +183,18 @@ def clear_output_root(root: Path) -> None:
     shutil.rmtree(root)
 
 
-def make_output_dirs(pdf_stem: str, preserve: bool) -> dict[str, Path]:
+def make_output_dirs(pdf_stem: str, preserve: bool, save_circuit_images: bool) -> dict[str, Path]:
     root = OUTPUT_DIR / pdf_stem
     if root.exists() and not preserve:
         clear_output_root(root)
     paths = {
         "root": root,
         "images": root / "images",
-        "circuit_images": root / "circuit_images",
         "json": root / "json",
         "debug": root / "debug",
     }
+    if save_circuit_images:
+        paths["circuit_images"] = root / "circuit_images"
     for path in paths.values():
         path.mkdir(parents=True, exist_ok=True)
     return paths
@@ -1241,12 +1242,17 @@ def process_page(
     add_legend(review_image)
 
     image_path = output_paths["images"] / f"page_{page_number:03d}.png"
-    circuit_image_path = output_paths["circuit_images"] / f"page_{page_number:03d}.png"
+    circuit_image_path = (
+        output_paths["circuit_images"] / f"page_{page_number:03d}.png"
+        if "circuit_images" in output_paths
+        else None
+    )
     json_path = output_paths["json"] / f"page_{page_number:03d}.json"
     debug_path = output_paths["debug"] / f"page_{page_number:03d}.json"
 
     save_rgb(image_path, review_image)
-    save_rgb(circuit_image_path, circuit_image)
+    if circuit_image_path is not None:
+        save_rgb(circuit_image_path, circuit_image)
 
     category_counts = Counter(record.category for record in records)
     erased_count = int(sum(1 for record in records if record.erased))
@@ -1263,7 +1269,7 @@ def process_page(
             "image_width": int(width),
             "image_height": int(height),
             "review_image_path": str(image_path),
-            "circuit_image_path": str(circuit_image_path),
+            "circuit_image_path": str(circuit_image_path) if circuit_image_path is not None else None,
             "summary": {
                 "num_texts": int(len(records)),
                 "category_counts": dict(category_counts),
@@ -1303,7 +1309,7 @@ def process_page(
         "review_image": review_image,
         "circuit_image": circuit_image,
         "review_image_path": rel_path(image_path, root),
-        "circuit_image_path": rel_path(circuit_image_path, root),
+        "circuit_image_path": rel_path(circuit_image_path, root) if circuit_image_path is not None else None,
         "json_path": f"json/page_{page_number:03d}.json",
         "debug_path": f"debug/page_{page_number:03d}.json",
     }
@@ -1351,7 +1357,7 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
     pdf_stem = pdf_path.stem
     input_dir = resolve_input_dir(pdf_stem)
     pages = select_pages(args.pages, available_pages(input_dir))
-    output = make_output_dirs(pdf_stem, args.preserve)
+    output = make_output_dirs(pdf_stem, args.preserve, args.save_circuit_images)
     cfg = build_config(args)
 
     print(f"\nProcessing: {pdf_stem}")
@@ -1360,7 +1366,7 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
     print(f"Pages: {pages}")
     print(f"  preserve existing output: {args.preserve}")
     print(f"  images: {output['images']}")
-    print(f"  circuit_images: {output['circuit_images']}")
+    print(f"  circuit_images: {output['circuit_images'] if args.save_circuit_images else 'disabled'}")
     print(f"  json: {output['json']}")
     print(f"  debug: {output['debug']}")
     print(f"  erase_min_confidence: {cfg.erase_min_confidence}")
@@ -1379,7 +1385,9 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
         print(f"  Page {page_number}")
         result = process_page(pdf_path.name, page_number, input_dir, output, engine, cfg)
         review_pages.append(result.pop("review_image"))
-        result_pages.append(result.pop("circuit_image"))
+        circuit_image = result.pop("circuit_image")
+        if args.save_circuit_images:
+            result_pages.append(circuit_image)
         total_category_counts.update(result["category_counts"])
         total_erased += result["erased_count"]
         summary_pages.append(result)
@@ -1389,6 +1397,7 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
 
     if review_pages:
         image_to_pdf(review_pages, output["root"] / "review.pdf")
+    if args.save_circuit_images and result_pages:
         image_to_pdf(result_pages, output["root"] / "result.pdf")
     save_json(
         output["json"] / "summary.json",
@@ -1398,6 +1407,7 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
             "input_stage": INPUT_STAGE,
             "input_circuit_images": str(input_dir),
             "output_root": str(output["root"]),
+            "circuit_images_saved": bool(args.save_circuit_images),
             "pages": summary_pages,
             "category_counts": dict(total_category_counts),
             "total_erased": int(total_erased),
@@ -1407,7 +1417,10 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
         },
     )
     print(f"Review PDF: {output['root'] / 'review.pdf'}")
-    print(f"Result PDF: {output['root'] / 'result.pdf'}")
+    if args.save_circuit_images:
+        print(f"Result PDF: {output['root'] / 'result.pdf'}")
+    else:
+        print("Result PDF: disabled")
 
 
 def build_argparser() -> argparse.ArgumentParser:
@@ -1418,7 +1431,8 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--dpi", type=int, default=300)
     p.add_argument("--lang", default="en")
     p.add_argument("--min-confidence", type=float, default=0.35, help="Minimum OCR confidence for a detection to be recorded at all.")
-    p.add_argument("--erase-min-confidence", type=float, default=0.80, help="Strict OCR confidence threshold; only text at/above this is erased from circuit_images.")
+    p.add_argument("--erase-min-confidence", type=float, default=0.80, help="Strict OCR confidence threshold; only text at/above this is erased from the result image.")
+    p.add_argument("--save-circuit-images", action="store_true", help="Also write per-page erased PNGs under circuit_images/. Disabled by default.")
     p.add_argument("--text-gray-threshold", type=int, default=245, help="Grayscale value below which a pixel counts as text ink.")
     p.add_argument("--erase-ink-pad-px", type=int, default=1, help="Dilation (px) applied to erased ink pixels to fully remove anti-aliased edges.")
     p.add_argument("--line-probe-pad-px", type=int, default=10, help="Padding (px) around each raw detection used to detect wire/connector ink touching the probe crop edge, which is excluded from text ink so erasure never eats into nearby lines.")

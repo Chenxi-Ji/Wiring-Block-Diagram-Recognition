@@ -7,12 +7,12 @@ Inputs:
   * outputs/04_wire/<pdf_stem>/json/page_NNN.json
   * outputs/05_endpoint/<pdf_stem>/json/page_NNN.json
   * outputs/06_text/<pdf_stem>/json/page_NNN.json
-  * outputs/06_text/<pdf_stem>/circuit_images/page_NNN.png
+  * outputs/06_text/<pdf_stem>/circuit_images/page_NNN.png (only needed with --save-circuit-images)
 
 Outputs:
   * outputs/vis/<pdf_stem>/images/page_NNN.png
       01_circuit circuit image with 03-06 recognition overlays
-  * outputs/vis/<pdf_stem>/circuit_images/page_NNN.png
+  * outputs/vis/<pdf_stem>/circuit_images/page_NNN.png (optional, with --save-circuit-images)
       black/white final circuit image after 03-06 removal
   * outputs/vis/<pdf_stem>/module_images/
       copied directly from 03_rect/module_images
@@ -167,18 +167,19 @@ def clear_output_root(root: Path) -> None:
     shutil.rmtree(root)
 
 
-def make_output_dirs(pdf_stem: str, preserve: bool) -> dict[str, Path]:
+def make_output_dirs(pdf_stem: str, preserve: bool, save_circuit_images: bool) -> dict[str, Path]:
     root = OUTPUT_ROOT / STAGE_NAME / pdf_stem
     if root.exists() and not preserve:
         clear_output_root(root)
     paths = {
         "root": root,
         "images": root / "images",
-        "circuit_images": root / "circuit_images",
         "module_images": root / "module_images",
         "json": root / "json",
         "debug": root / "debug",
     }
+    if save_circuit_images:
+        paths["circuit_images"] = root / "circuit_images"
     for path in paths.values():
         path.mkdir(parents=True, exist_ok=True)
     return paths
@@ -470,11 +471,16 @@ def process_page(
             draw_label(review, label, box[0], box[1] - 4, color)
     overlay_pixels["06_text_boxes"] = int(text_boxes)
 
-    final_circuit = make_black_white(load_rgb(final_circuit_path), black_threshold)
     review_path = output["images"] / f"page_{page:03d}.png"
-    circuit_path = output["circuit_images"] / f"page_{page:03d}.png"
+    circuit_path = (
+        output["circuit_images"] / f"page_{page:03d}.png"
+        if "circuit_images" in output
+        else None
+    )
     save_rgb(review_path, review)
-    save_rgb(circuit_path, final_circuit)
+    if circuit_path is not None:
+        final_circuit = make_black_white(load_rgb(final_circuit_path), black_threshold)
+        save_rgb(circuit_path, final_circuit)
 
     counts = summarize_stage_counts(rect_json, wire_json, endpoint_json, text_json, endpoint_objects, endpoint_classifications)
     module_paths = [
@@ -494,7 +500,7 @@ def process_page(
         "image_width": int(base.shape[1]),
         "image_height": int(base.shape[0]),
         "review_image_path": rel_path(review_path, output["root"]),
-        "circuit_image_path": rel_path(circuit_path, output["root"]),
+        "circuit_image_path": rel_path(circuit_path, output["root"]) if circuit_path is not None else None,
         "module_image_paths": module_paths,
         "summary": counts,
         "recognized": {
@@ -519,19 +525,19 @@ def process_page(
         "source_debug_paths": source_debug_paths(pdf_path.stem, page),
         "input_images": {
             "base_01_circuit": str(base_path),
-            "final_06_text_circuit": str(final_circuit_path),
+            "final_06_text_circuit": str(final_circuit_path) if circuit_path is not None else None,
             "rect_mask": str(rect_root / "masks" / f"page_{page:03d}.png"),
         },
         "output_images": {
             "review": rel_path(review_path, output["root"]),
-            "circuit": rel_path(circuit_path, output["root"]),
+            "circuit": rel_path(circuit_path, output["root"]) if circuit_path is not None else None,
         },
         "overlay_pixels_or_counts": overlay_pixels,
         "counts": counts,
         "black_white_threshold": int(black_threshold),
         "notes": [
             "images/page_NNN.png is an overlay only; no detection or connectivity is recomputed.",
-            "circuit_images/page_NNN.png is copied from 06_text/circuit_images and thresholded to black/white.",
+            "circuit_images/page_NNN.png is only written when --save-circuit-images is enabled.",
             "module_images are copied from 03_rect/module_images.",
         ],
     }
@@ -555,7 +561,9 @@ def build_argparser() -> argparse.ArgumentParser:
     parser.add_argument("--pdf", type=str, default="bmw-328i-1997.pdf")
     parser.add_argument("--pages", type=str, default="1-5")
     parser.add_argument("-p", "--preserve", action="store_true", help="Preserve the output folder instead of clearing it first.")
-    parser.add_argument("--black-threshold", type=int, default=245, help="Threshold used to force output circuit_images to black/white.")
+    parser.add_argument("--save-circuit-images", action="store_true", help="Also write per-page final PNGs under circuit_images/. Disabled by default.")
+    parser.add_argument("--write-legend", action="store_true", help="Write the optional visual legend file.")
+    parser.add_argument("--black-threshold", type=int, default=245, help="Threshold used to force output circuit_images to black/white when --save-circuit-images is enabled.")
     return parser
 
 
@@ -564,13 +572,15 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
     rect_root = resolve_stage_pdf_dir(RECT_STAGE, pdf_path.stem)
     text_root = resolve_stage_pdf_dir(TEXT_STAGE, pdf_path.stem)
     pages = parse_pages(args.pages, available_pages(base_image_dir))
-    output = make_output_dirs(pdf_path.stem, args.preserve)
+    output = make_output_dirs(pdf_path.stem, args.preserve, args.save_circuit_images)
     modules_copied = copy_module_images(rect_root, output)
 
     print(f"\nProcessing: {pdf_path.stem}")
     print(f"Base circuit_images ({BASE_STAGE}): {base_image_dir}")
     print(f"Output: {output['root']}")
     print(f"Pages: {pages}")
+    print(f"circuit_images: {output['circuit_images'] if args.save_circuit_images else 'disabled'}")
+    print(f"legend: {'written' if args.write_legend else 'disabled'}")
     print(f"Copied module images: {modules_copied}")
 
     review_pages: list[np.ndarray] = []
@@ -609,7 +619,7 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
                 "page": int(page),
                 **summary,
                 "review_image_path": f"images/page_{page:03d}.png",
-                "circuit_image_path": f"circuit_images/page_{page:03d}.png",
+                "circuit_image_path": page_json["circuit_image_path"],
                 "json_path": f"json/page_{page:03d}.json",
                 "debug_path": f"debug/page_{page:03d}.json",
             }
@@ -621,7 +631,8 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
 
     if review_pages:
         image_to_pdf(review_pages, output["root"] / "review.pdf")
-    write_legend(output["root"] / "legend")
+    if args.write_legend:
+        write_legend(output["root"] / "legend")
     save_json(
         output["json"] / "summary.json",
         {
@@ -630,6 +641,8 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
             "base_stage": BASE_STAGE,
             "source_stages": [RECT_STAGE, WIRE_STAGE, ENDPOINT_STAGE, TEXT_STAGE],
             "output_root": str(output["root"]),
+            "circuit_images_saved": bool(args.save_circuit_images),
+            "legend_written": bool(args.write_legend),
             "pages": summary_pages,
             "totals": dict(total_counts),
             "text_category_totals": dict(total_text_categories),
@@ -643,8 +656,10 @@ def process_pdf(pdf_path: Path, args: argparse.Namespace) -> None:
             "pages": pages,
             "base_circuit_images": str(base_image_dir),
             "rect_module_images": str(rect_root / "module_images"),
-            "final_circuit_images": str(text_root / "circuit_images"),
+            "final_circuit_images": str(text_root / "circuit_images") if args.save_circuit_images else None,
             "output_root": str(output["root"]),
+            "circuit_images_saved": bool(args.save_circuit_images),
+            "legend_written": bool(args.write_legend),
             "module_images_copied": int(modules_copied),
         },
     )

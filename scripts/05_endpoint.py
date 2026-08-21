@@ -2771,6 +2771,7 @@ def main() -> None:
     parser.add_argument("--wire-stage", default=WIRE_STAGE)
     parser.add_argument("--rect-stage", default=RECT_STAGE)
     parser.add_argument("--black-threshold", type=int, default=128)
+    parser.add_argument("--write-legend", action="store_true", help="Write the optional visual legend file.")
     args = parser.parse_args()
 
     pdf = resolve_pdf(args.pdf)
@@ -2787,7 +2788,8 @@ def main() -> None:
     pages = parse_pages(args.pages, available_pages)
     cfg = EndpointConfig(dpi=args.dpi, black_threshold=args.black_threshold)
     root, image_dir, circuit_image_dir, json_dir = make_output_dirs(pdf.stem)
-    write_visual_legend(root / "legend")
+    if args.write_legend:
+        write_visual_legend(root / "legend")
 
     logging.info("PDF path: %s", pdf)
     logging.info("Source circuit images: %s", source_image_dir)
@@ -2802,6 +2804,7 @@ def main() -> None:
     )
     logging.info("Pages: %s", pages)
     logging.info("Cleared output: %s", root)
+    logging.info("Legend: %s", "written" if args.write_legend else "disabled")
 
     review_paths: list[Path] = []
     result_paths: list[Path] = []

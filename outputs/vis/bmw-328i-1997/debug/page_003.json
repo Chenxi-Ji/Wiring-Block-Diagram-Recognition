@@ -16,12 +16,12 @@
   },
   "input_images": {
     "base_01_circuit": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\01_circuit\\bmw-328i-1997\\circuit_images\\page_003.png",
-    "final_06_text_circuit": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\bmw-328i-1997\\circuit_images\\page_003.png",
+    "final_06_text_circuit": null,
     "rect_mask": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\bmw-328i-1997\\masks\\page_003.png"
   },
   "output_images": {
     "review": "images/page_003.png",
-    "circuit": "circuit_images/page_003.png"
+    "circuit": null
   },
   "overlay_pixels_or_counts": {
     "03_rect": 12019,
@@ -60,7 +60,7 @@
   "black_white_threshold": 245,
   "notes": [
     "images/page_NNN.png is an overlay only; no detection or connectivity is recomputed.",
-    "circuit_images/page_NNN.png is copied from 06_text/circuit_images and thresholded to black/white.",
+    "circuit_images/page_NNN.png is only written when --save-circuit-images is enabled.",
     "module_images are copied from 03_rect/module_images."
   ]
 }
