@@ -1,0 +1,149 @@
+{
+  "page": 39,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_039.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 2,
+    "raw_ocr_detections": 2,
+    "deduped_ocr_detections": 2,
+    "num_texts": 2,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 1.035
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 10752,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 2,
+    "rejected_components": 0,
+    "num_regions": 2
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        55,
+        2891,
+        682,
+        2985
+      ],
+      "tight_ink_bbox": [
+        122,
+        2924,
+        614,
+        2951
+      ],
+      "width": 627,
+      "height": 94,
+      "area": 58938,
+      "ink_pixels": 2523,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 397,
+      "num_texts": 1
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        163,
+        3041,
+        779,
+        3142
+      ],
+      "tight_ink_bbox": [
+        230,
+        3074,
+        711,
+        3108
+      ],
+      "width": 616,
+      "height": 101,
+      "area": 62216,
+      "ink_pixels": 8229,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 632,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_039_text_0001",
+      "text": "Power Window Circuit",
+      "confidence": 0.9999140501022339,
+      "bbox": [
+        115,
+        2916,
+        619,
+        2958
+      ],
+      "polygon": [
+        [
+          115,
+          2916
+        ],
+        [
+          618,
+          2916
+        ],
+        [
+          618,
+          2957
+        ],
+        [
+          115,
+          2957
+        ]
+      ]
+    },
+    {
+      "id": "page_039_text_0002",
+      "text": "STARTING/CHARGING",
+      "confidence": 0.9999868869781494,
+      "bbox": [
+        223,
+        3067,
+        717,
+        3118
+      ],
+      "polygon": [
+        [
+          223,
+          3067
+        ],
+        [
+          716,
+          3067
+        ],
+        [
+          716,
+          3117
+        ],
+        [
+          223,
+          3117
+        ]
+      ]
+    }
+  ]
+}

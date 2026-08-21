@@ -1,0 +1,2822 @@
+{
+  "page": 5,
+  "image_width": 2550,
+  "image_height": 4200,
+  "outer_frame": {
+    "bbox": [
+      376,
+      450,
+      2208,
+      4030
+    ],
+    "inner_bbox": [
+      376,
+      450,
+      2208,
+      4030
+    ],
+    "area_ratio": 0.6123772175536881,
+    "score": 1065.3775910364145,
+    "alignment_error": 19.0,
+    "multi_frame": true,
+    "fallback": false,
+    "kind": "multi_frame",
+    "sub_frames": [
+      {
+        "bbox": [
+          376,
+          450,
+          2006,
+          2474
+        ],
+        "area_ratio": 0.30804108309990663,
+        "score": 609.0410830999067,
+        "alignment_error": 19.0,
+        "partial": false,
+        "fallback": false,
+        "kind": "closed",
+        "calibration": {
+          "initial_bbox": [
+            376,
+            450,
+            2006,
+            2474
+          ],
+          "preferred_inferred_thickness": 2,
+          "inferred_edges": {},
+          "corner_aligned": true,
+          "final_bbox": [
+            376,
+            450,
+            2006,
+            2474
+          ],
+          "line_thickness_by_side": {
+            "top": 2,
+            "bottom": 3,
+            "left": 1,
+            "right": 3
+          }
+        },
+        "line_thickness": {
+          "by_side": {
+            "top": 2,
+            "bottom": 3,
+            "left": 1,
+            "right": 3
+          },
+          "min": 1,
+          "max": 3,
+          "median": 2.5
+        },
+        "sides": {
+          "top": {
+            "bbox": [
+              376,
+              449,
+              2006,
+              451
+            ],
+            "orientation": "horizontal",
+            "length": 1630,
+            "thickness": 2,
+            "center": [
+              1191.0,
+              450.0
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              377,
+              449,
+              2010,
+              451
+            ],
+            "erase_bbox": [
+              377,
+              449,
+              2008,
+              451
+            ]
+          },
+          "bottom": {
+            "bbox": [
+              376,
+              2473,
+              2006,
+              2476
+            ],
+            "orientation": "horizontal",
+            "length": 1630,
+            "thickness": 3,
+            "center": [
+              1191.0,
+              2474.5
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              377,
+              2473,
+              2010,
+              2476
+            ],
+            "erase_bbox": [
+              377,
+              2473,
+              2008,
+              2476
+            ]
+          },
+          "left": {
+            "bbox": [
+              376,
+              450,
+              377,
+              2474
+            ],
+            "orientation": "vertical",
+            "length": 2024,
+            "thickness": 1,
+            "center": [
+              376.5,
+              1462.0
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              375,
+              451,
+              376,
+              2478
+            ],
+            "erase_bbox": [
+              375,
+              451,
+              376,
+              2476
+            ]
+          },
+          "right": {
+            "bbox": [
+              2005,
+              450,
+              2008,
+              2474
+            ],
+            "orientation": "vertical",
+            "length": 2024,
+            "thickness": 3,
+            "center": [
+              2006.5,
+              1462.0
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              2005,
+              451,
+              2008,
+              2478
+            ],
+            "erase_bbox": [
+              2005,
+              451,
+              2008,
+              2476
+            ]
+          }
+        },
+        "inner_bbox": [
+          376,
+          450,
+          2006,
+          2474
+        ]
+      },
+      {
+        "bbox": [
+          376,
+          2752,
+          2208,
+          4030
+        ],
+        "area_ratio": 0.21860840336134454,
+        "score": 456.33650793650787,
+        "alignment_error": 4.666666666666667,
+        "partial": true,
+        "fallback": false,
+        "kind": "missing_bottom",
+        "calibration": {
+          "initial_bbox": [
+            376,
+            2752,
+            2208,
+            4044
+          ],
+          "preferred_inferred_thickness": 3,
+          "inferred_edges": {
+            "bottom": {
+              "initial_coord": 4044,
+              "final_coord": 4030,
+              "preferred_thickness": 3,
+              "final_thickness": 2,
+              "search_result": "clean_inward",
+              "shift_pixels": -14,
+              "max_inward_pixels": 431,
+              "sampled_attempts": [
+                {
+                  "coord": 4044,
+                  "direction": "inward",
+                  "ink_count": 105,
+                  "band": [
+                    394,
+                    4044,
+                    2190,
+                    4045
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 404,
+                      "band": [
+                        394,
+                        4043,
+                        2190,
+                        4046
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 316,
+                      "band": [
+                        394,
+                        4043,
+                        2190,
+                        4045
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 105,
+                      "band": [
+                        394,
+                        4044,
+                        2190,
+                        4045
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4043,
+                  "direction": "inward",
+                  "ink_count": 211,
+                  "band": [
+                    394,
+                    4043,
+                    2190,
+                    4044
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 531,
+                      "band": [
+                        394,
+                        4042,
+                        2190,
+                        4045
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 426,
+                      "band": [
+                        394,
+                        4042,
+                        2190,
+                        4044
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 211,
+                      "band": [
+                        394,
+                        4043,
+                        2190,
+                        4044
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4042,
+                  "direction": "inward",
+                  "ink_count": 215,
+                  "band": [
+                    394,
+                    4042,
+                    2190,
+                    4043
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 608,
+                      "band": [
+                        394,
+                        4041,
+                        2190,
+                        4044
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 397,
+                      "band": [
+                        394,
+                        4041,
+                        2190,
+                        4043
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 215,
+                      "band": [
+                        394,
+                        4042,
+                        2190,
+                        4043
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4041,
+                  "direction": "inward",
+                  "ink_count": 182,
+                  "band": [
+                    394,
+                    4041,
+                    2190,
+                    4042
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 435,
+                      "band": [
+                        394,
+                        4040,
+                        2190,
+                        4043
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 220,
+                      "band": [
+                        394,
+                        4040,
+                        2190,
+                        4042
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 182,
+                      "band": [
+                        394,
+                        4041,
+                        2190,
+                        4042
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4040,
+                  "direction": "inward",
+                  "ink_count": 38,
+                  "band": [
+                    394,
+                    4040,
+                    2190,
+                    4041
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 234,
+                      "band": [
+                        394,
+                        4039,
+                        2190,
+                        4042
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 52,
+                      "band": [
+                        394,
+                        4039,
+                        2190,
+                        4041
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 38,
+                      "band": [
+                        394,
+                        4040,
+                        2190,
+                        4041
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4039,
+                  "direction": "inward",
+                  "ink_count": 14,
+                  "band": [
+                    394,
+                    4039,
+                    2190,
+                    4040
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 67,
+                      "band": [
+                        394,
+                        4038,
+                        2190,
+                        4041
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 29,
+                      "band": [
+                        394,
+                        4038,
+                        2190,
+                        4040
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 14,
+                      "band": [
+                        394,
+                        4039,
+                        2190,
+                        4040
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4038,
+                  "direction": "inward",
+                  "ink_count": 15,
+                  "band": [
+                    394,
+                    4038,
+                    2190,
+                    4039
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 47,
+                      "band": [
+                        394,
+                        4037,
+                        2190,
+                        4040
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 33,
+                      "band": [
+                        394,
+                        4037,
+                        2190,
+                        4039
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 15,
+                      "band": [
+                        394,
+                        4038,
+                        2190,
+                        4039
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4037,
+                  "direction": "inward",
+                  "ink_count": 18,
+                  "band": [
+                    394,
+                    4037,
+                    2190,
+                    4038
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 65,
+                      "band": [
+                        394,
+                        4036,
+                        2190,
+                        4039
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 50,
+                      "band": [
+                        394,
+                        4036,
+                        2190,
+                        4038
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 18,
+                      "band": [
+                        394,
+                        4037,
+                        2190,
+                        4038
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4036,
+                  "direction": "inward",
+                  "ink_count": 32,
+                  "band": [
+                    394,
+                    4036,
+                    2190,
+                    4037
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 80,
+                      "band": [
+                        394,
+                        4035,
+                        2190,
+                        4038
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 62,
+                      "band": [
+                        394,
+                        4035,
+                        2190,
+                        4037
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 32,
+                      "band": [
+                        394,
+                        4036,
+                        2190,
+                        4037
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4035,
+                  "direction": "inward",
+                  "ink_count": 30,
+                  "band": [
+                    394,
+                    4035,
+                    2190,
+                    4036
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 82,
+                      "band": [
+                        394,
+                        4034,
+                        2190,
+                        4037
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 50,
+                      "band": [
+                        394,
+                        4034,
+                        2190,
+                        4036
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 30,
+                      "band": [
+                        394,
+                        4035,
+                        2190,
+                        4036
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4034,
+                  "direction": "inward",
+                  "ink_count": 20,
+                  "band": [
+                    394,
+                    4034,
+                    2190,
+                    4035
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 58,
+                      "band": [
+                        394,
+                        4033,
+                        2190,
+                        4036
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 28,
+                      "band": [
+                        394,
+                        4033,
+                        2190,
+                        4035
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 20,
+                      "band": [
+                        394,
+                        4034,
+                        2190,
+                        4035
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4033,
+                  "direction": "inward",
+                  "ink_count": 8,
+                  "band": [
+                    394,
+                    4033,
+                    2190,
+                    4034
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 36,
+                      "band": [
+                        394,
+                        4032,
+                        2190,
+                        4035
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 16,
+                      "band": [
+                        394,
+                        4032,
+                        2190,
+                        4034
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 8,
+                      "band": [
+                        394,
+                        4033,
+                        2190,
+                        4034
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "corner_aligned": true,
+          "final_bbox": [
+            376,
+            2752,
+            2208,
+            4030
+          ],
+          "line_thickness_by_side": {
+            "top": 3,
+            "bottom": 2,
+            "left": 2,
+            "right": 3
+          }
+        },
+        "line_thickness": {
+          "by_side": {
+            "top": 3,
+            "bottom": 2,
+            "left": 2,
+            "right": 3
+          },
+          "min": 2,
+          "max": 3,
+          "median": 2.5
+        },
+        "sides": {
+          "top": {
+            "bbox": [
+              376,
+              2751,
+              2208,
+              2754
+            ],
+            "orientation": "horizontal",
+            "length": 1832,
+            "thickness": 3,
+            "center": [
+              1292.0,
+              2752.5
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              377,
+              2750,
+              2211,
+              2753
+            ],
+            "erase_bbox": [
+              377,
+              2750,
+              2210,
+              2753
+            ]
+          },
+          "bottom": {
+            "bbox": [
+              376,
+              4029,
+              2208,
+              4031
+            ],
+            "orientation": "horizontal",
+            "length": 1832,
+            "thickness": 2,
+            "center": [
+              1292.0,
+              4030.0
+            ],
+            "inferred": true,
+            "adjusted": true,
+            "inference": {
+              "initial_coord": 4044,
+              "final_coord": 4030,
+              "preferred_thickness": 3,
+              "final_thickness": 2,
+              "search_result": "clean_inward",
+              "shift_pixels": -14,
+              "max_inward_pixels": 431,
+              "sampled_attempts": [
+                {
+                  "coord": 4044,
+                  "direction": "inward",
+                  "ink_count": 105,
+                  "band": [
+                    394,
+                    4044,
+                    2190,
+                    4045
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 404,
+                      "band": [
+                        394,
+                        4043,
+                        2190,
+                        4046
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 316,
+                      "band": [
+                        394,
+                        4043,
+                        2190,
+                        4045
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 105,
+                      "band": [
+                        394,
+                        4044,
+                        2190,
+                        4045
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4043,
+                  "direction": "inward",
+                  "ink_count": 211,
+                  "band": [
+                    394,
+                    4043,
+                    2190,
+                    4044
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 531,
+                      "band": [
+                        394,
+                        4042,
+                        2190,
+                        4045
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 426,
+                      "band": [
+                        394,
+                        4042,
+                        2190,
+                        4044
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 211,
+                      "band": [
+                        394,
+                        4043,
+                        2190,
+                        4044
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4042,
+                  "direction": "inward",
+                  "ink_count": 215,
+                  "band": [
+                    394,
+                    4042,
+                    2190,
+                    4043
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 608,
+                      "band": [
+                        394,
+                        4041,
+                        2190,
+                        4044
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 397,
+                      "band": [
+                        394,
+                        4041,
+                        2190,
+                        4043
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 215,
+                      "band": [
+                        394,
+                        4042,
+                        2190,
+                        4043
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4041,
+                  "direction": "inward",
+                  "ink_count": 182,
+                  "band": [
+                    394,
+                    4041,
+                    2190,
+                    4042
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 435,
+                      "band": [
+                        394,
+                        4040,
+                        2190,
+                        4043
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 220,
+                      "band": [
+                        394,
+                        4040,
+                        2190,
+                        4042
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 182,
+                      "band": [
+                        394,
+                        4041,
+                        2190,
+                        4042
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4040,
+                  "direction": "inward",
+                  "ink_count": 38,
+                  "band": [
+                    394,
+                    4040,
+                    2190,
+                    4041
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 234,
+                      "band": [
+                        394,
+                        4039,
+                        2190,
+                        4042
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 52,
+                      "band": [
+                        394,
+                        4039,
+                        2190,
+                        4041
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 38,
+                      "band": [
+                        394,
+                        4040,
+                        2190,
+                        4041
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4039,
+                  "direction": "inward",
+                  "ink_count": 14,
+                  "band": [
+                    394,
+                    4039,
+                    2190,
+                    4040
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 67,
+                      "band": [
+                        394,
+                        4038,
+                        2190,
+                        4041
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 29,
+                      "band": [
+                        394,
+                        4038,
+                        2190,
+                        4040
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 14,
+                      "band": [
+                        394,
+                        4039,
+                        2190,
+                        4040
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4038,
+                  "direction": "inward",
+                  "ink_count": 15,
+                  "band": [
+                    394,
+                    4038,
+                    2190,
+                    4039
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 47,
+                      "band": [
+                        394,
+                        4037,
+                        2190,
+                        4040
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 33,
+                      "band": [
+                        394,
+                        4037,
+                        2190,
+                        4039
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 15,
+                      "band": [
+                        394,
+                        4038,
+                        2190,
+                        4039
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4037,
+                  "direction": "inward",
+                  "ink_count": 18,
+                  "band": [
+                    394,
+                    4037,
+                    2190,
+                    4038
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 65,
+                      "band": [
+                        394,
+                        4036,
+                        2190,
+                        4039
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 50,
+                      "band": [
+                        394,
+                        4036,
+                        2190,
+                        4038
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 18,
+                      "band": [
+                        394,
+                        4037,
+                        2190,
+                        4038
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4036,
+                  "direction": "inward",
+                  "ink_count": 32,
+                  "band": [
+                    394,
+                    4036,
+                    2190,
+                    4037
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 80,
+                      "band": [
+                        394,
+                        4035,
+                        2190,
+                        4038
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 62,
+                      "band": [
+                        394,
+                        4035,
+                        2190,
+                        4037
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 32,
+                      "band": [
+                        394,
+                        4036,
+                        2190,
+                        4037
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4035,
+                  "direction": "inward",
+                  "ink_count": 30,
+                  "band": [
+                    394,
+                    4035,
+                    2190,
+                    4036
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 82,
+                      "band": [
+                        394,
+                        4034,
+                        2190,
+                        4037
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 50,
+                      "band": [
+                        394,
+                        4034,
+                        2190,
+                        4036
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 30,
+                      "band": [
+                        394,
+                        4035,
+                        2190,
+                        4036
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4034,
+                  "direction": "inward",
+                  "ink_count": 20,
+                  "band": [
+                    394,
+                    4034,
+                    2190,
+                    4035
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 58,
+                      "band": [
+                        394,
+                        4033,
+                        2190,
+                        4036
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 28,
+                      "band": [
+                        394,
+                        4033,
+                        2190,
+                        4035
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 20,
+                      "band": [
+                        394,
+                        4034,
+                        2190,
+                        4035
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 4033,
+                  "direction": "inward",
+                  "ink_count": 8,
+                  "band": [
+                    394,
+                    4033,
+                    2190,
+                    4034
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 36,
+                      "band": [
+                        394,
+                        4032,
+                        2190,
+                        4035
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 16,
+                      "band": [
+                        394,
+                        4032,
+                        2190,
+                        4034
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 8,
+                      "band": [
+                        394,
+                        4033,
+                        2190,
+                        4034
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "left": {
+            "bbox": [
+              375,
+              2752,
+              377,
+              4030
+            ],
+            "orientation": "vertical",
+            "length": 1278,
+            "thickness": 2,
+            "center": [
+              376.0,
+              3391.0
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              375,
+              2752,
+              377,
+              4063
+            ],
+            "erase_bbox": [
+              375,
+              2752,
+              377,
+              4031
+            ]
+          },
+          "right": {
+            "bbox": [
+              2207,
+              2752,
+              2210,
+              4030
+            ],
+            "orientation": "vertical",
+            "length": 1278,
+            "thickness": 3,
+            "center": [
+              2208.5,
+              3391.0
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              2206,
+              2752,
+              2209,
+              4026
+            ],
+            "erase_bbox": [
+              2206,
+              2752,
+              2209,
+              4026
+            ]
+          }
+        },
+        "inner_bbox": [
+          376,
+          2752,
+          2208,
+          4030
+        ]
+      }
+    ],
+    "inner_bboxes": [
+      [
+        376,
+        450,
+        2006,
+        2474
+      ],
+      [
+        376,
+        2752,
+        2208,
+        4030
+      ]
+    ]
+  },
+  "frames": [
+    {
+      "bbox": [
+        376,
+        450,
+        2006,
+        2474
+      ],
+      "area_ratio": 0.30804108309990663,
+      "score": 609.0410830999067,
+      "alignment_error": 19.0,
+      "partial": false,
+      "fallback": false,
+      "kind": "closed",
+      "calibration": {
+        "initial_bbox": [
+          376,
+          450,
+          2006,
+          2474
+        ],
+        "preferred_inferred_thickness": 2,
+        "inferred_edges": {},
+        "corner_aligned": true,
+        "final_bbox": [
+          376,
+          450,
+          2006,
+          2474
+        ],
+        "line_thickness_by_side": {
+          "top": 2,
+          "bottom": 3,
+          "left": 1,
+          "right": 3
+        }
+      },
+      "line_thickness": {
+        "by_side": {
+          "top": 2,
+          "bottom": 3,
+          "left": 1,
+          "right": 3
+        },
+        "min": 1,
+        "max": 3,
+        "median": 2.5
+      },
+      "sides": {
+        "top": {
+          "bbox": [
+            376,
+            449,
+            2006,
+            451
+          ],
+          "orientation": "horizontal",
+          "length": 1630,
+          "thickness": 2,
+          "center": [
+            1191.0,
+            450.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            377,
+            449,
+            2010,
+            451
+          ],
+          "erase_bbox": [
+            377,
+            449,
+            2008,
+            451
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            376,
+            2473,
+            2006,
+            2476
+          ],
+          "orientation": "horizontal",
+          "length": 1630,
+          "thickness": 3,
+          "center": [
+            1191.0,
+            2474.5
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            377,
+            2473,
+            2010,
+            2476
+          ],
+          "erase_bbox": [
+            377,
+            2473,
+            2008,
+            2476
+          ]
+        },
+        "left": {
+          "bbox": [
+            376,
+            450,
+            377,
+            2474
+          ],
+          "orientation": "vertical",
+          "length": 2024,
+          "thickness": 1,
+          "center": [
+            376.5,
+            1462.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            375,
+            451,
+            376,
+            2478
+          ],
+          "erase_bbox": [
+            375,
+            451,
+            376,
+            2476
+          ]
+        },
+        "right": {
+          "bbox": [
+            2005,
+            450,
+            2008,
+            2474
+          ],
+          "orientation": "vertical",
+          "length": 2024,
+          "thickness": 3,
+          "center": [
+            2006.5,
+            1462.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            2005,
+            451,
+            2008,
+            2478
+          ],
+          "erase_bbox": [
+            2005,
+            451,
+            2008,
+            2476
+          ]
+        }
+      },
+      "inner_bbox": [
+        376,
+        450,
+        2006,
+        2474
+      ]
+    },
+    {
+      "bbox": [
+        376,
+        2752,
+        2208,
+        4030
+      ],
+      "area_ratio": 0.21860840336134454,
+      "score": 456.33650793650787,
+      "alignment_error": 4.666666666666667,
+      "partial": true,
+      "fallback": false,
+      "kind": "missing_bottom",
+      "calibration": {
+        "initial_bbox": [
+          376,
+          2752,
+          2208,
+          4044
+        ],
+        "preferred_inferred_thickness": 3,
+        "inferred_edges": {
+          "bottom": {
+            "initial_coord": 4044,
+            "final_coord": 4030,
+            "preferred_thickness": 3,
+            "final_thickness": 2,
+            "search_result": "clean_inward",
+            "shift_pixels": -14,
+            "max_inward_pixels": 431,
+            "sampled_attempts": [
+              {
+                "coord": 4044,
+                "direction": "inward",
+                "ink_count": 105,
+                "band": [
+                  394,
+                  4044,
+                  2190,
+                  4045
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 404,
+                    "band": [
+                      394,
+                      4043,
+                      2190,
+                      4046
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 316,
+                    "band": [
+                      394,
+                      4043,
+                      2190,
+                      4045
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 105,
+                    "band": [
+                      394,
+                      4044,
+                      2190,
+                      4045
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4043,
+                "direction": "inward",
+                "ink_count": 211,
+                "band": [
+                  394,
+                  4043,
+                  2190,
+                  4044
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 531,
+                    "band": [
+                      394,
+                      4042,
+                      2190,
+                      4045
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 426,
+                    "band": [
+                      394,
+                      4042,
+                      2190,
+                      4044
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 211,
+                    "band": [
+                      394,
+                      4043,
+                      2190,
+                      4044
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4042,
+                "direction": "inward",
+                "ink_count": 215,
+                "band": [
+                  394,
+                  4042,
+                  2190,
+                  4043
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 608,
+                    "band": [
+                      394,
+                      4041,
+                      2190,
+                      4044
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 397,
+                    "band": [
+                      394,
+                      4041,
+                      2190,
+                      4043
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 215,
+                    "band": [
+                      394,
+                      4042,
+                      2190,
+                      4043
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4041,
+                "direction": "inward",
+                "ink_count": 182,
+                "band": [
+                  394,
+                  4041,
+                  2190,
+                  4042
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 435,
+                    "band": [
+                      394,
+                      4040,
+                      2190,
+                      4043
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 220,
+                    "band": [
+                      394,
+                      4040,
+                      2190,
+                      4042
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 182,
+                    "band": [
+                      394,
+                      4041,
+                      2190,
+                      4042
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4040,
+                "direction": "inward",
+                "ink_count": 38,
+                "band": [
+                  394,
+                  4040,
+                  2190,
+                  4041
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 234,
+                    "band": [
+                      394,
+                      4039,
+                      2190,
+                      4042
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 52,
+                    "band": [
+                      394,
+                      4039,
+                      2190,
+                      4041
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 38,
+                    "band": [
+                      394,
+                      4040,
+                      2190,
+                      4041
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4039,
+                "direction": "inward",
+                "ink_count": 14,
+                "band": [
+                  394,
+                  4039,
+                  2190,
+                  4040
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 67,
+                    "band": [
+                      394,
+                      4038,
+                      2190,
+                      4041
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      4038,
+                      2190,
+                      4040
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 14,
+                    "band": [
+                      394,
+                      4039,
+                      2190,
+                      4040
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4038,
+                "direction": "inward",
+                "ink_count": 15,
+                "band": [
+                  394,
+                  4038,
+                  2190,
+                  4039
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 47,
+                    "band": [
+                      394,
+                      4037,
+                      2190,
+                      4040
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 33,
+                    "band": [
+                      394,
+                      4037,
+                      2190,
+                      4039
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 15,
+                    "band": [
+                      394,
+                      4038,
+                      2190,
+                      4039
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4037,
+                "direction": "inward",
+                "ink_count": 18,
+                "band": [
+                  394,
+                  4037,
+                  2190,
+                  4038
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 65,
+                    "band": [
+                      394,
+                      4036,
+                      2190,
+                      4039
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      4036,
+                      2190,
+                      4038
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 18,
+                    "band": [
+                      394,
+                      4037,
+                      2190,
+                      4038
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4036,
+                "direction": "inward",
+                "ink_count": 32,
+                "band": [
+                  394,
+                  4036,
+                  2190,
+                  4037
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 80,
+                    "band": [
+                      394,
+                      4035,
+                      2190,
+                      4038
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 62,
+                    "band": [
+                      394,
+                      4035,
+                      2190,
+                      4037
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 32,
+                    "band": [
+                      394,
+                      4036,
+                      2190,
+                      4037
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4035,
+                "direction": "inward",
+                "ink_count": 30,
+                "band": [
+                  394,
+                  4035,
+                  2190,
+                  4036
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 82,
+                    "band": [
+                      394,
+                      4034,
+                      2190,
+                      4037
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      4034,
+                      2190,
+                      4036
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 30,
+                    "band": [
+                      394,
+                      4035,
+                      2190,
+                      4036
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4034,
+                "direction": "inward",
+                "ink_count": 20,
+                "band": [
+                  394,
+                  4034,
+                  2190,
+                  4035
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 58,
+                    "band": [
+                      394,
+                      4033,
+                      2190,
+                      4036
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 28,
+                    "band": [
+                      394,
+                      4033,
+                      2190,
+                      4035
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 20,
+                    "band": [
+                      394,
+                      4034,
+                      2190,
+                      4035
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4033,
+                "direction": "inward",
+                "ink_count": 8,
+                "band": [
+                  394,
+                  4033,
+                  2190,
+                  4034
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 36,
+                    "band": [
+                      394,
+                      4032,
+                      2190,
+                      4035
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 16,
+                    "band": [
+                      394,
+                      4032,
+                      2190,
+                      4034
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 8,
+                    "band": [
+                      394,
+                      4033,
+                      2190,
+                      4034
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "corner_aligned": true,
+        "final_bbox": [
+          376,
+          2752,
+          2208,
+          4030
+        ],
+        "line_thickness_by_side": {
+          "top": 3,
+          "bottom": 2,
+          "left": 2,
+          "right": 3
+        }
+      },
+      "line_thickness": {
+        "by_side": {
+          "top": 3,
+          "bottom": 2,
+          "left": 2,
+          "right": 3
+        },
+        "min": 2,
+        "max": 3,
+        "median": 2.5
+      },
+      "sides": {
+        "top": {
+          "bbox": [
+            376,
+            2751,
+            2208,
+            2754
+          ],
+          "orientation": "horizontal",
+          "length": 1832,
+          "thickness": 3,
+          "center": [
+            1292.0,
+            2752.5
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            377,
+            2750,
+            2211,
+            2753
+          ],
+          "erase_bbox": [
+            377,
+            2750,
+            2210,
+            2753
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            376,
+            4029,
+            2208,
+            4031
+          ],
+          "orientation": "horizontal",
+          "length": 1832,
+          "thickness": 2,
+          "center": [
+            1292.0,
+            4030.0
+          ],
+          "inferred": true,
+          "adjusted": true,
+          "inference": {
+            "initial_coord": 4044,
+            "final_coord": 4030,
+            "preferred_thickness": 3,
+            "final_thickness": 2,
+            "search_result": "clean_inward",
+            "shift_pixels": -14,
+            "max_inward_pixels": 431,
+            "sampled_attempts": [
+              {
+                "coord": 4044,
+                "direction": "inward",
+                "ink_count": 105,
+                "band": [
+                  394,
+                  4044,
+                  2190,
+                  4045
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 404,
+                    "band": [
+                      394,
+                      4043,
+                      2190,
+                      4046
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 316,
+                    "band": [
+                      394,
+                      4043,
+                      2190,
+                      4045
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 105,
+                    "band": [
+                      394,
+                      4044,
+                      2190,
+                      4045
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4043,
+                "direction": "inward",
+                "ink_count": 211,
+                "band": [
+                  394,
+                  4043,
+                  2190,
+                  4044
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 531,
+                    "band": [
+                      394,
+                      4042,
+                      2190,
+                      4045
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 426,
+                    "band": [
+                      394,
+                      4042,
+                      2190,
+                      4044
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 211,
+                    "band": [
+                      394,
+                      4043,
+                      2190,
+                      4044
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4042,
+                "direction": "inward",
+                "ink_count": 215,
+                "band": [
+                  394,
+                  4042,
+                  2190,
+                  4043
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 608,
+                    "band": [
+                      394,
+                      4041,
+                      2190,
+                      4044
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 397,
+                    "band": [
+                      394,
+                      4041,
+                      2190,
+                      4043
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 215,
+                    "band": [
+                      394,
+                      4042,
+                      2190,
+                      4043
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4041,
+                "direction": "inward",
+                "ink_count": 182,
+                "band": [
+                  394,
+                  4041,
+                  2190,
+                  4042
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 435,
+                    "band": [
+                      394,
+                      4040,
+                      2190,
+                      4043
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 220,
+                    "band": [
+                      394,
+                      4040,
+                      2190,
+                      4042
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 182,
+                    "band": [
+                      394,
+                      4041,
+                      2190,
+                      4042
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4040,
+                "direction": "inward",
+                "ink_count": 38,
+                "band": [
+                  394,
+                  4040,
+                  2190,
+                  4041
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 234,
+                    "band": [
+                      394,
+                      4039,
+                      2190,
+                      4042
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 52,
+                    "band": [
+                      394,
+                      4039,
+                      2190,
+                      4041
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 38,
+                    "band": [
+                      394,
+                      4040,
+                      2190,
+                      4041
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4039,
+                "direction": "inward",
+                "ink_count": 14,
+                "band": [
+                  394,
+                  4039,
+                  2190,
+                  4040
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 67,
+                    "band": [
+                      394,
+                      4038,
+                      2190,
+                      4041
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      4038,
+                      2190,
+                      4040
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 14,
+                    "band": [
+                      394,
+                      4039,
+                      2190,
+                      4040
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4038,
+                "direction": "inward",
+                "ink_count": 15,
+                "band": [
+                  394,
+                  4038,
+                  2190,
+                  4039
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 47,
+                    "band": [
+                      394,
+                      4037,
+                      2190,
+                      4040
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 33,
+                    "band": [
+                      394,
+                      4037,
+                      2190,
+                      4039
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 15,
+                    "band": [
+                      394,
+                      4038,
+                      2190,
+                      4039
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4037,
+                "direction": "inward",
+                "ink_count": 18,
+                "band": [
+                  394,
+                  4037,
+                  2190,
+                  4038
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 65,
+                    "band": [
+                      394,
+                      4036,
+                      2190,
+                      4039
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      4036,
+                      2190,
+                      4038
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 18,
+                    "band": [
+                      394,
+                      4037,
+                      2190,
+                      4038
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4036,
+                "direction": "inward",
+                "ink_count": 32,
+                "band": [
+                  394,
+                  4036,
+                  2190,
+                  4037
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 80,
+                    "band": [
+                      394,
+                      4035,
+                      2190,
+                      4038
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 62,
+                    "band": [
+                      394,
+                      4035,
+                      2190,
+                      4037
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 32,
+                    "band": [
+                      394,
+                      4036,
+                      2190,
+                      4037
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4035,
+                "direction": "inward",
+                "ink_count": 30,
+                "band": [
+                  394,
+                  4035,
+                  2190,
+                  4036
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 82,
+                    "band": [
+                      394,
+                      4034,
+                      2190,
+                      4037
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      4034,
+                      2190,
+                      4036
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 30,
+                    "band": [
+                      394,
+                      4035,
+                      2190,
+                      4036
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4034,
+                "direction": "inward",
+                "ink_count": 20,
+                "band": [
+                  394,
+                  4034,
+                  2190,
+                  4035
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 58,
+                    "band": [
+                      394,
+                      4033,
+                      2190,
+                      4036
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 28,
+                    "band": [
+                      394,
+                      4033,
+                      2190,
+                      4035
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 20,
+                    "band": [
+                      394,
+                      4034,
+                      2190,
+                      4035
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 4033,
+                "direction": "inward",
+                "ink_count": 8,
+                "band": [
+                  394,
+                  4033,
+                  2190,
+                  4034
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 36,
+                    "band": [
+                      394,
+                      4032,
+                      2190,
+                      4035
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 16,
+                    "band": [
+                      394,
+                      4032,
+                      2190,
+                      4034
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 8,
+                    "band": [
+                      394,
+                      4033,
+                      2190,
+                      4034
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "left": {
+          "bbox": [
+            375,
+            2752,
+            377,
+            4030
+          ],
+          "orientation": "vertical",
+          "length": 1278,
+          "thickness": 2,
+          "center": [
+            376.0,
+            3391.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            375,
+            2752,
+            377,
+            4063
+          ],
+          "erase_bbox": [
+            375,
+            2752,
+            377,
+            4031
+          ]
+        },
+        "right": {
+          "bbox": [
+            2207,
+            2752,
+            2210,
+            4030
+          ],
+          "orientation": "vertical",
+          "length": 1278,
+          "thickness": 3,
+          "center": [
+            2208.5,
+            3391.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            2206,
+            2752,
+            2209,
+            4026
+          ],
+          "erase_bbox": [
+            2206,
+            2752,
+            2209,
+            4026
+          ]
+        }
+      },
+      "inner_bbox": [
+        376,
+        2752,
+        2208,
+        4030
+      ]
+    }
+  ],
+  "summary": {
+    "num_axis_lines": 248,
+    "num_frame_boxes": 2,
+    "detection_mode": "closed_partial_l_fallback"
+  }
+}

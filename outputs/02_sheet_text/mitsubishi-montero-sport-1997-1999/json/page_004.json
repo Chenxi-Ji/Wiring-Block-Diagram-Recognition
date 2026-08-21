@@ -1,0 +1,98 @@
+{
+  "page": 4,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_004.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 1,
+    "raw_ocr_detections": 1,
+    "deduped_ocr_detections": 1,
+    "num_texts": 1,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.657
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 4496,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 1,
+    "rejected_components": 0,
+    "num_regions": 1
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        54,
+        2891,
+        1156,
+        2990
+      ],
+      "tight_ink_bbox": [
+        121,
+        2924,
+        1088,
+        2956
+      ],
+      "width": 1102,
+      "height": 99,
+      "area": 109098,
+      "ink_pixels": 4496,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 650,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_004_text_0001",
+      "text": "Anti-lock Brake Circuits, 4-Wheel Drive",
+      "confidence": 0.9973458647727966,
+      "bbox": [
+        116,
+        2918,
+        1093,
+        2957
+      ],
+      "polygon": [
+        [
+          116,
+          2918
+        ],
+        [
+          1092,
+          2918
+        ],
+        [
+          1092,
+          2956
+        ],
+        [
+          116,
+          2956
+        ]
+      ]
+    }
+  ]
+}

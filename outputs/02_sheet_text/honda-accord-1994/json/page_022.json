@@ -1,0 +1,345 @@
+{
+  "page": 22,
+  "image_width": 2550,
+  "image_height": 4200,
+  "source_image": "outputs/01_circuit/honda-accord-1994/sheet_images/page_022.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 3,
+    "raw_ocr_detections": 8,
+    "deduped_ocr_detections": 8,
+    "num_texts": 8,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 3.022
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 45548,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 4,
+    "rejected_components": 1,
+    "num_regions": 3
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        870,
+        50,
+        1679,
+        403
+      ],
+      "tight_ink_bbox": [
+        937,
+        83,
+        1611,
+        369
+      ],
+      "width": 809,
+      "height": 353,
+      "area": 285577,
+      "ink_pixels": 35840,
+      "raw_ocr_detections": 6,
+      "ocr_elapsed_ms": 1752,
+      "num_texts": 6
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        10,
+        3340,
+        475,
+        3438
+      ],
+      "tight_ink_bbox": [
+        77,
+        3373,
+        407,
+        3404
+      ],
+      "width": 465,
+      "height": 98,
+      "area": 45570,
+      "ink_pixels": 1991,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 568,
+      "num_texts": 1
+    },
+    {
+      "id": "region_003",
+      "bbox": [
+        118,
+        3515,
+        737,
+        3614
+      ],
+      "tight_ink_bbox": [
+        185,
+        3548,
+        669,
+        3580
+      ],
+      "width": 619,
+      "height": 99,
+      "area": 61281,
+      "ink_pixels": 7715,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 692,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_022_text_0001",
+      "text": "SYSTEM WIRING DIAGRAMS",
+      "confidence": 0.9999703764915466,
+      "bbox": [
+        930,
+        71,
+        1617,
+        128
+      ],
+      "polygon": [
+        [
+          930,
+          71
+        ],
+        [
+          1616,
+          73
+        ],
+        [
+          1616,
+          127
+        ],
+        [
+          930,
+          125
+        ]
+      ]
+    },
+    {
+      "id": "page_022_text_0002",
+      "text": "Article Text (p. 22)",
+      "confidence": 0.9978817701339722,
+      "bbox": [
+        1053,
+        126,
+        1493,
+        194
+      ],
+      "polygon": [
+        [
+          1053,
+          126
+        ],
+        [
+          1492,
+          128
+        ],
+        [
+          1492,
+          193
+        ],
+        [
+          1053,
+          190
+        ]
+      ]
+    },
+    {
+      "id": "page_022_text_0003",
+      "text": "1994 Honda Accord",
+      "confidence": 0.9999591708183289,
+      "bbox": [
+        1081,
+        185,
+        1473,
+        235
+      ],
+      "polygon": [
+        [
+          1081,
+          185
+        ],
+        [
+          1472,
+          185
+        ],
+        [
+          1472,
+          234
+        ],
+        [
+          1081,
+          234
+        ]
+      ]
+    },
+    {
+      "id": "page_022_text_0004",
+      "text": "For",
+      "confidence": 0.9999890327453613,
+      "bbox": [
+        1205,
+        234,
+        1289,
+        289
+      ],
+      "polygon": [
+        [
+          1205,
+          234
+        ],
+        [
+          1288,
+          234
+        ],
+        [
+          1288,
+          288
+        ],
+        [
+          1205,
+          288
+        ]
+      ]
+    },
+    {
+      "id": "page_022_text_0005",
+      "text": "Copyright © 1998 Mitchell International",
+      "confidence": 0.999659538269043,
+      "bbox": [
+        966,
+        280,
+        1584,
+        333
+      ],
+      "polygon": [
+        [
+          966,
+          284
+        ],
+        [
+          1583,
+          280
+        ],
+        [
+          1583,
+          328
+        ],
+        [
+          966,
+          332
+        ]
+      ]
+    },
+    {
+      "id": "page_022_text_0006",
+      "text": "Wednesday, February 10, 1999 09:14AM",
+      "confidence": 0.9984157085418701,
+      "bbox": [
+        939,
+        327,
+        1612,
+        372
+      ],
+      "polygon": [
+        [
+          939,
+          327
+        ],
+        [
+          1611,
+          327
+        ],
+        [
+          1611,
+          371
+        ],
+        [
+          939,
+          371
+        ]
+      ]
+    },
+    {
+      "id": "page_022_text_0007",
+      "text": "Horn Circuit",
+      "confidence": 0.99996018409729,
+      "bbox": [
+        69,
+        3364,
+        413,
+        3415
+      ],
+      "polygon": [
+        [
+          69,
+          3364
+        ],
+        [
+          412,
+          3364
+        ],
+        [
+          412,
+          3414
+        ],
+        [
+          69,
+          3414
+        ]
+      ]
+    },
+    {
+      "id": "page_022_text_0008",
+      "text": "INSTRUMENT CLUSTER",
+      "confidence": 0.9999350309371948,
+      "bbox": [
+        178,
+        3542,
+        675,
+        3587
+      ],
+      "polygon": [
+        [
+          178,
+          3542
+        ],
+        [
+          674,
+          3544
+        ],
+        [
+          674,
+          3586
+        ],
+        [
+          178,
+          3584
+        ]
+      ]
+    }
+  ]
+}

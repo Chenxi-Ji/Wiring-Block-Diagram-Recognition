@@ -1,0 +1,374 @@
+{
+  "page": 8,
+  "image_width": 2550,
+  "image_height": 4200,
+  "source_image": "outputs/01_circuit/honda-accord-1994/sheet_images/page_008.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 3,
+    "raw_ocr_detections": 9,
+    "deduped_ocr_detections": 9,
+    "num_texts": 9,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 2.776
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 47665,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 5,
+    "rejected_components": 1,
+    "num_regions": 3
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        870,
+        50,
+        1679,
+        403
+      ],
+      "tight_ink_bbox": [
+        937,
+        83,
+        1611,
+        369
+      ],
+      "width": 809,
+      "height": 353,
+      "area": 285577,
+      "ink_pixels": 35433,
+      "raw_ocr_detections": 6,
+      "ocr_elapsed_ms": 1501,
+      "num_texts": 6
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        10,
+        3340,
+        587,
+        3446
+      ],
+      "tight_ink_bbox": [
+        77,
+        3373,
+        519,
+        3412
+      ],
+      "width": 577,
+      "height": 106,
+      "area": 61162,
+      "ink_pixels": 2938,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 577,
+      "num_texts": 1
+    },
+    {
+      "id": "region_003",
+      "bbox": [
+        117,
+        3515,
+        750,
+        3713
+      ],
+      "tight_ink_bbox": [
+        184,
+        3548,
+        682,
+        3679
+      ],
+      "width": 633,
+      "height": 198,
+      "area": 125334,
+      "ink_pixels": 9292,
+      "raw_ocr_detections": 2,
+      "ocr_elapsed_ms": 687,
+      "num_texts": 2
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_008_text_0001",
+      "text": "SYSTEM WIRING DIAGRAMS",
+      "confidence": 0.9999703764915466,
+      "bbox": [
+        930,
+        71,
+        1617,
+        128
+      ],
+      "polygon": [
+        [
+          930,
+          71
+        ],
+        [
+          1616,
+          73
+        ],
+        [
+          1616,
+          127
+        ],
+        [
+          930,
+          125
+        ]
+      ]
+    },
+    {
+      "id": "page_008_text_0002",
+      "text": "Article Text (p. 8)",
+      "confidence": 0.9963098764419556,
+      "bbox": [
+        1066,
+        126,
+        1480,
+        194
+      ],
+      "polygon": [
+        [
+          1066,
+          126
+        ],
+        [
+          1479,
+          128
+        ],
+        [
+          1479,
+          193
+        ],
+        [
+          1066,
+          190
+        ]
+      ]
+    },
+    {
+      "id": "page_008_text_0003",
+      "text": "1994 Honda Accord",
+      "confidence": 0.9999793767929077,
+      "bbox": [
+        1080,
+        186,
+        1474,
+        236
+      ],
+      "polygon": [
+        [
+          1080,
+          186
+        ],
+        [
+          1473,
+          186
+        ],
+        [
+          1473,
+          235
+        ],
+        [
+          1080,
+          235
+        ]
+      ]
+    },
+    {
+      "id": "page_008_text_0004",
+      "text": "For",
+      "confidence": 0.9999890327453613,
+      "bbox": [
+        1205,
+        234,
+        1289,
+        289
+      ],
+      "polygon": [
+        [
+          1205,
+          234
+        ],
+        [
+          1288,
+          234
+        ],
+        [
+          1288,
+          288
+        ],
+        [
+          1205,
+          288
+        ]
+      ]
+    },
+    {
+      "id": "page_008_text_0005",
+      "text": "Copyright © 1998 Mitchell International",
+      "confidence": 0.9998576045036316,
+      "bbox": [
+        967,
+        284,
+        1584,
+        332
+      ],
+      "polygon": [
+        [
+          967,
+          284
+        ],
+        [
+          1583,
+          284
+        ],
+        [
+          1583,
+          331
+        ],
+        [
+          967,
+          331
+        ]
+      ]
+    },
+    {
+      "id": "page_008_text_0006",
+      "text": "Wednesday, February 10, 1999 09:14AM",
+      "confidence": 0.9984157085418701,
+      "bbox": [
+        939,
+        327,
+        1612,
+        372
+      ],
+      "polygon": [
+        [
+          939,
+          327
+        ],
+        [
+          1611,
+          327
+        ],
+        [
+          1611,
+          371
+        ],
+        [
+          939,
+          371
+        ]
+      ]
+    },
+    {
+      "id": "page_008_text_0007",
+      "text": "Defogger Circuit",
+      "confidence": 0.999976396560669,
+      "bbox": [
+        68,
+        3362,
+        526,
+        3418
+      ],
+      "polygon": [
+        [
+          68,
+          3362
+        ],
+        [
+          525,
+          3362
+        ],
+        [
+          525,
+          3417
+        ],
+        [
+          68,
+          3417
+        ]
+      ]
+    },
+    {
+      "id": "page_008_text_0008",
+      "text": "ENGINE PERFORMANCE",
+      "confidence": 0.9997866749763489,
+      "bbox": [
+        179,
+        3541,
+        688,
+        3587
+      ],
+      "polygon": [
+        [
+          179,
+          3541
+        ],
+        [
+          687,
+          3541
+        ],
+        [
+          687,
+          3586
+        ],
+        [
+          179,
+          3586
+        ]
+      ]
+    },
+    {
+      "id": "page_008_text_0009",
+      "text": "2.2L",
+      "confidence": 0.9999858140945435,
+      "bbox": [
+        171,
+        3635,
+        276,
+        3692
+      ],
+      "polygon": [
+        [
+          171,
+          3635
+        ],
+        [
+          275,
+          3635
+        ],
+        [
+          275,
+          3691
+        ],
+        [
+          171,
+          3691
+        ]
+      ]
+    }
+  ]
+}

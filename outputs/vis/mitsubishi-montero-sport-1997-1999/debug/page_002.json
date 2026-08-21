@@ -1,0 +1,66 @@
+{
+  "pdf": "mitsubishi-montero-sport-1997-1999.pdf",
+  "page": 2,
+  "stage": "vis",
+  "source_json_paths": {
+    "03_rect": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\mitsubishi-montero-sport-1997-1999\\json\\page_002.json",
+    "04_wire": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\04_wire\\mitsubishi-montero-sport-1997-1999\\json\\page_002.json",
+    "05_endpoint": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\05_endpoint\\mitsubishi-montero-sport-1997-1999\\json\\page_002.json",
+    "06_text": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\mitsubishi-montero-sport-1997-1999\\json\\page_002.json"
+  },
+  "source_debug_paths": {
+    "03_rect": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\mitsubishi-montero-sport-1997-1999\\debug\\page_002.json",
+    "04_wire": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\04_wire\\mitsubishi-montero-sport-1997-1999\\debug\\page_002.json",
+    "05_endpoint": null,
+    "06_text": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\mitsubishi-montero-sport-1997-1999\\debug\\page_002.json"
+  },
+  "input_images": {
+    "base_01_circuit": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\01_circuit\\mitsubishi-montero-sport-1997-1999\\circuit_images\\page_002.png",
+    "final_06_text_circuit": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\mitsubishi-montero-sport-1997-1999\\circuit_images\\page_002.png",
+    "rect_mask": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\mitsubishi-montero-sport-1997-1999\\masks\\page_002.png"
+  },
+  "output_images": {
+    "review": "images/page_002.png",
+    "circuit": "circuit_images/page_002.png"
+  },
+  "overlay_pixels_or_counts": {
+    "03_rect": 30136,
+    "04_wire": 42268,
+    "05_endpoint": 7547,
+    "06_text_boxes": 95
+  },
+  "counts": {
+    "rect_count": 10,
+    "wire_count": 31,
+    "endpoint_object_count": 41,
+    "endpoint_classification_count": 62,
+    "net_count": 21,
+    "text_count": 95,
+    "text_category_counts": {
+      "other_text": 56,
+      "number": 20,
+      "wire_color": 19
+    },
+    "endpoint_object_type_counts": {
+      "small_connected_structure": 34,
+      "connection_dot": 3,
+      "round_terminal_object": 4
+    },
+    "endpoint_classification_type_counts": {
+      "connected_endpoint": 48,
+      "disconnected_endpoint": 14
+    },
+    "wire_type_counts": {
+      "solid_wire_seed": 23,
+      "solid_wire_extension": 3,
+      "solid_wire_diagonal_extension": 2,
+      "dashed_wire_group": 3
+    }
+  },
+  "black_white_threshold": 245,
+  "notes": [
+    "images/page_NNN.png is an overlay only; no detection or connectivity is recomputed.",
+    "circuit_images/page_NNN.png is copied from 06_text/circuit_images and thresholded to black/white.",
+    "module_images are copied from 03_rect/module_images."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "page": 34,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_034.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 1,
+    "raw_ocr_detections": 1,
+    "deduped_ocr_detections": 1,
+    "num_texts": 1,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.81
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 3754,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 1,
+    "rejected_components": 0,
+    "num_regions": 1
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        55,
+        2891,
+        1048,
+        2989
+      ],
+      "tight_ink_bbox": [
+        122,
+        2924,
+        980,
+        2955
+      ],
+      "width": 993,
+      "height": 98,
+      "area": 97314,
+      "ink_pixels": 3754,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 803,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_034_text_0001",
+      "text": "Power Distribution Circuit (1 of 2)",
+      "confidence": 0.9947277903556824,
+      "bbox": [
+        114,
+        2915,
+        989,
+        2961
+      ],
+      "polygon": [
+        [
+          114,
+          2915
+        ],
+        [
+          988,
+          2915
+        ],
+        [
+          988,
+          2960
+        ],
+        [
+          114,
+          2960
+        ]
+      ]
+    }
+  ]
+}

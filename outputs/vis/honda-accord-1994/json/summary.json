@@ -1,0 +1,190 @@
+{
+  "pdf": "honda-accord-1994.pdf",
+  "stage": "vis",
+  "base_stage": "01_circuit",
+  "source_stages": [
+    "03_rect",
+    "04_wire",
+    "05_endpoint",
+    "06_text"
+  ],
+  "output_root": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\vis\\honda-accord-1994",
+  "pages": [
+    {
+      "page": 1,
+      "rect_count": 10,
+      "wire_count": 63,
+      "endpoint_object_count": 41,
+      "endpoint_classification_count": 120,
+      "net_count": 6,
+      "text_count": 101,
+      "text_category_counts": {
+        "other_text": 60,
+        "number": 15,
+        "wire_color": 26
+      },
+      "endpoint_object_type_counts": {
+        "small_connected_structure": 38,
+        "connection_dot": 1,
+        "round_terminal_object": 2
+      },
+      "endpoint_classification_type_counts": {
+        "connected_endpoint": 101,
+        "disconnected_endpoint": 19
+      },
+      "wire_type_counts": {
+        "solid_wire_seed": 61,
+        "solid_wire_extension": 2
+      },
+      "review_image_path": "images/page_001.png",
+      "circuit_image_path": "circuit_images/page_001.png",
+      "json_path": "json/page_001.json",
+      "debug_path": "debug/page_001.json"
+    },
+    {
+      "page": 2,
+      "rect_count": 18,
+      "wire_count": 99,
+      "endpoint_object_count": 72,
+      "endpoint_classification_count": 196,
+      "net_count": 21,
+      "text_count": 155,
+      "text_category_counts": {
+        "other_text": 87,
+        "wire_color": 53,
+        "number": 15
+      },
+      "endpoint_object_type_counts": {
+        "small_connected_structure": 64,
+        "arrow_structure": 1,
+        "connection_dot": 6,
+        "round_terminal_object": 1
+      },
+      "endpoint_classification_type_counts": {
+        "connected_endpoint": 152,
+        "disconnected_endpoint": 44
+      },
+      "wire_type_counts": {
+        "solid_wire_seed": 85,
+        "solid_wire_extension": 6,
+        "dashed_wire_group": 8
+      },
+      "review_image_path": "images/page_002.png",
+      "circuit_image_path": "circuit_images/page_002.png",
+      "json_path": "json/page_002.json",
+      "debug_path": "debug/page_002.json"
+    },
+    {
+      "page": 3,
+      "rect_count": 11,
+      "wire_count": 55,
+      "endpoint_object_count": 43,
+      "endpoint_classification_count": 105,
+      "net_count": 7,
+      "text_count": 81,
+      "text_category_counts": {
+        "other_text": 56,
+        "number": 7,
+        "wire_color": 18
+      },
+      "endpoint_object_type_counts": {
+        "small_connected_structure": 38,
+        "connection_dot": 4,
+        "round_terminal_object": 1
+      },
+      "endpoint_classification_type_counts": {
+        "connected_endpoint": 92,
+        "disconnected_endpoint": 13
+      },
+      "wire_type_counts": {
+        "solid_wire_seed": 49,
+        "solid_wire_extension": 3,
+        "dashed_wire_group": 3
+      },
+      "review_image_path": "images/page_003.png",
+      "circuit_image_path": "circuit_images/page_003.png",
+      "json_path": "json/page_003.json",
+      "debug_path": "debug/page_003.json"
+    },
+    {
+      "page": 4,
+      "rect_count": 22,
+      "wire_count": 198,
+      "endpoint_object_count": 184,
+      "endpoint_classification_count": 396,
+      "net_count": 44,
+      "text_count": 361,
+      "text_category_counts": {
+        "other_text": 178,
+        "number": 75,
+        "wire_color": 108
+      },
+      "endpoint_object_type_counts": {
+        "small_connected_structure": 167,
+        "connection_dot": 16,
+        "round_terminal_object": 1
+      },
+      "endpoint_classification_type_counts": {
+        "connected_endpoint": 337,
+        "disconnected_endpoint": 59
+      },
+      "wire_type_counts": {
+        "solid_wire_seed": 162,
+        "solid_wire_extension": 8,
+        "solid_wire_diagonal_extension": 2,
+        "dashed_wire_group": 26
+      },
+      "review_image_path": "images/page_004.png",
+      "circuit_image_path": "circuit_images/page_004.png",
+      "json_path": "json/page_004.json",
+      "debug_path": "debug/page_004.json"
+    },
+    {
+      "page": 5,
+      "rect_count": 15,
+      "wire_count": 99,
+      "endpoint_object_count": 73,
+      "endpoint_classification_count": 189,
+      "net_count": 31,
+      "text_count": 202,
+      "text_category_counts": {
+        "other_text": 119,
+        "wire_color": 51,
+        "number": 32
+      },
+      "endpoint_object_type_counts": {
+        "small_connected_structure": 60,
+        "arrow_structure": 1,
+        "connection_dot": 9,
+        "round_terminal_object": 3
+      },
+      "endpoint_classification_type_counts": {
+        "connected_endpoint": 135,
+        "disconnected_endpoint": 54
+      },
+      "wire_type_counts": {
+        "solid_wire_seed": 73,
+        "solid_wire_extension": 6,
+        "solid_wire_diagonal_extension": 4,
+        "dashed_wire_group": 16
+      },
+      "review_image_path": "images/page_005.png",
+      "circuit_image_path": "circuit_images/page_005.png",
+      "json_path": "json/page_005.json",
+      "debug_path": "debug/page_005.json"
+    }
+  ],
+  "totals": {
+    "rects": 76,
+    "wires": 514,
+    "endpoint_objects": 413,
+    "nets": 109,
+    "texts": 900
+  },
+  "text_category_totals": {
+    "other_text": 500,
+    "number": 144,
+    "wire_color": 256
+  },
+  "module_images_copied": 76
+}

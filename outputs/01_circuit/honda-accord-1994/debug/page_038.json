@@ -1,0 +1,6466 @@
+{
+  "page": 38,
+  "image_width": 2550,
+  "image_height": 4200,
+  "stage": "frame_detection",
+  "accepted_axis_lines": [
+    {
+      "bbox": [
+        1316,
+        357,
+        1443,
+        361
+      ],
+      "orientation": "horizontal",
+      "length": 127,
+      "thickness": 4,
+      "center": [
+        1379.5,
+        359.0
+      ]
+    },
+    {
+      "bbox": [
+        377,
+        450,
+        2472,
+        454
+      ],
+      "orientation": "horizontal",
+      "length": 2095,
+      "thickness": 4,
+      "center": [
+        1424.5,
+        452.0
+      ]
+    },
+    {
+      "bbox": [
+        1203,
+        732,
+        1503,
+        736
+      ],
+      "orientation": "horizontal",
+      "length": 300,
+      "thickness": 4,
+      "center": [
+        1353.0,
+        734.0
+      ]
+    },
+    {
+      "bbox": [
+        1210,
+        790,
+        1292,
+        791
+      ],
+      "orientation": "horizontal",
+      "length": 82,
+      "thickness": 1,
+      "center": [
+        1251.0,
+        790.5
+      ]
+    },
+    {
+      "bbox": [
+        431,
+        924,
+        809,
+        927
+      ],
+      "orientation": "horizontal",
+      "length": 378,
+      "thickness": 3,
+      "center": [
+        620.0,
+        925.5
+      ]
+    },
+    {
+      "bbox": [
+        836,
+        985,
+        1247,
+        992
+      ],
+      "orientation": "horizontal",
+      "length": 411,
+      "thickness": 7,
+      "center": [
+        1041.5,
+        988.5
+      ]
+    },
+    {
+      "bbox": [
+        475,
+        988,
+        809,
+        992
+      ],
+      "orientation": "horizontal",
+      "length": 334,
+      "thickness": 4,
+      "center": [
+        642.0,
+        990.0
+      ]
+    },
+    {
+      "bbox": [
+        530,
+        1039,
+        632,
+        1043
+      ],
+      "orientation": "horizontal",
+      "length": 102,
+      "thickness": 4,
+      "center": [
+        581.0,
+        1041.0
+      ]
+    },
+    {
+      "bbox": [
+        2234,
+        1049,
+        2421,
+        1053
+      ],
+      "orientation": "horizontal",
+      "length": 187,
+      "thickness": 4,
+      "center": [
+        2327.5,
+        1051.0
+      ]
+    },
+    {
+      "bbox": [
+        836,
+        1087,
+        2350,
+        1094
+      ],
+      "orientation": "horizontal",
+      "length": 1514,
+      "thickness": 7,
+      "center": [
+        1593.0,
+        1090.5
+      ]
+    },
+    {
+      "bbox": [
+        703,
+        1090,
+        809,
+        1094
+      ],
+      "orientation": "horizontal",
+      "length": 106,
+      "thickness": 4,
+      "center": [
+        756.0,
+        1092.0
+      ]
+    },
+    {
+      "bbox": [
+        468,
+        1138,
+        632,
+        1141
+      ],
+      "orientation": "horizontal",
+      "length": 164,
+      "thickness": 3,
+      "center": [
+        550.0,
+        1139.5
+      ]
+    },
+    {
+      "bbox": [
+        836,
+        1290,
+        2350,
+        1298
+      ],
+      "orientation": "horizontal",
+      "length": 1514,
+      "thickness": 8,
+      "center": [
+        1593.0,
+        1294.0
+      ]
+    },
+    {
+      "bbox": [
+        703,
+        1294,
+        809,
+        1298
+      ],
+      "orientation": "horizontal",
+      "length": 106,
+      "thickness": 4,
+      "center": [
+        756.0,
+        1296.0
+      ]
+    },
+    {
+      "bbox": [
+        475,
+        1341,
+        632,
+        1346
+      ],
+      "orientation": "horizontal",
+      "length": 157,
+      "thickness": 5,
+      "center": [
+        553.5,
+        1343.5
+      ]
+    },
+    {
+      "bbox": [
+        1455,
+        1341,
+        1962,
+        1349
+      ],
+      "orientation": "horizontal",
+      "length": 507,
+      "thickness": 8,
+      "center": [
+        1708.5,
+        1345.0
+      ]
+    },
+    {
+      "bbox": [
+        2234,
+        1341,
+        2421,
+        1346
+      ],
+      "orientation": "horizontal",
+      "length": 187,
+      "thickness": 5,
+      "center": [
+        2327.5,
+        1343.5
+      ]
+    },
+    {
+      "bbox": [
+        836,
+        1444,
+        1448,
+        1451
+      ],
+      "orientation": "horizontal",
+      "length": 612,
+      "thickness": 7,
+      "center": [
+        1142.0,
+        1447.5
+      ]
+    },
+    {
+      "bbox": [
+        574,
+        1448,
+        809,
+        1451
+      ],
+      "orientation": "horizontal",
+      "length": 235,
+      "thickness": 3,
+      "center": [
+        691.5,
+        1449.5
+      ]
+    },
+    {
+      "bbox": [
+        836,
+        1495,
+        1094,
+        1502
+      ],
+      "orientation": "horizontal",
+      "length": 258,
+      "thickness": 7,
+      "center": [
+        965.0,
+        1498.5
+      ]
+    },
+    {
+      "bbox": [
+        530,
+        1499,
+        809,
+        1502
+      ],
+      "orientation": "horizontal",
+      "length": 279,
+      "thickness": 3,
+      "center": [
+        669.5,
+        1500.5
+      ]
+    },
+    {
+      "bbox": [
+        1455,
+        1546,
+        1860,
+        1553
+      ],
+      "orientation": "horizontal",
+      "length": 405,
+      "thickness": 7,
+      "center": [
+        1657.5,
+        1549.5
+      ]
+    },
+    {
+      "bbox": [
+        431,
+        1584,
+        809,
+        1587
+      ],
+      "orientation": "horizontal",
+      "length": 378,
+      "thickness": 3,
+      "center": [
+        620.0,
+        1585.5
+      ]
+    },
+    {
+      "bbox": [
+        1513,
+        1594,
+        1679,
+        1597
+      ],
+      "orientation": "horizontal",
+      "length": 166,
+      "thickness": 3,
+      "center": [
+        1596.0,
+        1595.5
+      ]
+    },
+    {
+      "bbox": [
+        1707,
+        1648,
+        1860,
+        1654
+      ],
+      "orientation": "horizontal",
+      "length": 153,
+      "thickness": 6,
+      "center": [
+        1783.5,
+        1651.0
+      ]
+    },
+    {
+      "bbox": [
+        1482,
+        1652,
+        1676,
+        1654
+      ],
+      "orientation": "horizontal",
+      "length": 194,
+      "thickness": 2,
+      "center": [
+        1579.0,
+        1653.0
+      ]
+    },
+    {
+      "bbox": [
+        1513,
+        1709,
+        1679,
+        1713
+      ],
+      "orientation": "horizontal",
+      "length": 166,
+      "thickness": 4,
+      "center": [
+        1596.0,
+        1711.0
+      ]
+    },
+    {
+      "bbox": [
+        1938,
+        1767,
+        2071,
+        1771
+      ],
+      "orientation": "horizontal",
+      "length": 133,
+      "thickness": 4,
+      "center": [
+        2004.5,
+        1769.0
+      ]
+    },
+    {
+      "bbox": [
+        377,
+        1897,
+        458,
+        1900
+      ],
+      "orientation": "horizontal",
+      "length": 81,
+      "thickness": 3,
+      "center": [
+        417.5,
+        1898.5
+      ]
+    },
+    {
+      "bbox": [
+        377,
+        1904,
+        2472,
+        1910
+      ],
+      "orientation": "horizontal",
+      "length": 2095,
+      "thickness": 6,
+      "center": [
+        1424.5,
+        1907.0
+      ]
+    },
+    {
+      "bbox": [
+        81,
+        1927,
+        243,
+        1938
+      ],
+      "orientation": "horizontal",
+      "length": 162,
+      "thickness": 11,
+      "center": [
+        162.0,
+        1932.5
+      ]
+    },
+    {
+      "bbox": [
+        446,
+        1927,
+        545,
+        1928
+      ],
+      "orientation": "horizontal",
+      "length": 99,
+      "thickness": 1,
+      "center": [
+        495.5,
+        1927.5
+      ]
+    },
+    {
+      "bbox": [
+        584,
+        1927,
+        770,
+        1935
+      ],
+      "orientation": "horizontal",
+      "length": 186,
+      "thickness": 8,
+      "center": [
+        677.0,
+        1931.0
+      ]
+    },
+    {
+      "bbox": [
+        447,
+        1930,
+        534,
+        1931
+      ],
+      "orientation": "horizontal",
+      "length": 87,
+      "thickness": 1,
+      "center": [
+        490.5,
+        1930.5
+      ]
+    },
+    {
+      "bbox": [
+        448,
+        1932,
+        534,
+        1935
+      ],
+      "orientation": "horizontal",
+      "length": 86,
+      "thickness": 3,
+      "center": [
+        491.0,
+        1933.5
+      ]
+    },
+    {
+      "bbox": [
+        585,
+        1941,
+        773,
+        1947
+      ],
+      "orientation": "horizontal",
+      "length": 188,
+      "thickness": 6,
+      "center": [
+        679.0,
+        1944.0
+      ]
+    },
+    {
+      "bbox": [
+        79,
+        1942,
+        239,
+        1947
+      ],
+      "orientation": "horizontal",
+      "length": 160,
+      "thickness": 5,
+      "center": [
+        159.0,
+        1944.5
+      ]
+    },
+    {
+      "bbox": [
+        275,
+        1942,
+        407,
+        1947
+      ],
+      "orientation": "horizontal",
+      "length": 132,
+      "thickness": 5,
+      "center": [
+        341.0,
+        1944.5
+      ]
+    },
+    {
+      "bbox": [
+        445,
+        1942,
+        549,
+        1947
+      ],
+      "orientation": "horizontal",
+      "length": 104,
+      "thickness": 5,
+      "center": [
+        497.0,
+        1944.5
+      ]
+    },
+    {
+      "bbox": [
+        1451,
+        85,
+        1460,
+        179
+      ],
+      "orientation": "vertical",
+      "length": 94,
+      "thickness": 9,
+      "center": [
+        1455.5,
+        132.0
+      ]
+    },
+    {
+      "bbox": [
+        1076,
+        86,
+        1087,
+        171
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 11,
+      "center": [
+        1081.5,
+        128.5
+      ]
+    },
+    {
+      "bbox": [
+        1121,
+        86,
+        1128,
+        230
+      ],
+      "orientation": "vertical",
+      "length": 144,
+      "thickness": 7,
+      "center": [
+        1124.5,
+        158.0
+      ]
+    },
+    {
+      "bbox": [
+        1317,
+        86,
+        1321,
+        179
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 4,
+      "center": [
+        1319.0,
+        132.5
+      ]
+    },
+    {
+      "bbox": [
+        1351,
+        86,
+        1353,
+        220
+      ],
+      "orientation": "vertical",
+      "length": 134,
+      "thickness": 2,
+      "center": [
+        1352.0,
+        153.0
+      ]
+    },
+    {
+      "bbox": [
+        1477,
+        86,
+        1479,
+        188
+      ],
+      "orientation": "vertical",
+      "length": 102,
+      "thickness": 2,
+      "center": [
+        1478.0,
+        137.0
+      ]
+    },
+    {
+      "bbox": [
+        1240,
+        88,
+        1244,
+        178
+      ],
+      "orientation": "vertical",
+      "length": 90,
+      "thickness": 4,
+      "center": [
+        1242.0,
+        133.0
+      ]
+    },
+    {
+      "bbox": [
+        1461,
+        89,
+        1466,
+        229
+      ],
+      "orientation": "vertical",
+      "length": 140,
+      "thickness": 5,
+      "center": [
+        1463.5,
+        159.0
+      ]
+    },
+    {
+      "bbox": [
+        1179,
+        93,
+        1181,
+        178
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 2,
+      "center": [
+        1180.0,
+        135.5
+      ]
+    },
+    {
+      "bbox": [
+        1136,
+        142,
+        1143,
+        230
+      ],
+      "orientation": "vertical",
+      "length": 88,
+      "thickness": 7,
+      "center": [
+        1139.5,
+        186.0
+      ]
+    },
+    {
+      "bbox": [
+        1216,
+        197,
+        1220,
+        363
+      ],
+      "orientation": "vertical",
+      "length": 166,
+      "thickness": 4,
+      "center": [
+        1218.0,
+        280.0
+      ]
+    },
+    {
+      "bbox": [
+        1241,
+        259,
+        1243,
+        363
+      ],
+      "orientation": "vertical",
+      "length": 104,
+      "thickness": 2,
+      "center": [
+        1242.0,
+        311.0
+      ]
+    },
+    {
+      "bbox": [
+        1258,
+        258,
+        1261,
+        364
+      ],
+      "orientation": "vertical",
+      "length": 106,
+      "thickness": 3,
+      "center": [
+        1259.5,
+        311.0
+      ]
+    },
+    {
+      "bbox": [
+        375,
+        452,
+        378,
+        1949
+      ],
+      "orientation": "vertical",
+      "length": 1497,
+      "thickness": 3,
+      "center": [
+        376.5,
+        1200.5
+      ]
+    },
+    {
+      "bbox": [
+        2463,
+        452,
+        2470,
+        1912
+      ],
+      "orientation": "vertical",
+      "length": 1460,
+      "thickness": 7,
+      "center": [
+        2466.5,
+        1182.0
+      ]
+    },
+    {
+      "bbox": [
+        1242,
+        497,
+        1245,
+        738
+      ],
+      "orientation": "vertical",
+      "length": 241,
+      "thickness": 3,
+      "center": [
+        1243.5,
+        617.5
+      ]
+    },
+    {
+      "bbox": [
+        1201,
+        531,
+        1205,
+        738
+      ],
+      "orientation": "vertical",
+      "length": 207,
+      "thickness": 4,
+      "center": [
+        1203.0,
+        634.5
+      ]
+    },
+    {
+      "bbox": [
+        1497,
+        531,
+        1501,
+        738
+      ],
+      "orientation": "vertical",
+      "length": 207,
+      "thickness": 4,
+      "center": [
+        1499.0,
+        634.5
+      ]
+    },
+    {
+      "bbox": [
+        1514,
+        534,
+        1518,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 133,
+      "thickness": 4,
+      "center": [
+        1516.0,
+        600.5
+      ]
+    },
+    {
+      "bbox": [
+        1555,
+        534,
+        1565,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 133,
+      "thickness": 10,
+      "center": [
+        1560.0,
+        600.5
+      ]
+    },
+    {
+      "bbox": [
+        1623,
+        534,
+        1626,
+        626
+      ],
+      "orientation": "vertical",
+      "length": 92,
+      "thickness": 3,
+      "center": [
+        1624.5,
+        580.0
+      ]
+    },
+    {
+      "bbox": [
+        1694,
+        538,
+        1698,
+        660
+      ],
+      "orientation": "vertical",
+      "length": 122,
+      "thickness": 4,
+      "center": [
+        1696.0,
+        599.0
+      ]
+    },
+    {
+      "bbox": [
+        1545,
+        548,
+        1548,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 119,
+      "thickness": 3,
+      "center": [
+        1546.5,
+        607.5
+      ]
+    },
+    {
+      "bbox": [
+        1531,
+        572,
+        1535,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 95,
+      "thickness": 4,
+      "center": [
+        1533.0,
+        619.5
+      ]
+    },
+    {
+      "bbox": [
+        1572,
+        572,
+        1575,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 95,
+      "thickness": 3,
+      "center": [
+        1573.5,
+        619.5
+      ]
+    },
+    {
+      "bbox": [
+        1701,
+        572,
+        1705,
+        657
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 4,
+      "center": [
+        1703.0,
+        614.5
+      ]
+    },
+    {
+      "bbox": [
+        1279,
+        585,
+        1283,
+        677
+      ],
+      "orientation": "vertical",
+      "length": 92,
+      "thickness": 4,
+      "center": [
+        1281.0,
+        631.0
+      ]
+    },
+    {
+      "bbox": [
+        1647,
+        585,
+        1650,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 82,
+      "thickness": 3,
+      "center": [
+        1648.5,
+        626.0
+      ]
+    },
+    {
+      "bbox": [
+        1239,
+        771,
+        1245,
+        994
+      ],
+      "orientation": "vertical",
+      "length": 223,
+      "thickness": 6,
+      "center": [
+        1242.0,
+        882.5
+      ]
+    },
+    {
+      "bbox": [
+        429,
+        926,
+        432,
+        1589
+      ],
+      "orientation": "vertical",
+      "length": 663,
+      "thickness": 3,
+      "center": [
+        430.5,
+        1257.5
+      ]
+    },
+    {
+      "bbox": [
+        803,
+        926,
+        807,
+        1589
+      ],
+      "orientation": "vertical",
+      "length": 663,
+      "thickness": 4,
+      "center": [
+        805.0,
+        1257.5
+      ]
+    },
+    {
+      "bbox": [
+        473,
+        990,
+        477,
+        1348
+      ],
+      "orientation": "vertical",
+      "length": 358,
+      "thickness": 4,
+      "center": [
+        475.0,
+        1169.0
+      ]
+    },
+    {
+      "bbox": [
+        528,
+        1041,
+        531,
+        1504
+      ],
+      "orientation": "vertical",
+      "length": 463,
+      "thickness": 3,
+      "center": [
+        529.5,
+        1272.5
+      ]
+    },
+    {
+      "bbox": [
+        2232,
+        1051,
+        2235,
+        1348
+      ],
+      "orientation": "vertical",
+      "length": 297,
+      "thickness": 3,
+      "center": [
+        2233.5,
+        1199.5
+      ]
+    },
+    {
+      "bbox": [
+        2416,
+        1051,
+        2419,
+        1348
+      ],
+      "orientation": "vertical",
+      "length": 297,
+      "thickness": 3,
+      "center": [
+        2417.5,
+        1199.5
+      ]
+    },
+    {
+      "bbox": [
+        2334,
+        1143,
+        2337,
+        1228
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 3,
+      "center": [
+        2335.5,
+        1185.5
+      ]
+    },
+    {
+      "bbox": [
+        2341,
+        1143,
+        2351,
+        1300
+      ],
+      "orientation": "vertical",
+      "length": 157,
+      "thickness": 10,
+      "center": [
+        2346.0,
+        1221.5
+      ]
+    },
+    {
+      "bbox": [
+        2354,
+        1143,
+        2358,
+        1228
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 4,
+      "center": [
+        2356.0,
+        1185.5
+      ]
+    },
+    {
+      "bbox": [
+        572,
+        1244,
+        575,
+        1453
+      ],
+      "orientation": "vertical",
+      "length": 209,
+      "thickness": 3,
+      "center": [
+        573.5,
+        1348.5
+      ]
+    },
+    {
+      "bbox": [
+        1453,
+        1326,
+        1456,
+        1569
+      ],
+      "orientation": "vertical",
+      "length": 243,
+      "thickness": 3,
+      "center": [
+        1454.5,
+        1447.5
+      ]
+    },
+    {
+      "bbox": [
+        1953,
+        1343,
+        1960,
+        1790
+      ],
+      "orientation": "vertical",
+      "length": 447,
+      "thickness": 7,
+      "center": [
+        1956.5,
+        1566.5
+      ]
+    },
+    {
+      "bbox": [
+        2351,
+        1378,
+        2358,
+        1545
+      ],
+      "orientation": "vertical",
+      "length": 167,
+      "thickness": 7,
+      "center": [
+        2354.5,
+        1461.5
+      ]
+    },
+    {
+      "bbox": [
+        2365,
+        1378,
+        2368,
+        1545
+      ],
+      "orientation": "vertical",
+      "length": 167,
+      "thickness": 3,
+      "center": [
+        2366.5,
+        1461.5
+      ]
+    },
+    {
+      "bbox": [
+        2334,
+        1382,
+        2337,
+        1508
+      ],
+      "orientation": "vertical",
+      "length": 126,
+      "thickness": 3,
+      "center": [
+        2335.5,
+        1445.0
+      ]
+    },
+    {
+      "bbox": [
+        851,
+        1416,
+        861,
+        1504
+      ],
+      "orientation": "vertical",
+      "length": 88,
+      "thickness": 10,
+      "center": [
+        856.0,
+        1460.0
+      ]
+    },
+    {
+      "bbox": [
+        977,
+        1416,
+        980,
+        1504
+      ],
+      "orientation": "vertical",
+      "length": 88,
+      "thickness": 3,
+      "center": [
+        978.5,
+        1460.0
+      ]
+    },
+    {
+      "bbox": [
+        2341,
+        1416,
+        2344,
+        1545
+      ],
+      "orientation": "vertical",
+      "length": 129,
+      "thickness": 3,
+      "center": [
+        2342.5,
+        1480.5
+      ]
+    },
+    {
+      "bbox": [
+        2399,
+        1416,
+        2402,
+        1528
+      ],
+      "orientation": "vertical",
+      "length": 112,
+      "thickness": 3,
+      "center": [
+        2400.5,
+        1472.0
+      ]
+    },
+    {
+      "bbox": [
+        2409,
+        1416,
+        2416,
+        1552
+      ],
+      "orientation": "vertical",
+      "length": 136,
+      "thickness": 7,
+      "center": [
+        2412.5,
+        1484.0
+      ]
+    },
+    {
+      "bbox": [
+        2382,
+        1429,
+        2388,
+        1538
+      ],
+      "orientation": "vertical",
+      "length": 109,
+      "thickness": 6,
+      "center": [
+        2385.0,
+        1483.5
+      ]
+    },
+    {
+      "bbox": [
+        830,
+        1433,
+        834,
+        1514
+      ],
+      "orientation": "vertical",
+      "length": 81,
+      "thickness": 4,
+      "center": [
+        832.0,
+        1473.5
+      ]
+    },
+    {
+      "bbox": [
+        786,
+        1436,
+        790,
+        1518
+      ],
+      "orientation": "vertical",
+      "length": 82,
+      "thickness": 4,
+      "center": [
+        788.0,
+        1477.0
+      ]
+    },
+    {
+      "bbox": [
+        2314,
+        1453,
+        2317,
+        1542
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 3,
+      "center": [
+        2315.5,
+        1497.5
+      ]
+    },
+    {
+      "bbox": [
+        2320,
+        1460,
+        2324,
+        1545
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 4,
+      "center": [
+        2322.0,
+        1502.5
+      ]
+    },
+    {
+      "bbox": [
+        1851,
+        1548,
+        1858,
+        1656
+      ],
+      "orientation": "vertical",
+      "length": 108,
+      "thickness": 7,
+      "center": [
+        1854.5,
+        1602.0
+      ]
+    },
+    {
+      "bbox": [
+        1511,
+        1596,
+        1514,
+        1715
+      ],
+      "orientation": "vertical",
+      "length": 119,
+      "thickness": 3,
+      "center": [
+        1512.5,
+        1655.5
+      ]
+    },
+    {
+      "bbox": [
+        1674,
+        1596,
+        1677,
+        1715
+      ],
+      "orientation": "vertical",
+      "length": 119,
+      "thickness": 3,
+      "center": [
+        1675.5,
+        1655.5
+      ]
+    },
+    {
+      "bbox": [
+        1507,
+        1752,
+        1514,
+        1848
+      ],
+      "orientation": "vertical",
+      "length": 96,
+      "thickness": 7,
+      "center": [
+        1510.5,
+        1800.0
+      ]
+    },
+    {
+      "bbox": [
+        1528,
+        1752,
+        1535,
+        1841
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 7,
+      "center": [
+        1531.5,
+        1796.5
+      ]
+    },
+    {
+      "bbox": [
+        1545,
+        1752,
+        1552,
+        1848
+      ],
+      "orientation": "vertical",
+      "length": 96,
+      "thickness": 7,
+      "center": [
+        1548.5,
+        1800.0
+      ]
+    },
+    {
+      "bbox": [
+        1569,
+        1752,
+        1575,
+        1841
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 6,
+      "center": [
+        1572.0,
+        1796.5
+      ]
+    },
+    {
+      "bbox": [
+        1538,
+        1755,
+        1541,
+        1848
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 3,
+      "center": [
+        1539.5,
+        1801.5
+      ]
+    },
+    {
+      "bbox": [
+        1555,
+        1755,
+        1558,
+        1848
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 3,
+      "center": [
+        1556.5,
+        1801.5
+      ]
+    },
+    {
+      "bbox": [
+        2001,
+        1755,
+        2007,
+        1851
+      ],
+      "orientation": "vertical",
+      "length": 96,
+      "thickness": 6,
+      "center": [
+        2004.0,
+        1803.0
+      ]
+    },
+    {
+      "bbox": [
+        2021,
+        1755,
+        2028,
+        1844
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 7,
+      "center": [
+        2024.5,
+        1799.5
+      ]
+    },
+    {
+      "bbox": [
+        2038,
+        1755,
+        2045,
+        1851
+      ],
+      "orientation": "vertical",
+      "length": 96,
+      "thickness": 7,
+      "center": [
+        2041.5,
+        1803.0
+      ]
+    },
+    {
+      "bbox": [
+        2062,
+        1755,
+        2069,
+        1844
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 7,
+      "center": [
+        2065.5,
+        1799.5
+      ]
+    },
+    {
+      "bbox": [
+        2031,
+        1758,
+        2035,
+        1851
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 4,
+      "center": [
+        2033.0,
+        1804.5
+      ]
+    },
+    {
+      "bbox": [
+        2048,
+        1758,
+        2052,
+        1851
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 4,
+      "center": [
+        2050.0,
+        1804.5
+      ]
+    }
+  ],
+  "rejected_axis_lines": [
+    {
+      "bbox": [
+        939,
+        84,
+        1613,
+        120
+      ],
+      "orientation": "horizontal",
+      "length": 674,
+      "thickness": 36,
+      "component_area": 22330,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1066,
+        149,
+        1216,
+        176
+      ],
+      "orientation": "horizontal",
+      "length": 150,
+      "thickness": 27,
+      "component_area": 3815,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1242,
+        149,
+        1487,
+        176
+      ],
+      "orientation": "horizontal",
+      "length": 245,
+      "thickness": 27,
+      "component_area": 4408,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1089,
+        195,
+        1467,
+        227
+      ],
+      "orientation": "horizontal",
+      "length": 378,
+      "thickness": 32,
+      "component_area": 9744,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        974,
+        294,
+        1578,
+        320
+      ],
+      "orientation": "horizontal",
+      "length": 604,
+      "thickness": 26,
+      "component_area": 13056,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1376,
+        335,
+        1607,
+        361
+      ],
+      "orientation": "horizontal",
+      "length": 231,
+      "thickness": 26,
+      "component_area": 4170,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        947,
+        341,
+        1345,
+        362
+      ],
+      "orientation": "horizontal",
+      "length": 398,
+      "thickness": 21,
+      "component_area": 6962,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1234,
+        495,
+        1475,
+        515
+      ],
+      "orientation": "horizontal",
+      "length": 241,
+      "thickness": 20,
+      "component_area": 4327,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        2193,
+        502,
+        2380,
+        522
+      ],
+      "orientation": "horizontal",
+      "length": 187,
+      "thickness": 20,
+      "component_area": 3467,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1203,
+        529,
+        1700,
+        553
+      ],
+      "orientation": "horizontal",
+      "length": 497,
+      "thickness": 24,
+      "component_area": 5089,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1499,
+        570,
+        1754,
+        590
+      ],
+      "orientation": "horizontal",
+      "length": 255,
+      "thickness": 20,
+      "component_area": 5030,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1251,
+        587,
+        1349,
+        604
+      ],
+      "orientation": "horizontal",
+      "length": 98,
+      "thickness": 17,
+      "component_area": 1518,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1499,
+        607,
+        1717,
+        627
+      ],
+      "orientation": "horizontal",
+      "length": 218,
+      "thickness": 20,
+      "component_area": 3930,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1499,
+        644,
+        1856,
+        665
+      ],
+      "orientation": "horizontal",
+      "length": 357,
+      "thickness": 21,
+      "component_area": 7247,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1870,
+        1053,
+        1989,
+        1073
+      ],
+      "orientation": "horizontal",
+      "length": 119,
+      "thickness": 20,
+      "component_area": 2243,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        958,
+        1056,
+        1077,
+        1077
+      ],
+      "orientation": "horizontal",
+      "length": 119,
+      "thickness": 21,
+      "component_area": 2348,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        679,
+        1135,
+        764,
+        1155
+      ],
+      "orientation": "horizontal",
+      "length": 85,
+      "thickness": 20,
+      "component_area": 1700,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1863,
+        1256,
+        1989,
+        1277
+      ],
+      "orientation": "horizontal",
+      "length": 126,
+      "thickness": 21,
+      "component_area": 2604,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        958,
+        1259,
+        1084,
+        1281
+      ],
+      "orientation": "horizontal",
+      "length": 126,
+      "thickness": 22,
+      "component_area": 2716,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1305,
+        1341,
+        1421,
+        1363
+      ],
+      "orientation": "horizontal",
+      "length": 116,
+      "thickness": 22,
+      "component_area": 2454,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        2241,
+        1376,
+        2418,
+        1397
+      ],
+      "orientation": "horizontal",
+      "length": 177,
+      "thickness": 21,
+      "component_area": 3598,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1315,
+        1380,
+        1421,
+        1400
+      ],
+      "orientation": "horizontal",
+      "length": 106,
+      "thickness": 20,
+      "component_area": 2043,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        2285,
+        1414,
+        2418,
+        1434
+      ],
+      "orientation": "horizontal",
+      "length": 133,
+      "thickness": 20,
+      "component_area": 2651,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        2316,
+        1451,
+        2418,
+        1471
+      ],
+      "orientation": "horizontal",
+      "length": 102,
+      "thickness": 20,
+      "component_area": 2012,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        2312,
+        1488,
+        2418,
+        1509
+      ],
+      "orientation": "horizontal",
+      "length": 106,
+      "thickness": 21,
+      "component_area": 2182,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1329,
+        1512,
+        1421,
+        1533
+      ],
+      "orientation": "horizontal",
+      "length": 92,
+      "thickness": 21,
+      "component_area": 1875,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        2203,
+        1523,
+        2418,
+        1543
+      ],
+      "orientation": "horizontal",
+      "length": 215,
+      "thickness": 20,
+      "component_area": 4288,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        434,
+        1614,
+        747,
+        1635
+      ],
+      "orientation": "horizontal",
+      "length": 313,
+      "thickness": 21,
+      "component_area": 6471,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        434,
+        1652,
+        679,
+        1671
+      ],
+      "orientation": "horizontal",
+      "length": 245,
+      "thickness": 19,
+      "component_area": 4643,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1509,
+        1787,
+        1686,
+        1808
+      ],
+      "orientation": "horizontal",
+      "length": 177,
+      "thickness": 21,
+      "component_area": 3586,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        2003,
+        1790,
+        2180,
+        1812
+      ],
+      "orientation": "horizontal",
+      "length": 177,
+      "thickness": 22,
+      "component_area": 3763,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        1509,
+        1824,
+        1690,
+        1846
+      ],
+      "orientation": "horizontal",
+      "length": 181,
+      "thickness": 22,
+      "component_area": 3774,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        2003,
+        1828,
+        2183,
+        1849
+      ],
+      "orientation": "horizontal",
+      "length": 180,
+      "thickness": 21,
+      "component_area": 3771,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        278,
+        1927,
+        411,
+        1941
+      ],
+      "orientation": "horizontal",
+      "length": 133,
+      "thickness": 14,
+      "component_area": 1627,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        188,
+        2092,
+        664,
+        2123
+      ],
+      "orientation": "horizontal",
+      "length": 476,
+      "thickness": 31,
+      "component_area": 13658,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        956,
+        1416,
+        973,
+        1504
+      ],
+      "orientation": "vertical",
+      "length": 88,
+      "thickness": 17,
+      "component_area": 1487,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    },
+    {
+      "bbox": [
+        990,
+        1416,
+        1004,
+        1504
+      ],
+      "orientation": "vertical",
+      "length": 88,
+      "thickness": 14,
+      "component_area": 1205,
+      "reasons": [
+        "thickness_above_max"
+      ]
+    }
+  ],
+  "rejected_frame_lines": [
+    {
+      "bbox": [
+        1316,
+        357,
+        1443,
+        361
+      ],
+      "orientation": "horizontal",
+      "length": 127,
+      "thickness": 4,
+      "center": [
+        1379.5,
+        359.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1203,
+        732,
+        1503,
+        736
+      ],
+      "orientation": "horizontal",
+      "length": 300,
+      "thickness": 4,
+      "center": [
+        1353.0,
+        734.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1210,
+        790,
+        1292,
+        791
+      ],
+      "orientation": "horizontal",
+      "length": 82,
+      "thickness": 1,
+      "center": [
+        1251.0,
+        790.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        431,
+        924,
+        809,
+        927
+      ],
+      "orientation": "horizontal",
+      "length": 378,
+      "thickness": 3,
+      "center": [
+        620.0,
+        925.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        836,
+        985,
+        1247,
+        992
+      ],
+      "orientation": "horizontal",
+      "length": 411,
+      "thickness": 7,
+      "center": [
+        1041.5,
+        988.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        475,
+        988,
+        809,
+        992
+      ],
+      "orientation": "horizontal",
+      "length": 334,
+      "thickness": 4,
+      "center": [
+        642.0,
+        990.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        530,
+        1039,
+        632,
+        1043
+      ],
+      "orientation": "horizontal",
+      "length": 102,
+      "thickness": 4,
+      "center": [
+        581.0,
+        1041.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2234,
+        1049,
+        2421,
+        1053
+      ],
+      "orientation": "horizontal",
+      "length": 187,
+      "thickness": 4,
+      "center": [
+        2327.5,
+        1051.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        703,
+        1090,
+        809,
+        1094
+      ],
+      "orientation": "horizontal",
+      "length": 106,
+      "thickness": 4,
+      "center": [
+        756.0,
+        1092.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        468,
+        1138,
+        632,
+        1141
+      ],
+      "orientation": "horizontal",
+      "length": 164,
+      "thickness": 3,
+      "center": [
+        550.0,
+        1139.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        703,
+        1294,
+        809,
+        1298
+      ],
+      "orientation": "horizontal",
+      "length": 106,
+      "thickness": 4,
+      "center": [
+        756.0,
+        1296.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        475,
+        1341,
+        632,
+        1346
+      ],
+      "orientation": "horizontal",
+      "length": 157,
+      "thickness": 5,
+      "center": [
+        553.5,
+        1343.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1455,
+        1341,
+        1962,
+        1349
+      ],
+      "orientation": "horizontal",
+      "length": 507,
+      "thickness": 8,
+      "center": [
+        1708.5,
+        1345.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2234,
+        1341,
+        2421,
+        1346
+      ],
+      "orientation": "horizontal",
+      "length": 187,
+      "thickness": 5,
+      "center": [
+        2327.5,
+        1343.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        836,
+        1444,
+        1448,
+        1451
+      ],
+      "orientation": "horizontal",
+      "length": 612,
+      "thickness": 7,
+      "center": [
+        1142.0,
+        1447.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        574,
+        1448,
+        809,
+        1451
+      ],
+      "orientation": "horizontal",
+      "length": 235,
+      "thickness": 3,
+      "center": [
+        691.5,
+        1449.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        836,
+        1495,
+        1094,
+        1502
+      ],
+      "orientation": "horizontal",
+      "length": 258,
+      "thickness": 7,
+      "center": [
+        965.0,
+        1498.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        530,
+        1499,
+        809,
+        1502
+      ],
+      "orientation": "horizontal",
+      "length": 279,
+      "thickness": 3,
+      "center": [
+        669.5,
+        1500.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1455,
+        1546,
+        1860,
+        1553
+      ],
+      "orientation": "horizontal",
+      "length": 405,
+      "thickness": 7,
+      "center": [
+        1657.5,
+        1549.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        431,
+        1584,
+        809,
+        1587
+      ],
+      "orientation": "horizontal",
+      "length": 378,
+      "thickness": 3,
+      "center": [
+        620.0,
+        1585.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1513,
+        1594,
+        1679,
+        1597
+      ],
+      "orientation": "horizontal",
+      "length": 166,
+      "thickness": 3,
+      "center": [
+        1596.0,
+        1595.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1707,
+        1648,
+        1860,
+        1654
+      ],
+      "orientation": "horizontal",
+      "length": 153,
+      "thickness": 6,
+      "center": [
+        1783.5,
+        1651.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1482,
+        1652,
+        1676,
+        1654
+      ],
+      "orientation": "horizontal",
+      "length": 194,
+      "thickness": 2,
+      "center": [
+        1579.0,
+        1653.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1513,
+        1709,
+        1679,
+        1713
+      ],
+      "orientation": "horizontal",
+      "length": 166,
+      "thickness": 4,
+      "center": [
+        1596.0,
+        1711.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1938,
+        1767,
+        2071,
+        1771
+      ],
+      "orientation": "horizontal",
+      "length": 133,
+      "thickness": 4,
+      "center": [
+        2004.5,
+        1769.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        377,
+        1897,
+        458,
+        1900
+      ],
+      "orientation": "horizontal",
+      "length": 81,
+      "thickness": 3,
+      "center": [
+        417.5,
+        1898.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        81,
+        1927,
+        243,
+        1938
+      ],
+      "orientation": "horizontal",
+      "length": 162,
+      "thickness": 11,
+      "center": [
+        162.0,
+        1932.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        446,
+        1927,
+        545,
+        1928
+      ],
+      "orientation": "horizontal",
+      "length": 99,
+      "thickness": 1,
+      "center": [
+        495.5,
+        1927.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        584,
+        1927,
+        770,
+        1935
+      ],
+      "orientation": "horizontal",
+      "length": 186,
+      "thickness": 8,
+      "center": [
+        677.0,
+        1931.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        447,
+        1930,
+        534,
+        1931
+      ],
+      "orientation": "horizontal",
+      "length": 87,
+      "thickness": 1,
+      "center": [
+        490.5,
+        1930.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        448,
+        1932,
+        534,
+        1935
+      ],
+      "orientation": "horizontal",
+      "length": 86,
+      "thickness": 3,
+      "center": [
+        491.0,
+        1933.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        585,
+        1941,
+        773,
+        1947
+      ],
+      "orientation": "horizontal",
+      "length": 188,
+      "thickness": 6,
+      "center": [
+        679.0,
+        1944.0
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        79,
+        1942,
+        239,
+        1947
+      ],
+      "orientation": "horizontal",
+      "length": 160,
+      "thickness": 5,
+      "center": [
+        159.0,
+        1944.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        275,
+        1942,
+        407,
+        1947
+      ],
+      "orientation": "horizontal",
+      "length": 132,
+      "thickness": 5,
+      "center": [
+        341.0,
+        1944.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        445,
+        1942,
+        549,
+        1947
+      ],
+      "orientation": "horizontal",
+      "length": 104,
+      "thickness": 5,
+      "center": [
+        497.0,
+        1944.5
+      ],
+      "reasons": [
+        "horizontal_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1451,
+        85,
+        1460,
+        179
+      ],
+      "orientation": "vertical",
+      "length": 94,
+      "thickness": 9,
+      "center": [
+        1455.5,
+        132.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1076,
+        86,
+        1087,
+        171
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 11,
+      "center": [
+        1081.5,
+        128.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1121,
+        86,
+        1128,
+        230
+      ],
+      "orientation": "vertical",
+      "length": 144,
+      "thickness": 7,
+      "center": [
+        1124.5,
+        158.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1317,
+        86,
+        1321,
+        179
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 4,
+      "center": [
+        1319.0,
+        132.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1351,
+        86,
+        1353,
+        220
+      ],
+      "orientation": "vertical",
+      "length": 134,
+      "thickness": 2,
+      "center": [
+        1352.0,
+        153.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1477,
+        86,
+        1479,
+        188
+      ],
+      "orientation": "vertical",
+      "length": 102,
+      "thickness": 2,
+      "center": [
+        1478.0,
+        137.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1240,
+        88,
+        1244,
+        178
+      ],
+      "orientation": "vertical",
+      "length": 90,
+      "thickness": 4,
+      "center": [
+        1242.0,
+        133.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1461,
+        89,
+        1466,
+        229
+      ],
+      "orientation": "vertical",
+      "length": 140,
+      "thickness": 5,
+      "center": [
+        1463.5,
+        159.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1179,
+        93,
+        1181,
+        178
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 2,
+      "center": [
+        1180.0,
+        135.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1136,
+        142,
+        1143,
+        230
+      ],
+      "orientation": "vertical",
+      "length": 88,
+      "thickness": 7,
+      "center": [
+        1139.5,
+        186.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1216,
+        197,
+        1220,
+        363
+      ],
+      "orientation": "vertical",
+      "length": 166,
+      "thickness": 4,
+      "center": [
+        1218.0,
+        280.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1241,
+        259,
+        1243,
+        363
+      ],
+      "orientation": "vertical",
+      "length": 104,
+      "thickness": 2,
+      "center": [
+        1242.0,
+        311.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1258,
+        258,
+        1261,
+        364
+      ],
+      "orientation": "vertical",
+      "length": 106,
+      "thickness": 3,
+      "center": [
+        1259.5,
+        311.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1242,
+        497,
+        1245,
+        738
+      ],
+      "orientation": "vertical",
+      "length": 241,
+      "thickness": 3,
+      "center": [
+        1243.5,
+        617.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1201,
+        531,
+        1205,
+        738
+      ],
+      "orientation": "vertical",
+      "length": 207,
+      "thickness": 4,
+      "center": [
+        1203.0,
+        634.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1497,
+        531,
+        1501,
+        738
+      ],
+      "orientation": "vertical",
+      "length": 207,
+      "thickness": 4,
+      "center": [
+        1499.0,
+        634.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1514,
+        534,
+        1518,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 133,
+      "thickness": 4,
+      "center": [
+        1516.0,
+        600.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1555,
+        534,
+        1565,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 133,
+      "thickness": 10,
+      "center": [
+        1560.0,
+        600.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1623,
+        534,
+        1626,
+        626
+      ],
+      "orientation": "vertical",
+      "length": 92,
+      "thickness": 3,
+      "center": [
+        1624.5,
+        580.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1694,
+        538,
+        1698,
+        660
+      ],
+      "orientation": "vertical",
+      "length": 122,
+      "thickness": 4,
+      "center": [
+        1696.0,
+        599.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1545,
+        548,
+        1548,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 119,
+      "thickness": 3,
+      "center": [
+        1546.5,
+        607.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1531,
+        572,
+        1535,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 95,
+      "thickness": 4,
+      "center": [
+        1533.0,
+        619.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1572,
+        572,
+        1575,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 95,
+      "thickness": 3,
+      "center": [
+        1573.5,
+        619.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1701,
+        572,
+        1705,
+        657
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 4,
+      "center": [
+        1703.0,
+        614.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1279,
+        585,
+        1283,
+        677
+      ],
+      "orientation": "vertical",
+      "length": 92,
+      "thickness": 4,
+      "center": [
+        1281.0,
+        631.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1647,
+        585,
+        1650,
+        667
+      ],
+      "orientation": "vertical",
+      "length": 82,
+      "thickness": 3,
+      "center": [
+        1648.5,
+        626.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1239,
+        771,
+        1245,
+        994
+      ],
+      "orientation": "vertical",
+      "length": 223,
+      "thickness": 6,
+      "center": [
+        1242.0,
+        882.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        429,
+        926,
+        432,
+        1589
+      ],
+      "orientation": "vertical",
+      "length": 663,
+      "thickness": 3,
+      "center": [
+        430.5,
+        1257.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        803,
+        926,
+        807,
+        1589
+      ],
+      "orientation": "vertical",
+      "length": 663,
+      "thickness": 4,
+      "center": [
+        805.0,
+        1257.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        473,
+        990,
+        477,
+        1348
+      ],
+      "orientation": "vertical",
+      "length": 358,
+      "thickness": 4,
+      "center": [
+        475.0,
+        1169.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        528,
+        1041,
+        531,
+        1504
+      ],
+      "orientation": "vertical",
+      "length": 463,
+      "thickness": 3,
+      "center": [
+        529.5,
+        1272.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2232,
+        1051,
+        2235,
+        1348
+      ],
+      "orientation": "vertical",
+      "length": 297,
+      "thickness": 3,
+      "center": [
+        2233.5,
+        1199.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2416,
+        1051,
+        2419,
+        1348
+      ],
+      "orientation": "vertical",
+      "length": 297,
+      "thickness": 3,
+      "center": [
+        2417.5,
+        1199.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2334,
+        1143,
+        2337,
+        1228
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 3,
+      "center": [
+        2335.5,
+        1185.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2341,
+        1143,
+        2351,
+        1300
+      ],
+      "orientation": "vertical",
+      "length": 157,
+      "thickness": 10,
+      "center": [
+        2346.0,
+        1221.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2354,
+        1143,
+        2358,
+        1228
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 4,
+      "center": [
+        2356.0,
+        1185.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        572,
+        1244,
+        575,
+        1453
+      ],
+      "orientation": "vertical",
+      "length": 209,
+      "thickness": 3,
+      "center": [
+        573.5,
+        1348.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1453,
+        1326,
+        1456,
+        1569
+      ],
+      "orientation": "vertical",
+      "length": 243,
+      "thickness": 3,
+      "center": [
+        1454.5,
+        1447.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1953,
+        1343,
+        1960,
+        1790
+      ],
+      "orientation": "vertical",
+      "length": 447,
+      "thickness": 7,
+      "center": [
+        1956.5,
+        1566.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2351,
+        1378,
+        2358,
+        1545
+      ],
+      "orientation": "vertical",
+      "length": 167,
+      "thickness": 7,
+      "center": [
+        2354.5,
+        1461.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2365,
+        1378,
+        2368,
+        1545
+      ],
+      "orientation": "vertical",
+      "length": 167,
+      "thickness": 3,
+      "center": [
+        2366.5,
+        1461.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2334,
+        1382,
+        2337,
+        1508
+      ],
+      "orientation": "vertical",
+      "length": 126,
+      "thickness": 3,
+      "center": [
+        2335.5,
+        1445.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        851,
+        1416,
+        861,
+        1504
+      ],
+      "orientation": "vertical",
+      "length": 88,
+      "thickness": 10,
+      "center": [
+        856.0,
+        1460.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        977,
+        1416,
+        980,
+        1504
+      ],
+      "orientation": "vertical",
+      "length": 88,
+      "thickness": 3,
+      "center": [
+        978.5,
+        1460.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2341,
+        1416,
+        2344,
+        1545
+      ],
+      "orientation": "vertical",
+      "length": 129,
+      "thickness": 3,
+      "center": [
+        2342.5,
+        1480.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2399,
+        1416,
+        2402,
+        1528
+      ],
+      "orientation": "vertical",
+      "length": 112,
+      "thickness": 3,
+      "center": [
+        2400.5,
+        1472.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2409,
+        1416,
+        2416,
+        1552
+      ],
+      "orientation": "vertical",
+      "length": 136,
+      "thickness": 7,
+      "center": [
+        2412.5,
+        1484.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2382,
+        1429,
+        2388,
+        1538
+      ],
+      "orientation": "vertical",
+      "length": 109,
+      "thickness": 6,
+      "center": [
+        2385.0,
+        1483.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        830,
+        1433,
+        834,
+        1514
+      ],
+      "orientation": "vertical",
+      "length": 81,
+      "thickness": 4,
+      "center": [
+        832.0,
+        1473.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        786,
+        1436,
+        790,
+        1518
+      ],
+      "orientation": "vertical",
+      "length": 82,
+      "thickness": 4,
+      "center": [
+        788.0,
+        1477.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2314,
+        1453,
+        2317,
+        1542
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 3,
+      "center": [
+        2315.5,
+        1497.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2320,
+        1460,
+        2324,
+        1545
+      ],
+      "orientation": "vertical",
+      "length": 85,
+      "thickness": 4,
+      "center": [
+        2322.0,
+        1502.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1851,
+        1548,
+        1858,
+        1656
+      ],
+      "orientation": "vertical",
+      "length": 108,
+      "thickness": 7,
+      "center": [
+        1854.5,
+        1602.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1511,
+        1596,
+        1514,
+        1715
+      ],
+      "orientation": "vertical",
+      "length": 119,
+      "thickness": 3,
+      "center": [
+        1512.5,
+        1655.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1674,
+        1596,
+        1677,
+        1715
+      ],
+      "orientation": "vertical",
+      "length": 119,
+      "thickness": 3,
+      "center": [
+        1675.5,
+        1655.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1507,
+        1752,
+        1514,
+        1848
+      ],
+      "orientation": "vertical",
+      "length": 96,
+      "thickness": 7,
+      "center": [
+        1510.5,
+        1800.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1528,
+        1752,
+        1535,
+        1841
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 7,
+      "center": [
+        1531.5,
+        1796.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1545,
+        1752,
+        1552,
+        1848
+      ],
+      "orientation": "vertical",
+      "length": 96,
+      "thickness": 7,
+      "center": [
+        1548.5,
+        1800.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1569,
+        1752,
+        1575,
+        1841
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 6,
+      "center": [
+        1572.0,
+        1796.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1538,
+        1755,
+        1541,
+        1848
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 3,
+      "center": [
+        1539.5,
+        1801.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        1555,
+        1755,
+        1558,
+        1848
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 3,
+      "center": [
+        1556.5,
+        1801.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2001,
+        1755,
+        2007,
+        1851
+      ],
+      "orientation": "vertical",
+      "length": 96,
+      "thickness": 6,
+      "center": [
+        2004.0,
+        1803.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2021,
+        1755,
+        2028,
+        1844
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 7,
+      "center": [
+        2024.5,
+        1799.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2038,
+        1755,
+        2045,
+        1851
+      ],
+      "orientation": "vertical",
+      "length": 96,
+      "thickness": 7,
+      "center": [
+        2041.5,
+        1803.0
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2062,
+        1755,
+        2069,
+        1844
+      ],
+      "orientation": "vertical",
+      "length": 89,
+      "thickness": 7,
+      "center": [
+        2065.5,
+        1799.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2031,
+        1758,
+        2035,
+        1851
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 4,
+      "center": [
+        2033.0,
+        1804.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        2048,
+        1758,
+        2052,
+        1851
+      ],
+      "orientation": "vertical",
+      "length": 93,
+      "thickness": 4,
+      "center": [
+        2050.0,
+        1804.5
+      ],
+      "reasons": [
+        "vertical_length_below_frame_ratio"
+      ]
+    }
+  ],
+  "accepted_frame_candidates": [
+    {
+      "bbox": [
+        376,
+        452,
+        2466,
+        1930
+      ],
+      "kind": "missing_bottom",
+      "area_ratio": 0.2884239028944911,
+      "score": 523.4239028944911,
+      "alignment_error": 5.0,
+      "partial": true,
+      "fallback": false,
+      "sides": {
+        "top": {
+          "bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 4,
+          "center": [
+            1424.5,
+            452.0
+          ]
+        },
+        "bottom": null,
+        "left": {
+          "bbox": [
+            375,
+            452,
+            378,
+            1949
+          ],
+          "orientation": "vertical",
+          "length": 1497,
+          "thickness": 3,
+          "center": [
+            376.5,
+            1200.5
+          ]
+        },
+        "right": {
+          "bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ],
+          "orientation": "vertical",
+          "length": 1460,
+          "thickness": 7,
+          "center": [
+            2466.5,
+            1182.0
+          ]
+        }
+      },
+      "calibration": null
+    },
+    {
+      "bbox": [
+        376,
+        452,
+        2466,
+        1907
+      ],
+      "kind": "missing_top",
+      "area_ratio": 0.2839355742296919,
+      "score": 517.8244631185808,
+      "alignment_error": 6.111111111111111,
+      "partial": true,
+      "fallback": false,
+      "sides": {
+        "top": null,
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": {
+          "bbox": [
+            375,
+            452,
+            378,
+            1949
+          ],
+          "orientation": "vertical",
+          "length": 1497,
+          "thickness": 3,
+          "center": [
+            376.5,
+            1200.5
+          ]
+        },
+        "right": {
+          "bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ],
+          "orientation": "vertical",
+          "length": 1460,
+          "thickness": 7,
+          "center": [
+            2466.5,
+            1182.0
+          ]
+        }
+      },
+      "calibration": null
+    }
+  ],
+  "rejected_frame_candidates": [
+    {
+      "kind": "closed",
+      "sides": {
+        "top": {
+          "bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 4,
+          "center": [
+            1424.5,
+            452.0
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            836,
+            1087,
+            2350,
+            1094
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 7,
+          "center": [
+            1593.0,
+            1090.5
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "closed",
+      "sides": {
+        "top": {
+          "bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 4,
+          "center": [
+            1424.5,
+            452.0
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            836,
+            1290,
+            2350,
+            1298
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 8,
+          "center": [
+            1593.0,
+            1294.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "closed",
+      "sides": {
+        "top": {
+          "bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 4,
+          "center": [
+            1424.5,
+            452.0
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "closed",
+      "sides": {
+        "top": {
+          "bbox": [
+            836,
+            1087,
+            2350,
+            1094
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 7,
+          "center": [
+            1593.0,
+            1090.5
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            836,
+            1290,
+            2350,
+            1298
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 8,
+          "center": [
+            1593.0,
+            1294.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "closed",
+      "sides": {
+        "top": {
+          "bbox": [
+            836,
+            1087,
+            2350,
+            1094
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 7,
+          "center": [
+            1593.0,
+            1090.5
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "closed",
+      "sides": {
+        "top": {
+          "bbox": [
+            836,
+            1290,
+            2350,
+            1298
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 8,
+          "center": [
+            1593.0,
+            1294.0
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "missing_horizontal_edge",
+      "sides": {
+        "top": {
+          "bbox": [
+            836,
+            1087,
+            2350,
+            1094
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 7,
+          "center": [
+            1593.0,
+            1090.5
+          ]
+        },
+        "bottom": null,
+        "left": {
+          "bbox": [
+            375,
+            452,
+            378,
+            1949
+          ],
+          "orientation": "vertical",
+          "length": 1497,
+          "thickness": 3,
+          "center": [
+            376.5,
+            1200.5
+          ]
+        },
+        "right": {
+          "bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ],
+          "orientation": "vertical",
+          "length": 1460,
+          "thickness": 7,
+          "center": [
+            2466.5,
+            1182.0
+          ]
+        }
+      },
+      "reasons": [
+        "horizontal_line_not_aligned_to_vertical_pair"
+      ]
+    },
+    {
+      "kind": "missing_horizontal_edge",
+      "sides": {
+        "top": {
+          "bbox": [
+            836,
+            1290,
+            2350,
+            1298
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 8,
+          "center": [
+            1593.0,
+            1294.0
+          ]
+        },
+        "bottom": null,
+        "left": {
+          "bbox": [
+            375,
+            452,
+            378,
+            1949
+          ],
+          "orientation": "vertical",
+          "length": 1497,
+          "thickness": 3,
+          "center": [
+            376.5,
+            1200.5
+          ]
+        },
+        "right": {
+          "bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ],
+          "orientation": "vertical",
+          "length": 1460,
+          "thickness": 7,
+          "center": [
+            2466.5,
+            1182.0
+          ]
+        }
+      },
+      "reasons": [
+        "horizontal_line_not_aligned_to_vertical_pair"
+      ]
+    },
+    {
+      "kind": "missing_vertical_edge",
+      "sides": {
+        "top": {
+          "bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 4,
+          "center": [
+            1424.5,
+            452.0
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            836,
+            1087,
+            2350,
+            1094
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 7,
+          "center": [
+            1593.0,
+            1090.5
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "missing_vertical_edge",
+      "sides": {
+        "top": {
+          "bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 4,
+          "center": [
+            1424.5,
+            452.0
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            836,
+            1290,
+            2350,
+            1298
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 8,
+          "center": [
+            1593.0,
+            1294.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "missing_vertical_edge",
+      "sides": {
+        "top": {
+          "bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 4,
+          "center": [
+            1424.5,
+            452.0
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "missing_vertical_edge",
+      "sides": {
+        "top": {
+          "bbox": [
+            836,
+            1087,
+            2350,
+            1094
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 7,
+          "center": [
+            1593.0,
+            1090.5
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            836,
+            1290,
+            2350,
+            1298
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 8,
+          "center": [
+            1593.0,
+            1294.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "missing_vertical_edge",
+      "sides": {
+        "top": {
+          "bbox": [
+            836,
+            1087,
+            2350,
+            1094
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 7,
+          "center": [
+            1593.0,
+            1090.5
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "kind": "missing_vertical_edge",
+      "sides": {
+        "top": {
+          "bbox": [
+            836,
+            1290,
+            2350,
+            1298
+          ],
+          "orientation": "horizontal",
+          "length": 1514,
+          "thickness": 8,
+          "center": [
+            1593.0,
+            1294.0
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": null,
+        "right": null
+      },
+      "reasons": [
+        "horizontal_pair_height_below_min_ratio"
+      ]
+    },
+    {
+      "bbox": [
+        376,
+        452,
+        2472,
+        1949
+      ],
+      "kind": "l_top_left",
+      "area_ratio": 0.2929703081232493,
+      "score": 452.7203081232493,
+      "alignment_error": 0.25,
+      "partial": true,
+      "fallback": false,
+      "sides": {
+        "top": {
+          "bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 4,
+          "center": [
+            1424.5,
+            452.0
+          ]
+        },
+        "bottom": null,
+        "left": {
+          "bbox": [
+            375,
+            452,
+            378,
+            1949
+          ],
+          "orientation": "vertical",
+          "length": 1497,
+          "thickness": 3,
+          "center": [
+            376.5,
+            1200.5
+          ]
+        },
+        "right": null
+      },
+      "calibration": null,
+      "reasons": [
+        "l_frame_area_ratio_below_min"
+      ]
+    },
+    {
+      "bbox": [
+        377,
+        452,
+        2466,
+        1912
+      ],
+      "kind": "l_top_right",
+      "area_ratio": 0.2847749766573296,
+      "score": 443.6916433239963,
+      "alignment_error": 1.0833333333333333,
+      "partial": true,
+      "fallback": false,
+      "sides": {
+        "top": {
+          "bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 4,
+          "center": [
+            1424.5,
+            452.0
+          ]
+        },
+        "bottom": null,
+        "left": null,
+        "right": {
+          "bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ],
+          "orientation": "vertical",
+          "length": 1460,
+          "thickness": 7,
+          "center": [
+            2466.5,
+            1182.0
+          ]
+        }
+      },
+      "calibration": null,
+      "reasons": [
+        "l_frame_area_ratio_below_min"
+      ]
+    },
+    {
+      "bbox": [
+        376,
+        452,
+        2472,
+        1907
+      ],
+      "kind": "l_bottom_left",
+      "area_ratio": 0.28475070028011207,
+      "score": 437.5007002801121,
+      "alignment_error": 7.25,
+      "partial": true,
+      "fallback": false,
+      "sides": {
+        "top": null,
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": {
+          "bbox": [
+            375,
+            452,
+            378,
+            1949
+          ],
+          "orientation": "vertical",
+          "length": 1497,
+          "thickness": 3,
+          "center": [
+            376.5,
+            1200.5
+          ]
+        },
+        "right": null
+      },
+      "calibration": null,
+      "reasons": [
+        "l_frame_area_ratio_below_min"
+      ]
+    },
+    {
+      "bbox": [
+        377,
+        452,
+        2466,
+        1907
+      ],
+      "kind": "l_bottom_right",
+      "area_ratio": 0.28379971988795516,
+      "score": 441.8830532212885,
+      "alignment_error": 1.9166666666666667,
+      "partial": true,
+      "fallback": false,
+      "sides": {
+        "top": null,
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": null,
+        "right": {
+          "bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ],
+          "orientation": "vertical",
+          "length": 1460,
+          "thickness": 7,
+          "center": [
+            2466.5,
+            1182.0
+          ]
+        }
+      },
+      "calibration": null,
+      "reasons": [
+        "l_frame_area_ratio_below_min"
+      ]
+    },
+    {
+      "bbox": [
+        376,
+        452,
+        2466,
+        1907
+      ],
+      "kind": "missing_top",
+      "area_ratio": 0.2839355742296919,
+      "score": 517.8244631185808,
+      "alignment_error": 6.111111111111111,
+      "partial": true,
+      "fallback": false,
+      "sides": {
+        "top": null,
+        "bottom": {
+          "bbox": [
+            377,
+            1904,
+            2472,
+            1910
+          ],
+          "orientation": "horizontal",
+          "length": 2095,
+          "thickness": 6,
+          "center": [
+            1424.5,
+            1907.0
+          ]
+        },
+        "left": {
+          "bbox": [
+            375,
+            452,
+            378,
+            1949
+          ],
+          "orientation": "vertical",
+          "length": 1497,
+          "thickness": 3,
+          "center": [
+            376.5,
+            1200.5
+          ]
+        },
+        "right": {
+          "bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ],
+          "orientation": "vertical",
+          "length": 1460,
+          "thickness": 7,
+          "center": [
+            2466.5,
+            1182.0
+          ]
+        }
+      },
+      "calibration": null,
+      "reasons": [
+        "inside_larger_selected_frame"
+      ]
+    }
+  ],
+  "selected_frames": [
+    {
+      "bbox": [
+        376,
+        452,
+        2466,
+        1916
+      ],
+      "kind": "missing_bottom",
+      "area_ratio": 0.2856918767507003,
+      "score": 523.4239028944911,
+      "alignment_error": 5.0,
+      "partial": true,
+      "fallback": false,
+      "sides": {
+        "top": {
+          "bbox": [
+            376,
+            450,
+            2466,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2090,
+          "thickness": 4,
+          "center": [
+            1421.0,
+            452.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "erase_bbox": [
+            377,
+            450,
+            2470,
+            454
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            376,
+            1915,
+            2466,
+            1917
+          ],
+          "orientation": "horizontal",
+          "length": 2090,
+          "thickness": 2,
+          "center": [
+            1421.0,
+            1916.0
+          ],
+          "inferred": true,
+          "adjusted": true,
+          "inference": {
+            "initial_coord": 1930,
+            "final_coord": 1916,
+            "preferred_thickness": 4,
+            "final_thickness": 2,
+            "search_result": "clean_inward",
+            "shift_pixels": -14,
+            "max_inward_pixels": 493,
+            "sampled_attempts": [
+              {
+                "coord": 1930,
+                "direction": "inward",
+                "ink_count": 70,
+                "band": [
+                  394,
+                  1930,
+                  2448,
+                  1931
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 430,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1932
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 279,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1932
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 221,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 70,
+                    "band": [
+                      394,
+                      1930,
+                      2448,
+                      1931
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1929,
+                "direction": "inward",
+                "ink_count": 151,
+                "band": [
+                  394,
+                  1929,
+                  2448,
+                  1930
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 508,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 372,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 302,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 151,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1930
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1928,
+                "direction": "inward",
+                "ink_count": 151,
+                "band": [
+                  394,
+                  1928,
+                  2448,
+                  1929
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 467,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 438,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 287,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 151,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1929
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1927,
+                "direction": "inward",
+                "ink_count": 136,
+                "band": [
+                  394,
+                  1927,
+                  2448,
+                  1928
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 337,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 316,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 165,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 136,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1928
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1926,
+                "direction": "inward",
+                "ink_count": 29,
+                "band": [
+                  394,
+                  1926,
+                  2448,
+                  1927
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 208,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 186,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1927
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1925,
+                "direction": "inward",
+                "ink_count": 21,
+                "band": [
+                  394,
+                  1925,
+                  2448,
+                  1926
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 100,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 72,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 43,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 21,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1926
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1924,
+                "direction": "inward",
+                "ink_count": 22,
+                "band": [
+                  394,
+                  1924,
+                  2448,
+                  1925
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 119,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 71,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 22,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1925
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1923,
+                "direction": "inward",
+                "ink_count": 28,
+                "band": [
+                  394,
+                  1923,
+                  2448,
+                  1924
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 142,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 98,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 76,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 28,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1924
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1922,
+                "direction": "inward",
+                "ink_count": 48,
+                "band": [
+                  394,
+                  1922,
+                  2448,
+                  1923
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 149,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 120,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 92,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 48,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1923
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1921,
+                "direction": "inward",
+                "ink_count": 44,
+                "band": [
+                  394,
+                  1921,
+                  2448,
+                  1922
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 129,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 121,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 73,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 44,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1922
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1920,
+                "direction": "inward",
+                "ink_count": 29,
+                "band": [
+                  394,
+                  1920,
+                  2448,
+                  1921
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 89,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 81,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 37,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1921
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1919,
+                "direction": "inward",
+                "ink_count": 8,
+                "band": [
+                  394,
+                  1919,
+                  2448,
+                  1920
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 51,
+                    "band": [
+                      394,
+                      1917,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 45,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 16,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1920
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 8,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1920
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "left": {
+          "bbox": [
+            375,
+            452,
+            378,
+            1916
+          ],
+          "orientation": "vertical",
+          "length": 1464,
+          "thickness": 3,
+          "center": [
+            376.5,
+            1184.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            375,
+            452,
+            378,
+            1949
+          ],
+          "erase_bbox": [
+            375,
+            452,
+            378,
+            1917
+          ]
+        },
+        "right": {
+          "bbox": [
+            2463,
+            452,
+            2470,
+            1916
+          ],
+          "orientation": "vertical",
+          "length": 1464,
+          "thickness": 7,
+          "center": [
+            2466.5,
+            1184.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ],
+          "erase_bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ]
+        }
+      },
+      "calibration": {
+        "initial_bbox": [
+          376,
+          452,
+          2466,
+          1930
+        ],
+        "preferred_inferred_thickness": 4,
+        "inferred_edges": {
+          "bottom": {
+            "initial_coord": 1930,
+            "final_coord": 1916,
+            "preferred_thickness": 4,
+            "final_thickness": 2,
+            "search_result": "clean_inward",
+            "shift_pixels": -14,
+            "max_inward_pixels": 493,
+            "sampled_attempts": [
+              {
+                "coord": 1930,
+                "direction": "inward",
+                "ink_count": 70,
+                "band": [
+                  394,
+                  1930,
+                  2448,
+                  1931
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 430,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1932
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 279,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1932
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 221,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 70,
+                    "band": [
+                      394,
+                      1930,
+                      2448,
+                      1931
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1929,
+                "direction": "inward",
+                "ink_count": 151,
+                "band": [
+                  394,
+                  1929,
+                  2448,
+                  1930
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 508,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 372,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 302,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 151,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1930
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1928,
+                "direction": "inward",
+                "ink_count": 151,
+                "band": [
+                  394,
+                  1928,
+                  2448,
+                  1929
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 467,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 438,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 287,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 151,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1929
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1927,
+                "direction": "inward",
+                "ink_count": 136,
+                "band": [
+                  394,
+                  1927,
+                  2448,
+                  1928
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 337,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 316,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 165,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 136,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1928
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1926,
+                "direction": "inward",
+                "ink_count": 29,
+                "band": [
+                  394,
+                  1926,
+                  2448,
+                  1927
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 208,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 186,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1927
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1925,
+                "direction": "inward",
+                "ink_count": 21,
+                "band": [
+                  394,
+                  1925,
+                  2448,
+                  1926
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 100,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 72,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 43,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 21,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1926
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1924,
+                "direction": "inward",
+                "ink_count": 22,
+                "band": [
+                  394,
+                  1924,
+                  2448,
+                  1925
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 119,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 71,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 22,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1925
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1923,
+                "direction": "inward",
+                "ink_count": 28,
+                "band": [
+                  394,
+                  1923,
+                  2448,
+                  1924
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 142,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 98,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 76,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 28,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1924
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1922,
+                "direction": "inward",
+                "ink_count": 48,
+                "band": [
+                  394,
+                  1922,
+                  2448,
+                  1923
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 149,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 120,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 92,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 48,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1923
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1921,
+                "direction": "inward",
+                "ink_count": 44,
+                "band": [
+                  394,
+                  1921,
+                  2448,
+                  1922
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 129,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 121,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 73,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 44,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1922
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1920,
+                "direction": "inward",
+                "ink_count": 29,
+                "band": [
+                  394,
+                  1920,
+                  2448,
+                  1921
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 89,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 81,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 37,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1921
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1919,
+                "direction": "inward",
+                "ink_count": 8,
+                "band": [
+                  394,
+                  1919,
+                  2448,
+                  1920
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 51,
+                    "band": [
+                      394,
+                      1917,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 45,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 16,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1920
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 8,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1920
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "corner_aligned": true,
+        "final_bbox": [
+          376,
+          452,
+          2466,
+          1916
+        ],
+        "line_thickness_by_side": {
+          "top": 4,
+          "bottom": 2,
+          "left": 3,
+          "right": 7
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Closed, missing-edge, L-shaped, and fallback frame candidates are accepted."
+  ],
+  "summary": {
+    "num_axis_lines": 108,
+    "num_rejected_axis_lines": 37,
+    "num_rejected_frame_lines": 102,
+    "num_accepted_frame_candidates": 2,
+    "num_rejected_frame_candidates": 19,
+    "num_selected_frames": 1
+  }
+}

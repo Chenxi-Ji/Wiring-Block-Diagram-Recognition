@@ -1,0 +1,127 @@
+{
+  "page": 45,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_045.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 1,
+    "raw_ocr_detections": 2,
+    "deduped_ocr_detections": 2,
+    "num_texts": 2,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.912
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 1274,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 1,
+    "rejected_components": 0,
+    "num_regions": 1
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        54,
+        2889,
+        458,
+        2987
+      ],
+      "tight_ink_bbox": [
+        121,
+        2922,
+        390,
+        2953
+      ],
+      "width": 404,
+      "height": 98,
+      "area": 39592,
+      "ink_pixels": 1274,
+      "raw_ocr_detections": 2,
+      "ocr_elapsed_ms": 903,
+      "num_texts": 2
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_045_text_0001",
+      "text": "Circuit",
+      "confidence": 0.9999944567680359,
+      "bbox": [
+        210,
+        2915,
+        396,
+        2963
+      ],
+      "polygon": [
+        [
+          211,
+          2915
+        ],
+        [
+          395,
+          2918
+        ],
+        [
+          395,
+          2962
+        ],
+        [
+          210,
+          2959
+        ]
+      ]
+    },
+    {
+      "id": "page_045_text_0002",
+      "text": "A/T",
+      "confidence": 0.9995836615562439,
+      "bbox": [
+        113,
+        2916,
+        220,
+        2965
+      ],
+      "polygon": [
+        [
+          113,
+          2916
+        ],
+        [
+          219,
+          2916
+        ],
+        [
+          219,
+          2964
+        ],
+        [
+          113,
+          2964
+        ]
+      ]
+    }
+  ]
+}

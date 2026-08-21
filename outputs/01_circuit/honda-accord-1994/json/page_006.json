@@ -1,0 +1,612 @@
+{
+  "page": 6,
+  "image_width": 2550,
+  "image_height": 4200,
+  "outer_frame": {
+    "bbox": [
+      380,
+      628,
+      2476,
+      3543
+    ],
+    "inner_bbox": [
+      380,
+      628,
+      2476,
+      3543
+    ],
+    "area_ratio": 0.5704799253034547,
+    "score": 790.3132586367881,
+    "alignment_error": 0.16666666666666666,
+    "multi_frame": false,
+    "fallback": false,
+    "kind": "l_top_left",
+    "sub_frames": [
+      {
+        "bbox": [
+          380,
+          628,
+          2476,
+          3543
+        ],
+        "area_ratio": 0.5704799253034547,
+        "score": 790.3132586367881,
+        "alignment_error": 0.16666666666666666,
+        "partial": true,
+        "fallback": false,
+        "kind": "l_top_left",
+        "calibration": {
+          "initial_bbox": [
+            380,
+            628,
+            2476,
+            3543
+          ],
+          "preferred_inferred_thickness": 3,
+          "inferred_edges": {
+            "bottom": {
+              "initial_coord": 3543,
+              "final_coord": 3543,
+              "preferred_thickness": 3,
+              "final_thickness": 3,
+              "search_result": "clean_inward",
+              "shift_pixels": 0,
+              "max_inward_pixels": 972,
+              "sampled_attempts": [
+                {
+                  "coord": 3543,
+                  "direction": "inward",
+                  "ink_count": 0,
+                  "band": [
+                    398,
+                    3542,
+                    2458,
+                    3545
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 0,
+                      "band": [
+                        398,
+                        3542,
+                        2458,
+                        3545
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "right": {
+              "initial_coord": 2476,
+              "final_coord": 2476,
+              "preferred_thickness": 3,
+              "final_thickness": 3,
+              "search_result": "clean_inward",
+              "shift_pixels": 0,
+              "max_inward_pixels": 699,
+              "sampled_attempts": [
+                {
+                  "coord": 2476,
+                  "direction": "inward",
+                  "ink_count": 0,
+                  "band": [
+                    2475,
+                    646,
+                    2478,
+                    3525
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 0,
+                      "band": [
+                        2475,
+                        646,
+                        2478,
+                        3525
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "corner_aligned": true,
+          "final_bbox": [
+            380,
+            628,
+            2476,
+            3543
+          ],
+          "line_thickness_by_side": {
+            "top": 3,
+            "bottom": 3,
+            "left": 3,
+            "right": 3
+          }
+        },
+        "line_thickness": {
+          "by_side": {
+            "top": 3,
+            "bottom": 3,
+            "left": 3,
+            "right": 3
+          },
+          "min": 3,
+          "max": 3,
+          "median": 3.0
+        },
+        "sides": {
+          "top": {
+            "bbox": [
+              380,
+              627,
+              2476,
+              630
+            ],
+            "orientation": "horizontal",
+            "length": 2096,
+            "thickness": 3,
+            "center": [
+              1428.0,
+              628.5
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              380,
+              626,
+              2476,
+              629
+            ],
+            "erase_bbox": [
+              380,
+              626,
+              2476,
+              629
+            ]
+          },
+          "bottom": {
+            "bbox": [
+              380,
+              3542,
+              2476,
+              3545
+            ],
+            "orientation": "horizontal",
+            "length": 2096,
+            "thickness": 3,
+            "center": [
+              1428.0,
+              3543.5
+            ],
+            "inferred": true,
+            "adjusted": true,
+            "inference": {
+              "initial_coord": 3543,
+              "final_coord": 3543,
+              "preferred_thickness": 3,
+              "final_thickness": 3,
+              "search_result": "clean_inward",
+              "shift_pixels": 0,
+              "max_inward_pixels": 972,
+              "sampled_attempts": [
+                {
+                  "coord": 3543,
+                  "direction": "inward",
+                  "ink_count": 0,
+                  "band": [
+                    398,
+                    3542,
+                    2458,
+                    3545
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 0,
+                      "band": [
+                        398,
+                        3542,
+                        2458,
+                        3545
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "left": {
+            "bbox": [
+              379,
+              628,
+              382,
+              3543
+            ],
+            "orientation": "vertical",
+            "length": 2915,
+            "thickness": 3,
+            "center": [
+              380.5,
+              2085.5
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              378,
+              628,
+              381,
+              3543
+            ],
+            "erase_bbox": [
+              378,
+              628,
+              381,
+              3543
+            ]
+          },
+          "right": {
+            "bbox": [
+              2475,
+              628,
+              2478,
+              3543
+            ],
+            "orientation": "vertical",
+            "length": 2915,
+            "thickness": 3,
+            "center": [
+              2476.5,
+              2085.5
+            ],
+            "inferred": true,
+            "adjusted": true,
+            "inference": {
+              "initial_coord": 2476,
+              "final_coord": 2476,
+              "preferred_thickness": 3,
+              "final_thickness": 3,
+              "search_result": "clean_inward",
+              "shift_pixels": 0,
+              "max_inward_pixels": 699,
+              "sampled_attempts": [
+                {
+                  "coord": 2476,
+                  "direction": "inward",
+                  "ink_count": 0,
+                  "band": [
+                    2475,
+                    646,
+                    2478,
+                    3525
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 3,
+                      "ink_count": 0,
+                      "band": [
+                        2475,
+                        646,
+                        2478,
+                        3525
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "inner_bbox": [
+          380,
+          628,
+          2476,
+          3543
+        ]
+      }
+    ],
+    "inner_bboxes": [
+      [
+        380,
+        628,
+        2476,
+        3543
+      ]
+    ]
+  },
+  "frames": [
+    {
+      "bbox": [
+        380,
+        628,
+        2476,
+        3543
+      ],
+      "area_ratio": 0.5704799253034547,
+      "score": 790.3132586367881,
+      "alignment_error": 0.16666666666666666,
+      "partial": true,
+      "fallback": false,
+      "kind": "l_top_left",
+      "calibration": {
+        "initial_bbox": [
+          380,
+          628,
+          2476,
+          3543
+        ],
+        "preferred_inferred_thickness": 3,
+        "inferred_edges": {
+          "bottom": {
+            "initial_coord": 3543,
+            "final_coord": 3543,
+            "preferred_thickness": 3,
+            "final_thickness": 3,
+            "search_result": "clean_inward",
+            "shift_pixels": 0,
+            "max_inward_pixels": 972,
+            "sampled_attempts": [
+              {
+                "coord": 3543,
+                "direction": "inward",
+                "ink_count": 0,
+                "band": [
+                  398,
+                  3542,
+                  2458,
+                  3545
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 0,
+                    "band": [
+                      398,
+                      3542,
+                      2458,
+                      3545
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "right": {
+            "initial_coord": 2476,
+            "final_coord": 2476,
+            "preferred_thickness": 3,
+            "final_thickness": 3,
+            "search_result": "clean_inward",
+            "shift_pixels": 0,
+            "max_inward_pixels": 699,
+            "sampled_attempts": [
+              {
+                "coord": 2476,
+                "direction": "inward",
+                "ink_count": 0,
+                "band": [
+                  2475,
+                  646,
+                  2478,
+                  3525
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 0,
+                    "band": [
+                      2475,
+                      646,
+                      2478,
+                      3525
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "corner_aligned": true,
+        "final_bbox": [
+          380,
+          628,
+          2476,
+          3543
+        ],
+        "line_thickness_by_side": {
+          "top": 3,
+          "bottom": 3,
+          "left": 3,
+          "right": 3
+        }
+      },
+      "line_thickness": {
+        "by_side": {
+          "top": 3,
+          "bottom": 3,
+          "left": 3,
+          "right": 3
+        },
+        "min": 3,
+        "max": 3,
+        "median": 3.0
+      },
+      "sides": {
+        "top": {
+          "bbox": [
+            380,
+            627,
+            2476,
+            630
+          ],
+          "orientation": "horizontal",
+          "length": 2096,
+          "thickness": 3,
+          "center": [
+            1428.0,
+            628.5
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            380,
+            626,
+            2476,
+            629
+          ],
+          "erase_bbox": [
+            380,
+            626,
+            2476,
+            629
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            380,
+            3542,
+            2476,
+            3545
+          ],
+          "orientation": "horizontal",
+          "length": 2096,
+          "thickness": 3,
+          "center": [
+            1428.0,
+            3543.5
+          ],
+          "inferred": true,
+          "adjusted": true,
+          "inference": {
+            "initial_coord": 3543,
+            "final_coord": 3543,
+            "preferred_thickness": 3,
+            "final_thickness": 3,
+            "search_result": "clean_inward",
+            "shift_pixels": 0,
+            "max_inward_pixels": 972,
+            "sampled_attempts": [
+              {
+                "coord": 3543,
+                "direction": "inward",
+                "ink_count": 0,
+                "band": [
+                  398,
+                  3542,
+                  2458,
+                  3545
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 0,
+                    "band": [
+                      398,
+                      3542,
+                      2458,
+                      3545
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "left": {
+          "bbox": [
+            379,
+            628,
+            382,
+            3543
+          ],
+          "orientation": "vertical",
+          "length": 2915,
+          "thickness": 3,
+          "center": [
+            380.5,
+            2085.5
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            378,
+            628,
+            381,
+            3543
+          ],
+          "erase_bbox": [
+            378,
+            628,
+            381,
+            3543
+          ]
+        },
+        "right": {
+          "bbox": [
+            2475,
+            628,
+            2478,
+            3543
+          ],
+          "orientation": "vertical",
+          "length": 2915,
+          "thickness": 3,
+          "center": [
+            2476.5,
+            2085.5
+          ],
+          "inferred": true,
+          "adjusted": true,
+          "inference": {
+            "initial_coord": 2476,
+            "final_coord": 2476,
+            "preferred_thickness": 3,
+            "final_thickness": 3,
+            "search_result": "clean_inward",
+            "shift_pixels": 0,
+            "max_inward_pixels": 699,
+            "sampled_attempts": [
+              {
+                "coord": 2476,
+                "direction": "inward",
+                "ink_count": 0,
+                "band": [
+                  2475,
+                  646,
+                  2478,
+                  3525
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 3,
+                    "ink_count": 0,
+                    "band": [
+                      2475,
+                      646,
+                      2478,
+                      3525
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "inner_bbox": [
+        380,
+        628,
+        2476,
+        3543
+      ]
+    }
+  ],
+  "summary": {
+    "num_axis_lines": 196,
+    "num_frame_boxes": 1,
+    "detection_mode": "closed_partial_l_fallback"
+  }
+}

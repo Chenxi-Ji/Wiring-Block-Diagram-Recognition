@@ -1,0 +1,49 @@
+# Local Python environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local editor and tooling state
+.vscode/
+.idea/
+.agents/
+.codex/
+.claude/
+
+# Source PDFs / local datasets
+# Keep generated reference outputs in outputs/ tracked.
+backup/
+
+# Large model and binary artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

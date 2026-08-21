@@ -1,0 +1,287 @@
+{
+  "page": 1,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_001.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 3,
+    "raw_ocr_detections": 6,
+    "deduped_ocr_detections": 6,
+    "num_texts": 6,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 2.099
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 37243,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 5,
+    "rejected_components": 0,
+    "num_regions": 3
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        841,
+        125,
+        1692,
+        350
+      ],
+      "tight_ink_bbox": [
+        908,
+        158,
+        1624,
+        316
+      ],
+      "width": 851,
+      "height": 225,
+      "area": 191475,
+      "ink_pixels": 21846,
+      "raw_ocr_detections": 2,
+      "ocr_elapsed_ms": 792,
+      "num_texts": 2
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        163,
+        599,
+        1163,
+        850
+      ],
+      "tight_ink_bbox": [
+        230,
+        632,
+        1095,
+        816
+      ],
+      "width": 1000,
+      "height": 251,
+      "area": 251000,
+      "ink_pixels": 14143,
+      "raw_ocr_detections": 3,
+      "ocr_elapsed_ms": 943,
+      "num_texts": 3
+    },
+    {
+      "id": "region_003",
+      "bbox": [
+        54,
+        2889,
+        458,
+        2987
+      ],
+      "tight_ink_bbox": [
+        121,
+        2922,
+        390,
+        2953
+      ],
+      "width": 404,
+      "height": 98,
+      "area": 39592,
+      "ink_pixels": 1254,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 358,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_001_text_0001",
+      "text": "SYSTEM WIRING DIAGRAMS",
+      "confidence": 0.9999811053276062,
+      "bbox": [
+        901,
+        148,
+        1605,
+        203
+      ],
+      "polygon": [
+        [
+          901,
+          148
+        ],
+        [
+          1604,
+          148
+        ],
+        [
+          1604,
+          202
+        ],
+        [
+          901,
+          202
+        ]
+      ]
+    },
+    {
+      "id": "page_001_text_0002",
+      "text": "1997-99 Mitsubishi Montero Sport",
+      "confidence": 0.9991780519485474,
+      "bbox": [
+        955,
+        259,
+        1633,
+        320
+      ],
+      "polygon": [
+        [
+          955,
+          259
+        ],
+        [
+          1632,
+          262
+        ],
+        [
+          1632,
+          319
+        ],
+        [
+          955,
+          316
+        ]
+      ]
+    },
+    {
+      "id": "page_001_text_0003",
+      "text": "1997-99 System Wiring Diagrams",
+      "confidence": 0.9999197125434875,
+      "bbox": [
+        339,
+        619,
+        1104,
+        673
+      ],
+      "polygon": [
+        [
+          340,
+          619
+        ],
+        [
+          1103,
+          623
+        ],
+        [
+          1102,
+          672
+        ],
+        [
+          339,
+          668
+        ]
+      ]
+    },
+    {
+      "id": "page_001_text_0004",
+      "text": "Mitsubishi - Montero Sport",
+      "confidence": 0.9914554953575134,
+      "bbox": [
+        337,
+        664,
+        996,
+        713
+      ],
+      "polygon": [
+        [
+          338,
+          664
+        ],
+        [
+          995,
+          668
+        ],
+        [
+          994,
+          712
+        ],
+        [
+          337,
+          708
+        ]
+      ]
+    },
+    {
+      "id": "page_001_text_0005",
+      "text": "AIR CONDITIONING",
+      "confidence": 0.9999088644981384,
+      "bbox": [
+        227,
+        774,
+        652,
+        822
+      ],
+      "polygon": [
+        [
+          227,
+          774
+        ],
+        [
+          651,
+          774
+        ],
+        [
+          651,
+          821
+        ],
+        [
+          227,
+          821
+        ]
+      ]
+    },
+    {
+      "id": "page_001_text_0006",
+      "text": "A/C Circuit",
+      "confidence": 0.9999874234199524,
+      "bbox": [
+        112,
+        2913,
+        398,
+        2964
+      ],
+      "polygon": [
+        [
+          112,
+          2913
+        ],
+        [
+          397,
+          2913
+        ],
+        [
+          397,
+          2963
+        ],
+        [
+          112,
+          2963
+        ]
+      ]
+    }
+  ]
+}

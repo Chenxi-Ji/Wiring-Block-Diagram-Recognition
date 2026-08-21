@@ -1,0 +1,11 @@
+05_endpoint visual legend
+
+solid_wire: #00BE00 RGB(0, 190, 0) - retained solid wire
+dash_group: #FF9100 RGB(255, 145, 0) - retained dashed wire group
+connection_dot: #0078FF RGB(0, 120, 255) - connection dot inferred from disconnected endpoints; actual blob pixels only
+round_terminal_object: #0050FF RGB(0, 80, 255) - round terminal inferred from one disconnected endpoint; actual blob pixels only
+ground_terminal: #FF0000 RGB(255, 0, 0) - local GND terminal inferred from disconnected endpoints; actual blob pixels only
+small_connected_structure: #00D2D2 RGB(0, 210, 210) - small endpoint-attached residual structure
+arrow_structure: #0078FF RGB(0, 120, 255) - endpoint-attached arrow terminal structure
+brace_structure: #BE007D RGB(190, 0, 125) - flat endpoint-attached brace structure with V-shaped join
+rectangle_frame: #AA782D RGB(170, 120, 45) - rectangle frame suppression boundary

@@ -1,0 +1,149 @@
+{
+  "page": 42,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_042.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 2,
+    "raw_ocr_detections": 2,
+    "deduped_ocr_detections": 2,
+    "num_texts": 2,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.98
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 13812,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 2,
+    "rejected_components": 0,
+    "num_regions": 2
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        57,
+        1952,
+        783,
+        2055
+      ],
+      "tight_ink_bbox": [
+        124,
+        1985,
+        715,
+        2021
+      ],
+      "width": 726,
+      "height": 103,
+      "area": 74778,
+      "ink_pixels": 2693,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 319,
+      "num_texts": 1
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        163,
+        2104,
+        959,
+        2205
+      ],
+      "tight_ink_bbox": [
+        230,
+        2137,
+        891,
+        2171
+      ],
+      "width": 796,
+      "height": 101,
+      "area": 80396,
+      "ink_pixels": 11119,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 655,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_042_text_0001",
+      "text": "Starting Circuit, W/ M/T",
+      "confidence": 0.9993487000465393,
+      "bbox": [
+        116,
+        1978,
+        720,
+        2024
+      ],
+      "polygon": [
+        [
+          116,
+          1979
+        ],
+        [
+          719,
+          1978
+        ],
+        [
+          719,
+          2022
+        ],
+        [
+          116,
+          2023
+        ]
+      ]
+    },
+    {
+      "id": "page_042_text_0002",
+      "text": "SUPPLEMENTAL RESTRAINTS",
+      "confidence": 0.9999502301216125,
+      "bbox": [
+        224,
+        2132,
+        896,
+        2183
+      ],
+      "polygon": [
+        [
+          224,
+          2132
+        ],
+        [
+          895,
+          2132
+        ],
+        [
+          895,
+          2182
+        ],
+        [
+          224,
+          2182
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "page": 27,
+  "image_width": 2550,
+  "image_height": 3300,
+  "source_image": "outputs/01_circuit/bmw-328i-1997/sheet_images/page_027.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 1,
+    "raw_ocr_detections": 3,
+    "deduped_ocr_detections": 3,
+    "num_texts": 3,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.9
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 27950,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 1,
+    "rejected_components": 0,
+    "num_regions": 1
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        808,
+        125,
+        1714,
+        337
+      ],
+      "tight_ink_bbox": [
+        875,
+        158,
+        1646,
+        303
+      ],
+      "width": 906,
+      "height": 212,
+      "area": 192072,
+      "ink_pixels": 27950,
+      "raw_ocr_detections": 3,
+      "ocr_elapsed_ms": 893,
+      "num_texts": 3
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_027_text_0001",
+      "text": "SYSTEM WIRING DIAGRAMS",
+      "confidence": 0.9998524188995361,
+      "bbox": [
+        914,
+        149,
+        1604,
+        204
+      ],
+      "polygon": [
+        [
+          914,
+          149
+        ],
+        [
+          1603,
+          149
+        ],
+        [
+          1603,
+          203
+        ],
+        [
+          914,
+          203
+        ]
+      ]
+    },
+    {
+      "id": "page_027_text_0002",
+      "text": "Instrument Cluster Circuit (1 of 2)",
+      "confidence": 0.9998042583465576,
+      "bbox": [
+        862,
+        200,
+        1655,
+        268
+      ],
+      "polygon": [
+        [
+          863,
+          200
+        ],
+        [
+          1654,
+          205
+        ],
+        [
+          1654,
+          267
+        ],
+        [
+          862,
+          262
+        ]
+      ]
+    },
+    {
+      "id": "page_027_text_0003",
+      "text": "1997 BMW 328i",
+      "confidence": 0.9994955062866211,
+      "bbox": [
+        1101,
+        260,
+        1421,
+        310
+      ],
+      "polygon": [
+        [
+          1101,
+          260
+        ],
+        [
+          1420,
+          260
+        ],
+        [
+          1420,
+          309
+        ],
+        [
+          1101,
+          309
+        ]
+      ]
+    }
+  ]
+}

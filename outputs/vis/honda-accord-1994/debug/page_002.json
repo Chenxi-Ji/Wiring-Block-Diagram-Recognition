@@ -1,0 +1,66 @@
+{
+  "pdf": "honda-accord-1994.pdf",
+  "page": 2,
+  "stage": "vis",
+  "source_json_paths": {
+    "03_rect": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\honda-accord-1994\\json\\page_002.json",
+    "04_wire": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\04_wire\\honda-accord-1994\\json\\page_002.json",
+    "05_endpoint": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\05_endpoint\\honda-accord-1994\\json\\page_002.json",
+    "06_text": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\honda-accord-1994\\json\\page_002.json"
+  },
+  "source_debug_paths": {
+    "03_rect": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\honda-accord-1994\\debug\\page_002.json",
+    "04_wire": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\04_wire\\honda-accord-1994\\debug\\page_002.json",
+    "05_endpoint": null,
+    "06_text": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\honda-accord-1994\\debug\\page_002.json"
+  },
+  "input_images": {
+    "base_01_circuit": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\01_circuit\\honda-accord-1994\\circuit_images\\page_002.png",
+    "final_06_text_circuit": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\honda-accord-1994\\circuit_images\\page_002.png",
+    "rect_mask": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\honda-accord-1994\\masks\\page_002.png"
+  },
+  "output_images": {
+    "review": "images/page_002.png",
+    "circuit": "circuit_images/page_002.png"
+  },
+  "overlay_pixels_or_counts": {
+    "03_rect": 13951,
+    "04_wire": 122895,
+    "05_endpoint": 3238,
+    "06_text_boxes": 155
+  },
+  "counts": {
+    "rect_count": 18,
+    "wire_count": 99,
+    "endpoint_object_count": 72,
+    "endpoint_classification_count": 196,
+    "net_count": 21,
+    "text_count": 155,
+    "text_category_counts": {
+      "other_text": 87,
+      "wire_color": 53,
+      "number": 15
+    },
+    "endpoint_object_type_counts": {
+      "small_connected_structure": 64,
+      "arrow_structure": 1,
+      "connection_dot": 6,
+      "round_terminal_object": 1
+    },
+    "endpoint_classification_type_counts": {
+      "connected_endpoint": 152,
+      "disconnected_endpoint": 44
+    },
+    "wire_type_counts": {
+      "solid_wire_seed": 85,
+      "solid_wire_extension": 6,
+      "dashed_wire_group": 8
+    }
+  },
+  "black_white_threshold": 245,
+  "notes": [
+    "images/page_NNN.png is an overlay only; no detection or connectivity is recomputed.",
+    "circuit_images/page_NNN.png is copied from 06_text/circuit_images and thresholded to black/white.",
+    "module_images are copied from 03_rect/module_images."
+  ]
+}

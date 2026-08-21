@@ -1,0 +1,67 @@
+{
+  "pdf": "bmw-328i-1997.pdf",
+  "page": 1,
+  "stage": "vis",
+  "source_json_paths": {
+    "03_rect": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\bmw-328i-1997\\json\\page_001.json",
+    "04_wire": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\04_wire\\bmw-328i-1997\\json\\page_001.json",
+    "05_endpoint": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\05_endpoint\\bmw-328i-1997\\json\\page_001.json",
+    "06_text": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\bmw-328i-1997\\json\\page_001.json"
+  },
+  "source_debug_paths": {
+    "03_rect": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\bmw-328i-1997\\debug\\page_001.json",
+    "04_wire": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\04_wire\\bmw-328i-1997\\debug\\page_001.json",
+    "05_endpoint": null,
+    "06_text": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\bmw-328i-1997\\debug\\page_001.json"
+  },
+  "input_images": {
+    "base_01_circuit": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\01_circuit\\bmw-328i-1997\\circuit_images\\page_001.png",
+    "final_06_text_circuit": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\bmw-328i-1997\\circuit_images\\page_001.png",
+    "rect_mask": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\03_rect\\bmw-328i-1997\\masks\\page_001.png"
+  },
+  "output_images": {
+    "review": "images/page_001.png",
+    "circuit": "circuit_images/page_001.png"
+  },
+  "overlay_pixels_or_counts": {
+    "03_rect": 37052,
+    "04_wire": 314690,
+    "05_endpoint": 10258,
+    "06_text_boxes": 363
+  },
+  "counts": {
+    "rect_count": 27,
+    "wire_count": 221,
+    "endpoint_object_count": 148,
+    "endpoint_classification_count": 421,
+    "net_count": 39,
+    "text_count": 363,
+    "text_category_counts": {
+      "other_text": 168,
+      "number": 65,
+      "wire_color": 130
+    },
+    "endpoint_object_type_counts": {
+      "small_connected_structure": 130,
+      "arrow_structure": 4,
+      "round_terminal_object": 3,
+      "connection_dot": 11
+    },
+    "endpoint_classification_type_counts": {
+      "connected_endpoint": 355,
+      "disconnected_endpoint": 66
+    },
+    "wire_type_counts": {
+      "solid_wire_seed": 198,
+      "solid_wire_extension": 14,
+      "solid_wire_diagonal_extension": 3,
+      "dashed_wire_group": 6
+    }
+  },
+  "black_white_threshold": 245,
+  "notes": [
+    "images/page_NNN.png is an overlay only; no detection or connectivity is recomputed.",
+    "circuit_images/page_NNN.png is copied from 06_text/circuit_images and thresholded to black/white.",
+    "module_images are copied from 03_rect/module_images."
+  ]
+}

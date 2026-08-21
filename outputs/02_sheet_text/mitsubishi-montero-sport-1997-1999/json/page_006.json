@@ -1,0 +1,149 @@
+{
+  "page": 6,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_006.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 2,
+    "raw_ocr_detections": 2,
+    "deduped_ocr_detections": 2,
+    "num_texts": 2,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.781
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 11501,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 2,
+    "rejected_components": 0,
+    "num_regions": 2
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        55,
+        2891,
+        732,
+        2992
+      ],
+      "tight_ink_bbox": [
+        122,
+        2924,
+        664,
+        2958
+      ],
+      "width": 677,
+      "height": 101,
+      "area": 68377,
+      "ink_pixels": 2788,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 463,
+      "num_texts": 1
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        163,
+        3041,
+        832,
+        3142
+      ],
+      "tight_ink_bbox": [
+        230,
+        3074,
+        764,
+        3108
+      ],
+      "width": 669,
+      "height": 101,
+      "area": 67569,
+      "ink_pixels": 8713,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 310,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_006_text_0001",
+      "text": "Body Computer Circuits",
+      "confidence": 0.999855101108551,
+      "bbox": [
+        114,
+        2916,
+        670,
+        2961
+      ],
+      "polygon": [
+        [
+          114,
+          2918
+        ],
+        [
+          668,
+          2916
+        ],
+        [
+          669,
+          2958
+        ],
+        [
+          115,
+          2960
+        ]
+      ]
+    },
+    {
+      "id": "page_006_text_0002",
+      "text": "COMPUTER DATA LINES",
+      "confidence": 0.999701738357544,
+      "bbox": [
+        225,
+        3068,
+        769,
+        3119
+      ],
+      "polygon": [
+        [
+          225,
+          3068
+        ],
+        [
+          768,
+          3068
+        ],
+        [
+          768,
+          3118
+        ],
+        [
+          225,
+          3118
+        ]
+      ]
+    }
+  ]
+}

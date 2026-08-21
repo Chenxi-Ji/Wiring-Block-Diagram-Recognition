@@ -1,0 +1,149 @@
+{
+  "page": 35,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_035.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 2,
+    "raw_ocr_detections": 2,
+    "deduped_ocr_detections": 2,
+    "num_texts": 2,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.961
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 11547,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 2,
+    "rejected_components": 0,
+    "num_regions": 2
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        55,
+        2891,
+        1048,
+        2989
+      ],
+      "tight_ink_bbox": [
+        122,
+        2924,
+        980,
+        2955
+      ],
+      "width": 993,
+      "height": 98,
+      "area": 97314,
+      "ink_pixels": 3792,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 398,
+      "num_texts": 1
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        165,
+        3041,
+        780,
+        3142
+      ],
+      "tight_ink_bbox": [
+        232,
+        3074,
+        712,
+        3108
+      ],
+      "width": 615,
+      "height": 101,
+      "area": 62115,
+      "ink_pixels": 7755,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 556,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_035_text_0001",
+      "text": "Power Distribution Circuit (2 of 2)",
+      "confidence": 0.9880785346031189,
+      "bbox": [
+        113,
+        2913,
+        990,
+        2962
+      ],
+      "polygon": [
+        [
+          113,
+          2913
+        ],
+        [
+          989,
+          2913
+        ],
+        [
+          989,
+          2961
+        ],
+        [
+          113,
+          2961
+        ]
+      ]
+    },
+    {
+      "id": "page_035_text_0002",
+      "text": "POWER DOOR LOCKS",
+      "confidence": 0.9999321699142456,
+      "bbox": [
+        222,
+        3063,
+        719,
+        3117
+      ],
+      "polygon": [
+        [
+          222,
+          3063
+        ],
+        [
+          718,
+          3065
+        ],
+        [
+          718,
+          3116
+        ],
+        [
+          222,
+          3114
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "pdf": "mitsubishi-montero-sport-1997-1999.pdf",
+  "stage": "06_text",
+  "input_stage": "05_endpoint",
+  "input_circuit_images": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\05_endpoint\\mitsubishi-montero-sport-1997-1999\\circuit_images",
+  "output_root": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\mitsubishi-montero-sport-1997-1999",
+  "pages": [
+    {
+      "page": 1,
+      "num_texts": 129,
+      "category_counts": {
+        "other_text": 116,
+        "wire_color": 5,
+        "number": 8
+      },
+      "erased_count": 69,
+      "review_image_path": "images/page_001.png",
+      "circuit_image_path": "circuit_images/page_001.png",
+      "json_path": "json/page_001.json",
+      "debug_path": "debug/page_001.json"
+    },
+    {
+      "page": 2,
+      "num_texts": 95,
+      "category_counts": {
+        "other_text": 56,
+        "number": 20,
+        "wire_color": 19
+      },
+      "erased_count": 91,
+      "review_image_path": "images/page_002.png",
+      "circuit_image_path": "circuit_images/page_002.png",
+      "json_path": "json/page_002.json",
+      "debug_path": "debug/page_002.json"
+    },
+    {
+      "page": 3,
+      "num_texts": 74,
+      "category_counts": {
+        "other_text": 41,
+        "number": 16,
+        "wire_color": 17
+      },
+      "erased_count": 73,
+      "review_image_path": "images/page_003.png",
+      "circuit_image_path": "circuit_images/page_003.png",
+      "json_path": "json/page_003.json",
+      "debug_path": "debug/page_003.json"
+    },
+    {
+      "page": 4,
+      "num_texts": 192,
+      "category_counts": {
+        "other_text": 149,
+        "wire_color": 26,
+        "number": 17
+      },
+      "erased_count": 159,
+      "review_image_path": "images/page_004.png",
+      "circuit_image_path": "circuit_images/page_004.png",
+      "json_path": "json/page_004.json",
+      "debug_path": "debug/page_004.json"
+    },
+    {
+      "page": 5,
+      "num_texts": 183,
+      "category_counts": {
+        "other_text": 134,
+        "wire_color": 15,
+        "number": 34
+      },
+      "erased_count": 136,
+      "review_image_path": "images/page_005.png",
+      "circuit_image_path": "circuit_images/page_005.png",
+      "json_path": "json/page_005.json",
+      "debug_path": "debug/page_005.json"
+    }
+  ],
+  "category_counts": {
+    "other_text": 496,
+    "wire_color": 82,
+    "number": 95
+  },
+  "total_erased": 528,
+  "config": {
+    "dpi": 300,
+    "lang": "en",
+    "min_confidence": 0.35,
+    "erase_min_confidence": 0.8,
+    "text_gray_threshold": 245,
+    "erase_ink_pad_px": 1,
+    "line_probe_pad_px": 10,
+    "line_shape_min_aspect_ratio": 4.0,
+    "line_shape_max_thickness_px": 5,
+    "line_shape_min_length_px": 22,
+    "edge_divider_coverage_ratio": 0.92,
+    "edge_divider_band_px": 3,
+    "thick_line_min_thickness_px": 6,
+    "thick_line_min_fill_ratio": 0.85,
+    "tight_crossing_line_min_alnum": 3,
+    "text_det_limit_side_len": 4000,
+    "text_det_thresh": 0.25,
+    "text_det_box_thresh": 0.42,
+    "text_det_unclip_ratio": 1.8,
+    "use_clahe": true,
+    "refined_ink_padding_px": 2,
+    "dedupe_iou_threshold": 0.82,
+    "max_text_height_ratio": 1.3,
+    "strong_text_height_ratio": 1.8,
+    "short_text_max_alnum": 3,
+    "single_letter_min_confidence": 0.95,
+    "single_digit_min_confidence": 0.85,
+    "short_alnum_min_confidence": 0.8,
+    "short_wire_color_min_confidence": 0.55
+  },
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.35,
+    "text_det_limit_side_len": 4000,
+    "text_det_thresh": 0.25,
+    "text_det_box_thresh": 0.42,
+    "text_det_unclip_ratio": 1.8
+  }
+}

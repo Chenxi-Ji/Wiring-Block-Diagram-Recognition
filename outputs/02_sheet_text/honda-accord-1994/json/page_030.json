@@ -1,0 +1,294 @@
+{
+  "page": 30,
+  "image_width": 2550,
+  "image_height": 4200,
+  "source_image": "outputs/01_circuit/honda-accord-1994/sheet_images/page_030.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 2,
+    "raw_ocr_detections": 7,
+    "deduped_ocr_detections": 7,
+    "num_texts": 7,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 2.238
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 41337,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 3,
+    "rejected_components": 1,
+    "num_regions": 2
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        870,
+        50,
+        1679,
+        403
+      ],
+      "tight_ink_bbox": [
+        937,
+        83,
+        1611,
+        369
+      ],
+      "width": 809,
+      "height": 353,
+      "area": 285577,
+      "ink_pixels": 35913,
+      "raw_ocr_detections": 6,
+      "ocr_elapsed_ms": 1343,
+      "num_texts": 6
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        10,
+        2450,
+        1110,
+        2553
+      ],
+      "tight_ink_bbox": [
+        77,
+        2483,
+        1042,
+        2519
+      ],
+      "width": 1100,
+      "height": 103,
+      "area": 113300,
+      "ink_pixels": 5422,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 882,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_030_text_0001",
+      "text": "SYSTEM WIRING DIAGRAMS",
+      "confidence": 0.9999703764915466,
+      "bbox": [
+        930,
+        71,
+        1617,
+        128
+      ],
+      "polygon": [
+        [
+          930,
+          71
+        ],
+        [
+          1616,
+          73
+        ],
+        [
+          1616,
+          127
+        ],
+        [
+          930,
+          125
+        ]
+      ]
+    },
+    {
+      "id": "page_030_text_0002",
+      "text": "Article Text (p. 30)",
+      "confidence": 0.9982591867446899,
+      "bbox": [
+        1053,
+        126,
+        1493,
+        194
+      ],
+      "polygon": [
+        [
+          1053,
+          126
+        ],
+        [
+          1492,
+          128
+        ],
+        [
+          1492,
+          193
+        ],
+        [
+          1053,
+          190
+        ]
+      ]
+    },
+    {
+      "id": "page_030_text_0003",
+      "text": "1994 Honda Accord",
+      "confidence": 0.9999806880950928,
+      "bbox": [
+        1081,
+        186,
+        1474,
+        236
+      ],
+      "polygon": [
+        [
+          1081,
+          186
+        ],
+        [
+          1473,
+          186
+        ],
+        [
+          1473,
+          235
+        ],
+        [
+          1081,
+          235
+        ]
+      ]
+    },
+    {
+      "id": "page_030_text_0004",
+      "text": "For",
+      "confidence": 0.9999890327453613,
+      "bbox": [
+        1205,
+        234,
+        1289,
+        289
+      ],
+      "polygon": [
+        [
+          1205,
+          234
+        ],
+        [
+          1288,
+          234
+        ],
+        [
+          1288,
+          288
+        ],
+        [
+          1205,
+          288
+        ]
+      ]
+    },
+    {
+      "id": "page_030_text_0005",
+      "text": "Copyright © 1998 Mitchell International",
+      "confidence": 0.9998576045036316,
+      "bbox": [
+        967,
+        284,
+        1584,
+        332
+      ],
+      "polygon": [
+        [
+          967,
+          284
+        ],
+        [
+          1583,
+          284
+        ],
+        [
+          1583,
+          331
+        ],
+        [
+          967,
+          331
+        ]
+      ]
+    },
+    {
+      "id": "page_030_text_0006",
+      "text": "Wednesday, February 10, 1999 09:14AM",
+      "confidence": 0.9984157085418701,
+      "bbox": [
+        939,
+        327,
+        1612,
+        372
+      ],
+      "polygon": [
+        [
+          939,
+          327
+        ],
+        [
+          1611,
+          327
+        ],
+        [
+          1611,
+          371
+        ],
+        [
+          939,
+          371
+        ]
+      ]
+    },
+    {
+      "id": "page_030_text_0007",
+      "text": "Power Distribution Circuit (1 of 4)",
+      "confidence": 0.9999142289161682,
+      "bbox": [
+        68,
+        2473,
+        1051,
+        2527
+      ],
+      "polygon": [
+        [
+          68,
+          2473
+        ],
+        [
+          1050,
+          2473
+        ],
+        [
+          1050,
+          2526
+        ],
+        [
+          68,
+          2526
+        ]
+      ]
+    }
+  ]
+}

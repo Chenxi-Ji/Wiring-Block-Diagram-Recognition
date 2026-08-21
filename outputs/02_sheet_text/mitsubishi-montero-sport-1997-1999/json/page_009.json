@@ -1,0 +1,149 @@
+{
+  "page": 9,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_009.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 2,
+    "raw_ocr_detections": 2,
+    "deduped_ocr_detections": 2,
+    "num_texts": 2,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.873
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 7492,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 2,
+    "rejected_components": 0,
+    "num_regions": 2
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        56,
+        2891,
+        732,
+        2985
+      ],
+      "tight_ink_bbox": [
+        123,
+        2924,
+        664,
+        2951
+      ],
+      "width": 676,
+      "height": 94,
+      "area": 63544,
+      "ink_pixels": 2459,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 504,
+      "num_texts": 1
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        165,
+        3041,
+        581,
+        3142
+      ],
+      "tight_ink_bbox": [
+        232,
+        3074,
+        513,
+        3108
+      ],
+      "width": 416,
+      "height": 101,
+      "area": 42016,
+      "ink_pixels": 5033,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 362,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_009_text_0001",
+      "text": "Cruise Control Circuit",
+      "confidence": 0.9999499917030334,
+      "bbox": [
+        116,
+        2917,
+        670,
+        2959
+      ],
+      "polygon": [
+        [
+          116,
+          2917
+        ],
+        [
+          669,
+          2917
+        ],
+        [
+          669,
+          2958
+        ],
+        [
+          116,
+          2958
+        ]
+      ]
+    },
+    {
+      "id": "page_009_text_0002",
+      "text": "DEFOGGERS",
+      "confidence": 0.9999358654022217,
+      "bbox": [
+        223,
+        3067,
+        520,
+        3119
+      ],
+      "polygon": [
+        [
+          223,
+          3067
+        ],
+        [
+          519,
+          3067
+        ],
+        [
+          519,
+          3118
+        ],
+        [
+          223,
+          3118
+        ]
+      ]
+    }
+  ]
+}

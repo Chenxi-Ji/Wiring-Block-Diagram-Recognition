@@ -1,0 +1,156 @@
+{
+  "page": 24,
+  "image_width": 2550,
+  "image_height": 3300,
+  "source_image": "outputs/01_circuit/bmw-328i-1997/sheet_images/page_024.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 1,
+    "raw_ocr_detections": 3,
+    "deduped_ocr_detections": 3,
+    "num_texts": 3,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.815
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 25269,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 1,
+    "rejected_components": 0,
+    "num_regions": 1
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        855,
+        125,
+        1664,
+        337
+      ],
+      "tight_ink_bbox": [
+        922,
+        158,
+        1596,
+        303
+      ],
+      "width": 809,
+      "height": 212,
+      "area": 171508,
+      "ink_pixels": 25269,
+      "raw_ocr_detections": 3,
+      "ocr_elapsed_ms": 809,
+      "num_texts": 3
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_024_text_0001",
+      "text": "SYSTEM WIRING DIAGRAMS",
+      "confidence": 0.9999765157699585,
+      "bbox": [
+        915,
+        149,
+        1603,
+        204
+      ],
+      "polygon": [
+        [
+          915,
+          149
+        ],
+        [
+          1602,
+          149
+        ],
+        [
+          1602,
+          203
+        ],
+        [
+          915,
+          203
+        ]
+      ]
+    },
+    {
+      "id": "page_024_text_0002",
+      "text": "Headlight Circuit (1 of 2)",
+      "confidence": 0.9949566125869751,
+      "bbox": [
+        967,
+        201,
+        1553,
+        271
+      ],
+      "polygon": [
+        [
+          968,
+          201
+        ],
+        [
+          1552,
+          204
+        ],
+        [
+          1551,
+          270
+        ],
+        [
+          967,
+          267
+        ]
+      ]
+    },
+    {
+      "id": "page_024_text_0003",
+      "text": "1997 BMW 328i",
+      "confidence": 0.9997908473014832,
+      "bbox": [
+        1100,
+        259,
+        1421,
+        312
+      ],
+      "polygon": [
+        [
+          1100,
+          259
+        ],
+        [
+          1420,
+          259
+        ],
+        [
+          1420,
+          311
+        ],
+        [
+          1100,
+          311
+        ]
+      ]
+    }
+  ]
+}

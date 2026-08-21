@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="840" viewBox="0 0 1500 840" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual comparison of text-first, component-first, and connectivity-first pipelines</title>
+  <desc id="desc">Three parallel method pipelines showing where each approach becomes difficult for dense automotive wiring diagrams.</desc>
+  <style>
+    .bg { fill: #fbfbf8; }
+    .card { fill: #ffffff; stroke: #cfd8dc; stroke-width: 2; rx: 16; }
+    .title { font: 700 34px Arial, sans-serif; fill: #172026; }
+    .subtitle { font: 400 20px Arial, sans-serif; fill: #455a64; }
+    .head { font: 700 27px Arial, sans-serif; fill: #172026; }
+    .box { fill: #f7f9fa; stroke: #aab7bd; stroke-width: 2; rx: 10; }
+    .boxText { font: 600 20px Arial, sans-serif; fill: #263238; }
+    .note { font: 400 18px Arial, sans-serif; fill: #546e7a; }
+    .warn { fill: #fff1f0; stroke: #e57373; stroke-width: 2; rx: 10; }
+    .warnText { font: 700 18px Arial, sans-serif; fill: #b71c1c; }
+    .arrow { stroke: #546e7a; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    .accentText { font: 700 18px Arial, sans-serif; fill: #00695c; }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#546e7a"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1500" height="840"/>
+  <text class="title" x="70" y="64">Three Reasonable Processing Orders</text>
+  <text class="subtitle" x="70" y="99">The issue is not whether these approaches are valid in general; the issue is where they start on this benchmark.</text>
+
+  <g transform="translate(70,145)">
+    <rect class="card" x="0" y="0" width="420" height="620" rx="16"/>
+    <text class="head" x="34" y="54">Text-first</text>
+    <text class="note" x="34" y="84">SINA-style ordering</text>
+    <rect class="box" x="56" y="120" width="308" height="54" rx="10"/>
+    <text class="boxText" x="210" y="154" text-anchor="middle">Original Image</text>
+    <path class="arrow" d="M210 181 L210 222"/>
+    <rect class="box" x="56" y="232" width="308" height="54" rx="10"/>
+    <text class="boxText" x="210" y="266" text-anchor="middle">Text Detection / OCR</text>
+    <path class="arrow" d="M210 293 L210 334"/>
+    <rect class="box" x="56" y="344" width="308" height="54" rx="10"/>
+    <text class="boxText" x="210" y="378" text-anchor="middle">Text Removal</text>
+    <path class="arrow" d="M210 405 L210 432"/>
+    <rect class="box" x="56" y="442" width="308" height="42" rx="10"/>
+    <text class="boxText" x="210" y="469" text-anchor="middle">Circuit Processing</text>
+    <rect class="warn" x="35" y="520" width="350" height="72" rx="10"/>
+    <text class="warnText" x="210" y="549" text-anchor="middle">Difficulty point</text>
+    <text class="note" x="210" y="577" text-anchor="middle">text is mixed with wires/components</text>
+  </g>
+
+  <g transform="translate(540,145)">
+    <rect class="card" x="0" y="0" width="420" height="620" rx="16"/>
+    <text class="head" x="34" y="54">Component-first</text>
+    <text class="note" x="34" y="84">Image2Net / Netlistify-style ordering</text>
+    <rect class="box" x="56" y="120" width="308" height="54" rx="10"/>
+    <text class="boxText" x="210" y="154" text-anchor="middle">Original Image</text>
+    <path class="arrow" d="M210 181 L210 222"/>
+    <rect class="box" x="56" y="232" width="308" height="54" rx="10"/>
+    <text class="boxText" x="210" y="266" text-anchor="middle">Component Detection</text>
+    <path class="arrow" d="M210 293 L210 334"/>
+    <rect class="box" x="56" y="344" width="308" height="54" rx="10"/>
+    <text class="boxText" x="210" y="378" text-anchor="middle">Removal / Classification</text>
+    <path class="arrow" d="M210 405 L210 432"/>
+    <rect class="box" x="56" y="442" width="308" height="42" rx="10"/>
+    <text class="boxText" x="210" y="469" text-anchor="middle">Wiring / Connectivity</text>
+    <rect class="warn" x="35" y="520" width="350" height="72" rx="10"/>
+    <text class="warnText" x="210" y="549" text-anchor="middle">Difficulty point</text>
+    <text class="note" x="210" y="577" text-anchor="middle">components are not isolated first</text>
+  </g>
+
+  <g transform="translate(1010,145)">
+    <rect class="card" x="0" y="0" width="420" height="620" rx="16"/>
+    <text class="head" x="34" y="54">Connectivity-first</text>
+    <text class="note" x="34" y="84">CCL / connectivity-oriented ordering</text>
+    <rect class="box" x="56" y="120" width="308" height="54" rx="10"/>
+    <text class="boxText" x="210" y="154" text-anchor="middle">Original Image</text>
+    <path class="arrow" d="M210 181 L210 222"/>
+    <rect class="box" x="56" y="232" width="308" height="54" rx="10"/>
+    <text class="boxText" x="210" y="266" text-anchor="middle">Wiring Extraction</text>
+    <path class="arrow" d="M210 293 L210 334"/>
+    <rect class="box" x="56" y="344" width="308" height="54" rx="10"/>
+    <text class="boxText" x="210" y="378" text-anchor="middle">CCL / Connectivity</text>
+    <path class="arrow" d="M210 405 L210 432"/>
+    <rect class="box" x="56" y="442" width="308" height="42" rx="10"/>
+    <text class="boxText" x="210" y="469" text-anchor="middle">Circuit Structure</text>
+    <rect class="warn" x="35" y="520" width="350" height="72" rx="10"/>
+    <text class="warnText" x="210" y="549" text-anchor="middle">Difficulty point</text>
+    <text class="note" x="210" y="577" text-anchor="middle">raw regions are visually tangled</text>
+  </g>
+
+  <text class="accentText" x="750" y="808" text-anchor="middle">Proposed response: simplify the image progressively before relying on local connectivity, OCR, and component recognition.</text>
+</svg>

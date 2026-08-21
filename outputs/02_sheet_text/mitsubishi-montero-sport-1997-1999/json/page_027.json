@@ -1,0 +1,149 @@
+{
+  "page": 27,
+  "image_width": 2550,
+  "image_height": 3158,
+  "source_image": "outputs/01_circuit/mitsubishi-montero-sport-1997-1999/sheet_images/page_027.png",
+  "ocr_engine": "PaddleOCR",
+  "ocr_kwargs": {
+    "lang": "en",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": true,
+    "text_rec_score_thresh": 0.0,
+    "text_det_limit_side_len": 4000,
+    "text_det_limit_type": "max",
+    "text_det_thresh": 0.2,
+    "text_det_box_thresh": 0.3,
+    "text_det_unclip_ratio": 1.8
+  },
+  "summary": {
+    "ocr_mode": "region_crops",
+    "num_ocr_regions": 2,
+    "raw_ocr_detections": 2,
+    "deduped_ocr_detections": 2,
+    "num_texts": 2,
+    "min_confidence": 0.0,
+    "ocr_elapsed_seconds": 0.929
+  },
+  "region_detection": {
+    "ink_threshold": 210,
+    "total_ink_pixels": 4547,
+    "region_merge_kernel": [
+      96,
+      28
+    ],
+    "region_merge_iterations": 1,
+    "region_padding": 20,
+    "region_merge_gap": 8,
+    "min_region_ink_pixels": 8,
+    "initial_components": 2,
+    "rejected_components": 0,
+    "num_regions": 2
+  },
+  "ocr_regions": [
+    {
+      "id": "region_001",
+      "bbox": [
+        56,
+        2890,
+        608,
+        2991
+      ],
+      "tight_ink_bbox": [
+        123,
+        2923,
+        540,
+        2957
+      ],
+      "width": 552,
+      "height": 101,
+      "area": 55752,
+      "ink_pixels": 2181,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 626,
+      "num_texts": 1
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        164,
+        3040,
+        426,
+        3141
+      ],
+      "tight_ink_bbox": [
+        231,
+        3073,
+        358,
+        3107
+      ],
+      "width": 262,
+      "height": 101,
+      "area": 26462,
+      "ink_pixels": 2366,
+      "raw_ocr_detections": 1,
+      "ocr_elapsed_ms": 295,
+      "num_texts": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": "page_027_text_0001",
+      "text": "Headlight Circuit",
+      "confidence": 0.9999730587005615,
+      "bbox": [
+        115,
+        2914,
+        546,
+        2964
+      ],
+      "polygon": [
+        [
+          115,
+          2916
+        ],
+        [
+          545,
+          2914
+        ],
+        [
+          545,
+          2960
+        ],
+        [
+          115,
+          2963
+        ]
+      ]
+    },
+    {
+      "id": "page_027_text_0002",
+      "text": "HORN",
+      "confidence": 0.9999765157699585,
+      "bbox": [
+        217,
+        3066,
+        369,
+        3126
+      ],
+      "polygon": [
+        [
+          217,
+          3066
+        ],
+        [
+          368,
+          3066
+        ],
+        [
+          368,
+          3125
+        ],
+        [
+          217,
+          3125
+        ]
+      ]
+    }
+  ]
+}

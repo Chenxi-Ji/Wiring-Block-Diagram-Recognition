@@ -1,0 +1,5967 @@
+{
+  "pdf": "mitsubishi-montero-sport-1997-1999.pdf",
+  "page": 3,
+  "stage": "06_text",
+  "source": {
+    "stage": "05_endpoint",
+    "circuit_image_path": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\05_endpoint\\mitsubishi-montero-sport-1997-1999\\circuit_images\\page_003.png"
+  },
+  "image_width": 2550,
+  "image_height": 3158,
+  "review_image_path": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\mitsubishi-montero-sport-1997-1999\\images\\page_003.png",
+  "circuit_image_path": "C:\\Users\\ChenxiJi\\Project\\ParseDiagram\\outputs\\06_text\\mitsubishi-montero-sport-1997-1999\\circuit_images\\page_003.png",
+  "summary": {
+    "num_texts": 74,
+    "category_counts": {
+      "other_text": 41,
+      "number": 16,
+      "wire_color": 17
+    },
+    "erased_count": 73,
+    "kept_not_erased_count": 1,
+    "erase_mask_pixels": 76959
+  },
+  "texts": [
+    {
+      "id": "p003_text_0001",
+      "type": "text",
+      "category": "other_text",
+      "text": "HOT IN RUN",
+      "normalized_text": "HOT IN RUN",
+      "ocr_confidence": 0.990587055683136,
+      "category_confidence": 0.72,
+      "bbox": [
+        344,
+        552,
+        490,
+        575
+      ],
+      "raw_bbox": [
+        339,
+        547,
+        494,
+        578
+      ],
+      "polygon": [
+        [
+          339,
+          547
+        ],
+        [
+          493,
+          547
+        ],
+        [
+          493,
+          577
+        ],
+        [
+          339,
+          577
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1254,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1254,
+          "raw_area_px": 4805,
+          "refined_area_px": 3358,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 31.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.2917,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "HOTINRUN"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0002",
+      "type": "text",
+      "category": "other_text",
+      "text": "HOT AT ALL TIMES",
+      "normalized_text": "HOT AT ALL TIMES",
+      "ocr_confidence": 0.9905611276626587,
+      "category_confidence": 0.72,
+      "bbox": [
+        1117,
+        552,
+        1345,
+        575
+      ],
+      "raw_bbox": [
+        1112,
+        547,
+        1349,
+        578
+      ],
+      "polygon": [
+        [
+          1112,
+          547
+        ],
+        [
+          1348,
+          547
+        ],
+        [
+          1348,
+          577
+        ],
+        [
+          1112,
+          577
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1584,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1584,
+          "raw_area_px": 7347,
+          "refined_area_px": 5244,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 31.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.2917,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "HOTATALLTIMES"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0003",
+      "type": "text",
+      "category": "other_text",
+      "text": "JUNCTION",
+      "normalized_text": "JUNCTION",
+      "ocr_confidence": 0.9989415407180786,
+      "category_confidence": 0.72,
+      "bbox": [
+        762,
+        583,
+        892,
+        608
+      ],
+      "raw_bbox": [
+        759,
+        579,
+        896,
+        610
+      ],
+      "polygon": [
+        [
+          759,
+          579
+        ],
+        [
+          895,
+          579
+        ],
+        [
+          895,
+          609
+        ],
+        [
+          759,
+          609
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1190,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1190,
+          "raw_area_px": 4247,
+          "refined_area_px": 3250,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 31.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.2917,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "JUNCTION"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0004",
+      "type": "text",
+      "category": "other_text",
+      "text": "DEDICATED",
+      "normalized_text": "DEDICATED",
+      "ocr_confidence": 0.9972779154777527,
+      "category_confidence": 0.72,
+      "bbox": [
+        1379,
+        583,
+        1533,
+        608
+      ],
+      "raw_bbox": [
+        1375,
+        579,
+        1536,
+        610
+      ],
+      "polygon": [
+        [
+          1375,
+          579
+        ],
+        [
+          1535,
+          579
+        ],
+        [
+          1535,
+          609
+        ],
+        [
+          1375,
+          609
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1500,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1500,
+          "raw_area_px": 4991,
+          "refined_area_px": 3850,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 31.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.2917,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "DEDICATED"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0005",
+      "type": "text",
+      "category": "other_text",
+      "text": "BLOCK",
+      "normalized_text": "BLOCK",
+      "ocr_confidence": 0.9997016191482544,
+      "category_confidence": 0.72,
+      "bbox": [
+        762,
+        618,
+        848,
+        641
+      ],
+      "raw_bbox": [
+        757,
+        613,
+        853,
+        645
+      ],
+      "polygon": [
+        [
+          757,
+          613
+        ],
+        [
+          852,
+          613
+        ],
+        [
+          852,
+          644
+        ],
+        [
+          757,
+          644
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 674,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 674,
+          "raw_area_px": 3072,
+          "refined_area_px": 1978,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 8,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 32.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.3333,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "BLOCK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0006",
+      "type": "text",
+      "category": "other_text",
+      "text": "FUSE",
+      "normalized_text": "FUSE",
+      "ocr_confidence": 0.9976845979690552,
+      "category_confidence": 0.72,
+      "bbox": [
+        1379,
+        618,
+        1447,
+        641
+      ],
+      "raw_bbox": [
+        1374,
+        612,
+        1452,
+        645
+      ],
+      "polygon": [
+        [
+          1374,
+          612
+        ],
+        [
+          1451,
+          612
+        ],
+        [
+          1451,
+          644
+        ],
+        [
+          1374,
+          644
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 538,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 538,
+          "raw_area_px": 2574,
+          "refined_area_px": 1564,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 5,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "FUSE"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0007",
+      "type": "text",
+      "category": "other_text",
+      "text": "REDV",
+      "normalized_text": "REDV",
+      "ocr_confidence": 0.8270381093025208,
+      "category_confidence": 0.72,
+      "bbox": [
+        1157,
+        762,
+        1223,
+        783
+      ],
+      "raw_bbox": [
+        1151,
+        756,
+        1228,
+        788
+      ],
+      "polygon": [
+        [
+          1151,
+          756
+        ],
+        [
+          1227,
+          756
+        ],
+        [
+          1227,
+          787
+        ],
+        [
+          1151,
+          787
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 478,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 478,
+          "raw_area_px": 2464,
+          "refined_area_px": 1386,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 21.0,
+          "raw_text_height_px": 32.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.875,
+          "raw_height_ratio": 1.3333,
+          "effective_height_ratio": 0.875,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "REDV"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0008",
+      "type": "text",
+      "category": "number",
+      "text": "14",
+      "normalized_text": "14",
+      "ocr_confidence": 0.9350172877311707,
+      "category_confidence": 0.9,
+      "bbox": [
+        360,
+        764,
+        414,
+        800
+      ],
+      "raw_bbox": [
+        343,
+        751,
+        429,
+        816
+      ],
+      "polygon": [
+        [
+          343,
+          770
+        ],
+        [
+          416,
+          751
+        ],
+        [
+          428,
+          795
+        ],
+        [
+          355,
+          815
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 279,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 279,
+          "raw_area_px": 5590,
+          "refined_area_px": 1944,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 2
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 36.0,
+          "raw_text_height_px": 65.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.5,
+          "raw_height_ratio": 2.7083,
+          "effective_height_ratio": 1.5,
+          "required_confidence": 0.8,
+          "confidence_rule": "short_alnum",
+          "alnum_text": "14"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0009",
+      "type": "text",
+      "category": "number",
+      "text": "13",
+      "normalized_text": "13",
+      "ocr_confidence": 0.8254655599594116,
+      "category_confidence": 0.9,
+      "bbox": [
+        656,
+        779,
+        686,
+        804
+      ],
+      "raw_bbox": [
+        651,
+        771,
+        694,
+        809
+      ],
+      "polygon": [
+        [
+          651,
+          771
+        ],
+        [
+          693,
+          771
+        ],
+        [
+          693,
+          808
+        ],
+        [
+          651,
+          808
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 230,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 230,
+          "raw_area_px": 1634,
+          "refined_area_px": 750,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 0,
+            "line_shaped_excluded_components": 1,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 2
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 38.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.5833,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.8,
+          "confidence_rule": "short_alnum",
+          "alnum_text": "13"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0010",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLK",
+      "normalized_text": "BLK",
+      "ocr_confidence": 0.9997987747192383,
+      "category_confidence": 0.98,
+      "bbox": [
+        1173,
+        796,
+        1223,
+        820
+      ],
+      "raw_bbox": [
+        1166,
+        789,
+        1229,
+        826
+      ],
+      "polygon": [
+        [
+          1166,
+          789
+        ],
+        [
+          1228,
+          789
+        ],
+        [
+          1228,
+          825
+        ],
+        [
+          1166,
+          825
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 436,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 436,
+          "raw_area_px": 2331,
+          "refined_area_px": 1200,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 5,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLK"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 37.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.5417,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0011",
+      "type": "text",
+      "category": "other_text",
+      "text": "BLUI",
+      "normalized_text": "BLUI",
+      "ocr_confidence": 0.9722709655761719,
+      "category_confidence": 0.72,
+      "bbox": [
+        632,
+        818,
+        696,
+        841
+      ],
+      "raw_bbox": [
+        626,
+        811,
+        702,
+        847
+      ],
+      "polygon": [
+        [
+          626,
+          811
+        ],
+        [
+          701,
+          811
+        ],
+        [
+          701,
+          846
+        ],
+        [
+          626,
+          846
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 500,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 500,
+          "raw_area_px": 2736,
+          "refined_area_px": 1472,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 5,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 36.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.5,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "BLUI"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0012",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLU",
+      "normalized_text": "BLU",
+      "ocr_confidence": 0.9998264312744141,
+      "category_confidence": 0.98,
+      "bbox": [
+        352,
+        827,
+        404,
+        849
+      ],
+      "raw_bbox": [
+        346,
+        819,
+        410,
+        855
+      ],
+      "polygon": [
+        [
+          346,
+          819
+        ],
+        [
+          409,
+          819
+        ],
+        [
+          409,
+          854
+        ],
+        [
+          346,
+          854
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 404,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 404,
+          "raw_area_px": 2304,
+          "refined_area_px": 1144,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 1,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLU"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 22.0,
+          "raw_text_height_px": 36.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9167,
+          "raw_height_ratio": 1.5,
+          "effective_height_ratio": 0.9167,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLU"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0013",
+      "type": "text",
+      "category": "wire_color",
+      "text": "RED",
+      "normalized_text": "RED",
+      "ocr_confidence": 0.9999601244926453,
+      "category_confidence": 0.98,
+      "bbox": [
+        638,
+        851,
+        696,
+        876
+      ],
+      "raw_bbox": [
+        631,
+        845,
+        702,
+        881
+      ],
+      "polygon": [
+        [
+          631,
+          845
+        ],
+        [
+          701,
+          845
+        ],
+        [
+          701,
+          880
+        ],
+        [
+          631,
+          880
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 644,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 644,
+          "raw_area_px": 2556,
+          "refined_area_px": 1450,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 4,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "RED"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 36.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.5,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "RED"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0014",
+      "type": "text",
+      "category": "number",
+      "text": "4",
+      "normalized_text": "4",
+      "ocr_confidence": 0.9997805953025818,
+      "category_confidence": 0.9,
+      "bbox": [
+        376,
+        862,
+        392,
+        886
+      ],
+      "raw_bbox": [
+        372,
+        859,
+        398,
+        889
+      ],
+      "polygon": [
+        [
+          372,
+          859
+        ],
+        [
+          397,
+          859
+        ],
+        [
+          397,
+          888
+        ],
+        [
+          372,
+          888
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 132,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 132,
+          "raw_area_px": 780,
+          "refined_area_px": 384,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 16.0,
+          "raw_text_height_px": 26.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.6667,
+          "raw_height_ratio": 1.0833,
+          "effective_height_ratio": 0.6667,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "4"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0015",
+      "type": "text",
+      "category": "other_text",
+      "text": "JIC1",
+      "normalized_text": "JIC1",
+      "ocr_confidence": 0.9439288973808289,
+      "category_confidence": 0.72,
+      "bbox": [
+        474,
+        888,
+        532,
+        911
+      ],
+      "raw_bbox": [
+        468,
+        880,
+        538,
+        916
+      ],
+      "polygon": [
+        [
+          468,
+          880
+        ],
+        [
+          537,
+          880
+        ],
+        [
+          537,
+          915
+        ],
+        [
+          468,
+          915
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 356,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 356,
+          "raw_area_px": 2520,
+          "refined_area_px": 1334,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 6,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 36.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.5,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.8,
+          "confidence_rule": "short_digit_letter",
+          "alnum_text": "JIC1"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0016",
+      "type": "text",
+      "category": "other_text",
+      "text": "(RIGHT",
+      "normalized_text": "(RIGHT",
+      "ocr_confidence": 0.9660486578941345,
+      "category_confidence": 0.72,
+      "bbox": [
+        482,
+        921,
+        560,
+        946
+      ],
+      "raw_bbox": [
+        467,
+        912,
+        566,
+        954
+      ],
+      "polygon": [
+        [
+          467,
+          914
+        ],
+        [
+          564,
+          912
+        ],
+        [
+          565,
+          951
+        ],
+        [
+          468,
+          953
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 776,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 776,
+          "raw_area_px": 4158,
+          "refined_area_px": 1950,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 10,
+            "line_shaped_excluded_components": 1,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 42.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.75,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "RIGHT"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0017",
+      "type": "text",
+      "category": "other_text",
+      "text": "KICK",
+      "normalized_text": "KICK",
+      "ocr_confidence": 0.9999749660491943,
+      "category_confidence": 0.72,
+      "bbox": [
+        474,
+        957,
+        532,
+        979
+      ],
+      "raw_bbox": [
+        469,
+        951,
+        538,
+        984
+      ],
+      "polygon": [
+        [
+          469,
+          951
+        ],
+        [
+          537,
+          951
+        ],
+        [
+          537,
+          983
+        ],
+        [
+          469,
+          983
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 436,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 436,
+          "raw_area_px": 2277,
+          "refined_area_px": 1276,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 7,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 22.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9167,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 0.9167,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "KICK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0018",
+      "type": "text",
+      "category": "other_text",
+      "text": "PANEL)",
+      "normalized_text": "PANEL)",
+      "ocr_confidence": 0.9897355437278748,
+      "category_confidence": 0.72,
+      "bbox": [
+        474,
+        992,
+        556,
+        1016
+      ],
+      "raw_bbox": [
+        467,
+        985,
+        571,
+        1025
+      ],
+      "polygon": [
+        [
+          467,
+          985
+        ],
+        [
+          570,
+          985
+        ],
+        [
+          570,
+          1024
+        ],
+        [
+          467,
+          1024
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 748,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 748,
+          "raw_area_px": 4160,
+          "refined_area_px": 1968,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 6,
+            "line_shaped_excluded_components": 1,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 40.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.6667,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "PANEL"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0019",
+      "type": "text",
+      "category": "number",
+      "text": "1",
+      "normalized_text": "1",
+      "ocr_confidence": 0.9601055979728699,
+      "category_confidence": 0.9,
+      "bbox": [
+        372,
+        1008,
+        382,
+        1031
+      ],
+      "raw_bbox": [
+        368,
+        1004,
+        389,
+        1035
+      ],
+      "polygon": [
+        [
+          368,
+          1004
+        ],
+        [
+          388,
+          1004
+        ],
+        [
+          388,
+          1034
+        ],
+        [
+          368,
+          1034
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 54,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 54,
+          "raw_area_px": 651,
+          "refined_area_px": 230,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_cols"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "vertical"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 10.0,
+          "raw_text_height_px": 21.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.4167,
+          "raw_height_ratio": 0.875,
+          "effective_height_ratio": 0.4167,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "1"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0020",
+      "type": "text",
+      "category": "other_text",
+      "text": "REDV",
+      "normalized_text": "REDV",
+      "ocr_confidence": 0.8316974639892578,
+      "category_confidence": 0.72,
+      "bbox": [
+        1157,
+        1045,
+        1223,
+        1070
+      ],
+      "raw_bbox": [
+        1151,
+        1038,
+        1229,
+        1075
+      ],
+      "polygon": [
+        [
+          1151,
+          1038
+        ],
+        [
+          1228,
+          1038
+        ],
+        [
+          1228,
+          1074
+        ],
+        [
+          1151,
+          1074
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 588,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 588,
+          "raw_area_px": 2886,
+          "refined_area_px": 1650,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 4,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 37.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.5417,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "REDV"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0021",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLU",
+      "normalized_text": "BLU",
+      "ocr_confidence": 0.9932539463043213,
+      "category_confidence": 0.98,
+      "bbox": [
+        346,
+        1056,
+        408,
+        1078
+      ],
+      "raw_bbox": [
+        339,
+        1048,
+        414,
+        1084
+      ],
+      "polygon": [
+        [
+          339,
+          1048
+        ],
+        [
+          413,
+          1048
+        ],
+        [
+          413,
+          1083
+        ],
+        [
+          339,
+          1083
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 468,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 468,
+          "raw_area_px": 2700,
+          "refined_area_px": 1364,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 3,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLU"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 22.0,
+          "raw_text_height_px": 36.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9167,
+          "raw_height_ratio": 1.5,
+          "effective_height_ratio": 0.9167,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLU"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0022",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLK",
+      "normalized_text": "BLK",
+      "ocr_confidence": 0.9983546733856201,
+      "category_confidence": 0.98,
+      "bbox": [
+        1173,
+        1080,
+        1223,
+        1103
+      ],
+      "raw_bbox": [
+        1166,
+        1073,
+        1227,
+        1107
+      ],
+      "polygon": [
+        [
+          1166,
+          1073
+        ],
+        [
+          1226,
+          1073
+        ],
+        [
+          1226,
+          1106
+        ],
+        [
+          1166,
+          1106
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 404,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 404,
+          "raw_area_px": 2074,
+          "refined_area_px": 1150,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 5,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLK"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 34.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.4167,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0023",
+      "type": "text",
+      "category": "wire_color",
+      "text": "RED",
+      "normalized_text": "RED",
+      "ocr_confidence": 0.9999024271965027,
+      "category_confidence": 0.98,
+      "bbox": [
+        352,
+        1089,
+        408,
+        1113
+      ],
+      "raw_bbox": [
+        346,
+        1082,
+        414,
+        1119
+      ],
+      "polygon": [
+        [
+          346,
+          1082
+        ],
+        [
+          413,
+          1082
+        ],
+        [
+          413,
+          1118
+        ],
+        [
+          346,
+          1118
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 568,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 568,
+          "raw_area_px": 2516,
+          "refined_area_px": 1344,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 4,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "RED"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 37.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.5417,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "RED"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0024",
+      "type": "text",
+      "category": "number",
+      "text": "4",
+      "normalized_text": "4",
+      "ocr_confidence": 0.9999498128890991,
+      "category_confidence": 0.9,
+      "bbox": [
+        368,
+        1132,
+        386,
+        1153
+      ],
+      "raw_bbox": [
+        362,
+        1127,
+        392,
+        1158
+      ],
+      "polygon": [
+        [
+          362,
+          1127
+        ],
+        [
+          391,
+          1127
+        ],
+        [
+          391,
+          1157
+        ],
+        [
+          362,
+          1157
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 110,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 110,
+          "raw_area_px": 930,
+          "refined_area_px": 378,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 21.0,
+          "raw_text_height_px": 31.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.875,
+          "raw_height_ratio": 1.2917,
+          "effective_height_ratio": 0.875,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "4"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0025",
+      "type": "text",
+      "category": "number",
+      "text": "3",
+      "normalized_text": "3",
+      "ocr_confidence": 0.9729278087615967,
+      "category_confidence": 0.9,
+      "bbox": [
+        1185,
+        1140,
+        1203,
+        1163
+      ],
+      "raw_bbox": [
+        1180,
+        1136,
+        1207,
+        1166
+      ],
+      "polygon": [
+        [
+          1180,
+          1136
+        ],
+        [
+          1206,
+          1136
+        ],
+        [
+          1206,
+          1165
+        ],
+        [
+          1180,
+          1165
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 104,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 104,
+          "raw_area_px": 810,
+          "refined_area_px": 414,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 30.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.25,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "3"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0026",
+      "type": "text",
+      "category": "other_text",
+      "text": "REAR HEATER",
+      "normalized_text": "REAR HEATER",
+      "ocr_confidence": 0.9714561700820923,
+      "category_confidence": 0.72,
+      "bbox": [
+        1319,
+        1175,
+        1503,
+        1198
+      ],
+      "raw_bbox": [
+        1315,
+        1170,
+        1506,
+        1201
+      ],
+      "polygon": [
+        [
+          1315,
+          1170
+        ],
+        [
+          1505,
+          1170
+        ],
+        [
+          1505,
+          1200
+        ],
+        [
+          1315,
+          1200
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1670,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1670,
+          "raw_area_px": 5921,
+          "refined_area_px": 4232,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 31.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.2917,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "REARHEATER"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0027",
+      "type": "text",
+      "category": "other_text",
+      "text": "RELAY",
+      "normalized_text": "RELAY",
+      "ocr_confidence": 0.9952449798583984,
+      "category_confidence": 0.72,
+      "bbox": [
+        1319,
+        1210,
+        1405,
+        1233
+      ],
+      "raw_bbox": [
+        1314,
+        1204,
+        1409,
+        1237
+      ],
+      "polygon": [
+        [
+          1314,
+          1204
+        ],
+        [
+          1408,
+          1204
+        ],
+        [
+          1408,
+          1236
+        ],
+        [
+          1314,
+          1236
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 666,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 666,
+          "raw_area_px": 3135,
+          "refined_area_px": 1978,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 18,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "RELAY"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0028",
+      "type": "text",
+      "category": "other_text",
+      "text": "(BEHIND RIGHT",
+      "normalized_text": "(BEHIND RIGHT",
+      "ocr_confidence": 0.9972105026245117,
+      "category_confidence": 0.72,
+      "bbox": [
+        1329,
+        1244,
+        1509,
+        1268
+      ],
+      "raw_bbox": [
+        1314,
+        1239,
+        1513,
+        1275
+      ],
+      "polygon": [
+        [
+          1314,
+          1239
+        ],
+        [
+          1512,
+          1239
+        ],
+        [
+          1512,
+          1274
+        ],
+        [
+          1314,
+          1274
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1732,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1732,
+          "raw_area_px": 7164,
+          "refined_area_px": 4320,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 17,
+            "line_shaped_excluded_components": 1,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 36.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.5,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "BEHINDRIGHT"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0029",
+      "type": "text",
+      "category": "other_text",
+      "text": "SIDE OF IVP)",
+      "normalized_text": "SIDE OF IVP)",
+      "ocr_confidence": 0.909989595413208,
+      "category_confidence": 0.72,
+      "bbox": [
+        1319,
+        1279,
+        1469,
+        1309
+      ],
+      "raw_bbox": [
+        1312,
+        1271,
+        1475,
+        1313
+      ],
+      "polygon": [
+        [
+          1312,
+          1271
+        ],
+        [
+          1474,
+          1273
+        ],
+        [
+          1474,
+          1312
+        ],
+        [
+          1312,
+          1310
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1272,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1272,
+          "raw_area_px": 6846,
+          "refined_area_px": 4500,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 14,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 30.0,
+          "raw_text_height_px": 42.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.25,
+          "raw_height_ratio": 1.75,
+          "effective_height_ratio": 1.25,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "SIDEOFIVP"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0030",
+      "type": "text",
+      "category": "number",
+      "text": "2",
+      "normalized_text": "2",
+      "ocr_confidence": 0.999975323677063,
+      "category_confidence": 0.9,
+      "bbox": [
+        372,
+        1345,
+        390,
+        1369
+      ],
+      "raw_bbox": [
+        366,
+        1340,
+        395,
+        1373
+      ],
+      "polygon": [
+        [
+          366,
+          1340
+        ],
+        [
+          394,
+          1340
+        ],
+        [
+          394,
+          1372
+        ],
+        [
+          366,
+          1372
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 148,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 148,
+          "raw_area_px": 957,
+          "refined_area_px": 432,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "2"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0031",
+      "type": "text",
+      "category": "number",
+      "text": "1",
+      "normalized_text": "1",
+      "ocr_confidence": 0.9980676770210266,
+      "category_confidence": 0.9,
+      "bbox": [
+        1139,
+        1345,
+        1149,
+        1369
+      ],
+      "raw_bbox": [
+        1137,
+        1344,
+        1151,
+        1370
+      ],
+      "polygon": [
+        [
+          1137,
+          1344
+        ],
+        [
+          1150,
+          1344
+        ],
+        [
+          1150,
+          1369
+        ],
+        [
+          1137,
+          1369
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 80,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 80,
+          "raw_area_px": 364,
+          "refined_area_px": 240,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_cols"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "vertical"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 10.0,
+          "raw_text_height_px": 14.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.4167,
+          "raw_height_ratio": 0.5833,
+          "effective_height_ratio": 0.4167,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "1"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0032",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLK",
+      "normalized_text": "BLK",
+      "ocr_confidence": 0.9998685717582703,
+      "category_confidence": 0.98,
+      "bbox": [
+        356,
+        1403,
+        404,
+        1425
+      ],
+      "raw_bbox": [
+        348,
+        1394,
+        410,
+        1431
+      ],
+      "polygon": [
+        [
+          348,
+          1396
+        ],
+        [
+          408,
+          1394
+        ],
+        [
+          409,
+          1428
+        ],
+        [
+          350,
+          1430
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 400,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 400,
+          "raw_area_px": 2294,
+          "refined_area_px": 1056,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLK"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 22.0,
+          "raw_text_height_px": 37.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9167,
+          "raw_height_ratio": 1.5417,
+          "effective_height_ratio": 0.9167,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0033",
+      "type": "text",
+      "category": "other_text",
+      "text": "BLUI",
+      "normalized_text": "BLUI",
+      "ocr_confidence": 0.967250645160675,
+      "category_confidence": 0.72,
+      "bbox": [
+        1109,
+        1411,
+        1171,
+        1435
+      ],
+      "raw_bbox": [
+        1101,
+        1401,
+        1179,
+        1442
+      ],
+      "polygon": [
+        [
+          1101,
+          1403
+        ],
+        [
+          1176,
+          1401
+        ],
+        [
+          1178,
+          1439
+        ],
+        [
+          1102,
+          1441
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 536,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 536,
+          "raw_area_px": 3198,
+          "refined_area_px": 1488,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 4,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 41.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.7083,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "BLUI"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0034",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLK",
+      "normalized_text": "BLK",
+      "ocr_confidence": 0.9998318552970886,
+      "category_confidence": 0.98,
+      "bbox": [
+        1123,
+        1448,
+        1171,
+        1470
+      ],
+      "raw_bbox": [
+        1116,
+        1442,
+        1177,
+        1476
+      ],
+      "polygon": [
+        [
+          1116,
+          1442
+        ],
+        [
+          1176,
+          1442
+        ],
+        [
+          1176,
+          1475
+        ],
+        [
+          1116,
+          1475
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 384,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 384,
+          "raw_area_px": 2074,
+          "refined_area_px": 1056,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 4,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLK"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 22.0,
+          "raw_text_height_px": 34.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9167,
+          "raw_height_ratio": 1.4167,
+          "effective_height_ratio": 0.9167,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0035",
+      "type": "text",
+      "category": "number",
+      "text": "1",
+      "normalized_text": "1",
+      "ocr_confidence": 0.9961931705474854,
+      "category_confidence": 0.9,
+      "bbox": [
+        1145,
+        1524,
+        1155,
+        1545
+      ],
+      "raw_bbox": [
+        1141,
+        1520,
+        1159,
+        1548
+      ],
+      "polygon": [
+        [
+          1141,
+          1520
+        ],
+        [
+          1158,
+          1520
+        ],
+        [
+          1158,
+          1547
+        ],
+        [
+          1141,
+          1547
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 76,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 76,
+          "raw_area_px": 504,
+          "refined_area_px": 210,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_cols"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "vertical"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 10.0,
+          "raw_text_height_px": 18.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.4167,
+          "raw_height_ratio": 0.75,
+          "effective_height_ratio": 0.4167,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "1"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0036",
+      "type": "text",
+      "category": "other_text",
+      "text": "REARFAN",
+      "normalized_text": "REARFAN",
+      "ocr_confidence": 0.9995049238204956,
+      "category_confidence": 0.72,
+      "bbox": [
+        1255,
+        1561,
+        1389,
+        1584
+      ],
+      "raw_bbox": [
+        1251,
+        1556,
+        1393,
+        1587
+      ],
+      "polygon": [
+        [
+          1251,
+          1556
+        ],
+        [
+          1392,
+          1556
+        ],
+        [
+          1392,
+          1586
+        ],
+        [
+          1251,
+          1586
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1070,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1070,
+          "raw_area_px": 4402,
+          "refined_area_px": 3082,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 31.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.2917,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "REARFAN"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0037",
+      "type": "text",
+      "category": "other_text",
+      "text": "MOtoR asseMBly",
+      "normalized_text": "MOTOR ASSEMBLY",
+      "ocr_confidence": 0.7105777859687805,
+      "category_confidence": 0.72,
+      "bbox": [
+        1255,
+        1595,
+        1507,
+        1619
+      ],
+      "raw_bbox": [
+        1250,
+        1588,
+        1510,
+        1623
+      ],
+      "polygon": [
+        [
+          1250,
+          1589
+        ],
+        [
+          1509,
+          1588
+        ],
+        [
+          1509,
+          1620
+        ],
+        [
+          1250,
+          1622
+        ]
+      ],
+      "erased": false,
+      "ink_pixel_count": 2060,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 2060,
+          "raw_area_px": 9100,
+          "refined_area_px": 6048,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 23,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 35.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.4583,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "MOTORASSEMBLY"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0038",
+      "type": "text",
+      "category": "other_text",
+      "text": "AND RESISTOR",
+      "normalized_text": "AND RESISTOR",
+      "ocr_confidence": 0.9964105486869812,
+      "category_confidence": 0.72,
+      "bbox": [
+        1255,
+        1630,
+        1447,
+        1654
+      ],
+      "raw_bbox": [
+        1250,
+        1624,
+        1451,
+        1657
+      ],
+      "polygon": [
+        [
+          1250,
+          1626
+        ],
+        [
+          1450,
+          1624
+        ],
+        [
+          1450,
+          1655
+        ],
+        [
+          1251,
+          1656
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1644,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1644,
+          "raw_area_px": 6633,
+          "refined_area_px": 4608,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 17,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "ANDRESISTOR"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0039",
+      "type": "text",
+      "category": "other_text",
+      "text": "INTERIOR",
+      "normalized_text": "INTERIOR",
+      "ocr_confidence": 0.9996656179428101,
+      "category_confidence": 0.72,
+      "bbox": [
+        692,
+        1787,
+        812,
+        1811
+      ],
+      "raw_bbox": [
+        687,
+        1783,
+        816,
+        1814
+      ],
+      "polygon": [
+        [
+          687,
+          1783
+        ],
+        [
+          815,
+          1783
+        ],
+        [
+          815,
+          1813
+        ],
+        [
+          687,
+          1813
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1140,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1140,
+          "raw_area_px": 3999,
+          "refined_area_px": 2880,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 31.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.2917,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "INTERIOR"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0040",
+      "type": "text",
+      "category": "other_text",
+      "text": "LIGHTS",
+      "normalized_text": "LIGHTS",
+      "ocr_confidence": 0.98244708776474,
+      "category_confidence": 0.72,
+      "bbox": [
+        710,
+        1824,
+        798,
+        1848
+      ],
+      "raw_bbox": [
+        705,
+        1818,
+        802,
+        1851
+      ],
+      "polygon": [
+        [
+          705,
+          1818
+        ],
+        [
+          801,
+          1818
+        ],
+        [
+          801,
+          1850
+        ],
+        [
+          705,
+          1850
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 708,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 708,
+          "raw_area_px": 3201,
+          "refined_area_px": 2112,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 18,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "LIGHTS"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0041",
+      "type": "text",
+      "category": "other_text",
+      "text": "SYSTEM",
+      "normalized_text": "SYSTEM",
+      "ocr_confidence": 0.9699469208717346,
+      "category_confidence": 0.72,
+      "bbox": [
+        698,
+        1857,
+        806,
+        1881
+      ],
+      "raw_bbox": [
+        693,
+        1850,
+        811,
+        1886
+      ],
+      "polygon": [
+        [
+          694,
+          1850
+        ],
+        [
+          810,
+          1852
+        ],
+        [
+          809,
+          1885
+        ],
+        [
+          693,
+          1884
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 892,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 892,
+          "raw_area_px": 4248,
+          "refined_area_px": 2592,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 7,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 36.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.5,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "SYSTEM"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0042",
+      "type": "text",
+      "category": "number",
+      "text": "4",
+      "normalized_text": "4",
+      "ocr_confidence": 0.9998117089271545,
+      "category_confidence": 0.9,
+      "bbox": [
+        900,
+        1861,
+        918,
+        1885
+      ],
+      "raw_bbox": [
+        896,
+        1858,
+        922,
+        1887
+      ],
+      "polygon": [
+        [
+          896,
+          1858
+        ],
+        [
+          921,
+          1858
+        ],
+        [
+          921,
+          1886
+        ],
+        [
+          896,
+          1886
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 136,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 136,
+          "raw_area_px": 754,
+          "refined_area_px": 432,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 29.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.2083,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "4"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0043",
+      "type": "text",
+      "category": "wire_color",
+      "text": "GRN/",
+      "normalized_text": "GRN",
+      "ocr_confidence": 0.9346660375595093,
+      "category_confidence": 0.98,
+      "bbox": [
+        672,
+        1933,
+        740,
+        1958
+      ],
+      "raw_bbox": [
+        665,
+        1926,
+        747,
+        1964
+      ],
+      "polygon": [
+        [
+          665,
+          1926
+        ],
+        [
+          746,
+          1926
+        ],
+        [
+          746,
+          1963
+        ],
+        [
+          665,
+          1963
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 662,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 662,
+          "raw_area_px": 3116,
+          "refined_area_px": 1700,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 4,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "GRN"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 38.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.5833,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "GRN"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0044",
+      "type": "text",
+      "category": "other_text",
+      "text": "BLKI",
+      "normalized_text": "BLKI",
+      "ocr_confidence": 0.982427179813385,
+      "category_confidence": 0.72,
+      "bbox": [
+        872,
+        1933,
+        930,
+        1958
+      ],
+      "raw_bbox": [
+        866,
+        1926,
+        937,
+        1963
+      ],
+      "polygon": [
+        [
+          866,
+          1926
+        ],
+        [
+          936,
+          1926
+        ],
+        [
+          936,
+          1962
+        ],
+        [
+          866,
+          1962
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 524,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 524,
+          "raw_area_px": 2627,
+          "refined_area_px": 1450,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 3,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 37.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.5417,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "BLKI"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0045",
+      "type": "text",
+      "category": "other_text",
+      "text": "BLKI",
+      "normalized_text": "BLKI",
+      "ocr_confidence": 0.9824373126029968,
+      "category_confidence": 0.72,
+      "bbox": [
+        1113,
+        1933,
+        1171,
+        1958
+      ],
+      "raw_bbox": [
+        1107,
+        1926,
+        1177,
+        1963
+      ],
+      "polygon": [
+        [
+          1107,
+          1926
+        ],
+        [
+          1176,
+          1926
+        ],
+        [
+          1176,
+          1962
+        ],
+        [
+          1107,
+          1962
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 508,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 508,
+          "raw_area_px": 2590,
+          "refined_area_px": 1450,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 4,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 37.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.5417,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "BLKI"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0046",
+      "type": "text",
+      "category": "other_text",
+      "text": "BLUV",
+      "normalized_text": "BLUV",
+      "ocr_confidence": 0.8645293712615967,
+      "category_confidence": 0.72,
+      "bbox": [
+        1683,
+        1933,
+        1745,
+        1958
+      ],
+      "raw_bbox": [
+        1676,
+        1926,
+        1752,
+        1964
+      ],
+      "polygon": [
+        [
+          1676,
+          1926
+        ],
+        [
+          1751,
+          1926
+        ],
+        [
+          1751,
+          1963
+        ],
+        [
+          1676,
+          1963
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 542,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 542,
+          "raw_area_px": 2888,
+          "refined_area_px": 1550,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 3,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 38.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.5833,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "BLUV"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0047",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLU",
+      "normalized_text": "BLU",
+      "ocr_confidence": 0.9999621510505676,
+      "category_confidence": 0.98,
+      "bbox": [
+        688,
+        1970,
+        740,
+        1991
+      ],
+      "raw_bbox": [
+        681,
+        1963,
+        747,
+        1997
+      ],
+      "polygon": [
+        [
+          681,
+          1963
+        ],
+        [
+          746,
+          1963
+        ],
+        [
+          746,
+          1996
+        ],
+        [
+          681,
+          1996
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 370,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 370,
+          "raw_area_px": 2244,
+          "refined_area_px": 1092,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 6,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLU"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 21.0,
+          "raw_text_height_px": 34.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.875,
+          "raw_height_ratio": 1.4167,
+          "effective_height_ratio": 0.875,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLU"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0048",
+      "type": "text",
+      "category": "wire_color",
+      "text": "RED",
+      "normalized_text": "RED",
+      "ocr_confidence": 0.9995651841163635,
+      "category_confidence": 0.98,
+      "bbox": [
+        874,
+        1970,
+        930,
+        1991
+      ],
+      "raw_bbox": [
+        868,
+        1963,
+        936,
+        1996
+      ],
+      "polygon": [
+        [
+          868,
+          1963
+        ],
+        [
+          935,
+          1963
+        ],
+        [
+          935,
+          1995
+        ],
+        [
+          868,
+          1995
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 440,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 440,
+          "raw_area_px": 2244,
+          "refined_area_px": 1176,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 5,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "RED"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 21.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.875,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 0.875,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "RED"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0049",
+      "type": "text",
+      "category": "wire_color",
+      "text": "WHT",
+      "normalized_text": "WHT",
+      "ocr_confidence": 0.8663604259490967,
+      "category_confidence": 0.98,
+      "bbox": [
+        1113,
+        1970,
+        1171,
+        1991
+      ],
+      "raw_bbox": [
+        1109,
+        1963,
+        1176,
+        1996
+      ],
+      "polygon": [
+        [
+          1109,
+          1963
+        ],
+        [
+          1175,
+          1963
+        ],
+        [
+          1175,
+          1995
+        ],
+        [
+          1109,
+          1995
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 374,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 374,
+          "raw_area_px": 2211,
+          "refined_area_px": 1218,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 5,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "WHT"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 21.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.875,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 0.875,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "WHT"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0050",
+      "type": "text",
+      "category": "wire_color",
+      "text": "RED",
+      "normalized_text": "RED",
+      "ocr_confidence": 0.9999883770942688,
+      "category_confidence": 0.98,
+      "bbox": [
+        1689,
+        1970,
+        1745,
+        1991
+      ],
+      "raw_bbox": [
+        1682,
+        1963,
+        1750,
+        1996
+      ],
+      "polygon": [
+        [
+          1682,
+          1963
+        ],
+        [
+          1749,
+          1963
+        ],
+        [
+          1749,
+          1995
+        ],
+        [
+          1682,
+          1995
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 446,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 446,
+          "raw_area_px": 2244,
+          "refined_area_px": 1176,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 4,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "RED"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 21.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.875,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 0.875,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "RED"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0051",
+      "type": "text",
+      "category": "number",
+      "text": "3",
+      "normalized_text": "3",
+      "ocr_confidence": 0.9997895359992981,
+      "category_confidence": 0.9,
+      "bbox": [
+        714,
+        2036,
+        730,
+        2059
+      ],
+      "raw_bbox": [
+        711,
+        2034,
+        732,
+        2061
+      ],
+      "polygon": [
+        [
+          711,
+          2034
+        ],
+        [
+          731,
+          2034
+        ],
+        [
+          731,
+          2060
+        ],
+        [
+          711,
+          2060
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 112,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 112,
+          "raw_area_px": 567,
+          "refined_area_px": 368,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 16.0,
+          "raw_text_height_px": 21.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.6667,
+          "raw_height_ratio": 0.875,
+          "effective_height_ratio": 0.6667,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "3"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0052",
+      "type": "text",
+      "category": "number",
+      "text": "2",
+      "normalized_text": "2",
+      "ocr_confidence": 0.9999821186065674,
+      "category_confidence": 0.9,
+      "bbox": [
+        904,
+        2036,
+        920,
+        2059
+      ],
+      "raw_bbox": [
+        898,
+        2030,
+        926,
+        2064
+      ],
+      "polygon": [
+        [
+          898,
+          2030
+        ],
+        [
+          925,
+          2030
+        ],
+        [
+          925,
+          2063
+        ],
+        [
+          898,
+          2063
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 148,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 148,
+          "raw_area_px": 952,
+          "refined_area_px": 368,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 16.0,
+          "raw_text_height_px": 28.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.6667,
+          "raw_height_ratio": 1.1667,
+          "effective_height_ratio": 0.6667,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "2"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0053",
+      "type": "text",
+      "category": "number",
+      "text": "1",
+      "normalized_text": "1",
+      "ocr_confidence": 0.9998834133148193,
+      "category_confidence": 0.9,
+      "bbox": [
+        1151,
+        2036,
+        1161,
+        2059
+      ],
+      "raw_bbox": [
+        1146,
+        2031,
+        1169,
+        2064
+      ],
+      "polygon": [
+        [
+          1146,
+          2031
+        ],
+        [
+          1168,
+          2031
+        ],
+        [
+          1168,
+          2063
+        ],
+        [
+          1146,
+          2063
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 50,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 50,
+          "raw_area_px": 759,
+          "refined_area_px": 230,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_cols"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "vertical"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 10.0,
+          "raw_text_height_px": 23.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.4167,
+          "raw_height_ratio": 0.9583,
+          "effective_height_ratio": 0.4167,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "1"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0054",
+      "type": "text",
+      "category": "number",
+      "text": "5",
+      "normalized_text": "5",
+      "ocr_confidence": 0.9999974966049194,
+      "category_confidence": 0.9,
+      "bbox": [
+        1721,
+        2036,
+        1735,
+        2059
+      ],
+      "raw_bbox": [
+        1716,
+        2031,
+        1741,
+        2062
+      ],
+      "polygon": [
+        [
+          1716,
+          2031
+        ],
+        [
+          1740,
+          2031
+        ],
+        [
+          1740,
+          2061
+        ],
+        [
+          1716,
+          2061
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 110,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 110,
+          "raw_area_px": 775,
+          "refined_area_px": 322,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 14.0,
+          "raw_text_height_px": 25.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.5833,
+          "raw_height_ratio": 1.0417,
+          "effective_height_ratio": 0.5833,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "5"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0055",
+      "type": "text",
+      "category": "other_text",
+      "text": "REAR",
+      "normalized_text": "REAR",
+      "ocr_confidence": 0.999384343624115,
+      "category_confidence": 0.72,
+      "bbox": [
+        1951,
+        2080,
+        2025,
+        2104
+      ],
+      "raw_bbox": [
+        1946,
+        2075,
+        2030,
+        2107
+      ],
+      "polygon": [
+        [
+          1946,
+          2075
+        ],
+        [
+          2029,
+          2075
+        ],
+        [
+          2029,
+          2106
+        ],
+        [
+          1946,
+          2106
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 680,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 680,
+          "raw_area_px": 2688,
+          "refined_area_px": 1776,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 7,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 32.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.3333,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "REAR"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0056",
+      "type": "text",
+      "category": "other_text",
+      "text": "HEATER",
+      "normalized_text": "HEATER",
+      "ocr_confidence": 0.9999589323997498,
+      "category_confidence": 0.72,
+      "bbox": [
+        1951,
+        2113,
+        2055,
+        2137
+      ],
+      "raw_bbox": [
+        1946,
+        2109,
+        2059,
+        2141
+      ],
+      "polygon": [
+        [
+          1946,
+          2109
+        ],
+        [
+          2058,
+          2109
+        ],
+        [
+          2058,
+          2140
+        ],
+        [
+          1946,
+          2140
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 948,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 948,
+          "raw_area_px": 3616,
+          "refined_area_px": 2496,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 7,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 32.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.3333,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "HEATER"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0057",
+      "type": "text",
+      "category": "other_text",
+      "text": "CONTROL",
+      "normalized_text": "CONTROL",
+      "ocr_confidence": 0.999430239200592,
+      "category_confidence": 0.72,
+      "bbox": [
+        1951,
+        2150,
+        2077,
+        2174
+      ],
+      "raw_bbox": [
+        1947,
+        2145,
+        2079,
+        2177
+      ],
+      "polygon": [
+        [
+          1947,
+          2145
+        ],
+        [
+          2078,
+          2145
+        ],
+        [
+          2078,
+          2176
+        ],
+        [
+          1947,
+          2176
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1048,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1048,
+          "raw_area_px": 4224,
+          "refined_area_px": 3024,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 6,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 32.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.3333,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "CONTROL"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0058",
+      "type": "text",
+      "category": "other_text",
+      "text": "PANEL",
+      "normalized_text": "PANEL",
+      "ocr_confidence": 0.9999651908874512,
+      "category_confidence": 0.72,
+      "bbox": [
+        1951,
+        2183,
+        2035,
+        2208
+      ],
+      "raw_bbox": [
+        1945,
+        2177,
+        2040,
+        2212
+      ],
+      "polygon": [
+        [
+          1945,
+          2177
+        ],
+        [
+          2039,
+          2177
+        ],
+        [
+          2039,
+          2211
+        ],
+        [
+          1945,
+          2211
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 804,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 804,
+          "raw_area_px": 3325,
+          "refined_area_px": 2100,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 8,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 35.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.4583,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "PANEL"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0059",
+      "type": "text",
+      "category": "number",
+      "text": "3",
+      "normalized_text": "3",
+      "ocr_confidence": 0.9999768733978271,
+      "category_confidence": 0.9,
+      "bbox": [
+        714,
+        2530,
+        730,
+        2552
+      ],
+      "raw_bbox": [
+        709,
+        2526,
+        735,
+        2556
+      ],
+      "polygon": [
+        [
+          709,
+          2526
+        ],
+        [
+          734,
+          2526
+        ],
+        [
+          734,
+          2555
+        ],
+        [
+          709,
+          2555
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 112,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 112,
+          "raw_area_px": 780,
+          "refined_area_px": 352,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 16.0,
+          "raw_text_height_px": 26.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.6667,
+          "raw_height_ratio": 1.0833,
+          "effective_height_ratio": 0.6667,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "3"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0060",
+      "type": "text",
+      "category": "number",
+      "text": "4",
+      "normalized_text": "4",
+      "ocr_confidence": 0.9998514652252197,
+      "category_confidence": 0.9,
+      "bbox": [
+        904,
+        2530,
+        920,
+        2552
+      ],
+      "raw_bbox": [
+        902,
+        2527,
+        923,
+        2554
+      ],
+      "polygon": [
+        [
+          902,
+          2527
+        ],
+        [
+          922,
+          2527
+        ],
+        [
+          922,
+          2553
+        ],
+        [
+          902,
+          2553
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 144,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 144,
+          "raw_area_px": 567,
+          "refined_area_px": 352,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "skipped_short_text",
+            "compact_len": 1
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "pure_integer"
+        },
+        "quality_gate": {
+          "orientation": "vertical",
+          "text_height_px": 16.0,
+          "raw_text_height_px": 21.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.6667,
+          "raw_height_ratio": 0.875,
+          "effective_height_ratio": 0.6667,
+          "required_confidence": 0.85,
+          "confidence_rule": "single_digit",
+          "alnum_text": "4"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0061",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLK",
+      "normalized_text": "BLK",
+      "ocr_confidence": 0.9995182156562805,
+      "category_confidence": 0.98,
+      "bbox": [
+        882,
+        2590,
+        930,
+        2612
+      ],
+      "raw_bbox": [
+        876,
+        2583,
+        936,
+        2617
+      ],
+      "polygon": [
+        [
+          876,
+          2583
+        ],
+        [
+          935,
+          2583
+        ],
+        [
+          935,
+          2616
+        ],
+        [
+          876,
+          2616
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 372,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 372,
+          "raw_area_px": 2040,
+          "refined_area_px": 1056,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLK"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 22.0,
+          "raw_text_height_px": 34.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9167,
+          "raw_height_ratio": 1.4167,
+          "effective_height_ratio": 0.9167,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0062",
+      "type": "text",
+      "category": "other_text",
+      "text": "BLKI",
+      "normalized_text": "BLKI",
+      "ocr_confidence": 0.9879205226898193,
+      "category_confidence": 0.72,
+      "bbox": [
+        682,
+        2598,
+        740,
+        2622
+      ],
+      "raw_bbox": [
+        675,
+        2591,
+        747,
+        2628
+      ],
+      "polygon": [
+        [
+          675,
+          2591
+        ],
+        [
+          746,
+          2591
+        ],
+        [
+          746,
+          2627
+        ],
+        [
+          675,
+          2627
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 532,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 532,
+          "raw_area_px": 2664,
+          "refined_area_px": 1392,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 4,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 37.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.5417,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "BLKI"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0063",
+      "type": "text",
+      "category": "wire_color",
+      "text": "YEL",
+      "normalized_text": "YEL",
+      "ocr_confidence": 0.9999809861183167,
+      "category_confidence": 0.98,
+      "bbox": [
+        692,
+        2633,
+        740,
+        2656
+      ],
+      "raw_bbox": [
+        686,
+        2626,
+        747,
+        2661
+      ],
+      "polygon": [
+        [
+          686,
+          2626
+        ],
+        [
+          746,
+          2626
+        ],
+        [
+          746,
+          2660
+        ],
+        [
+          686,
+          2660
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 364,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 364,
+          "raw_area_px": 2135,
+          "refined_area_px": 1104,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 5,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "YEL"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 35.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.4583,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "YEL"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0064",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLK",
+      "normalized_text": "BLK",
+      "ocr_confidence": 0.9955663084983826,
+      "category_confidence": 0.98,
+      "bbox": [
+        356,
+        2635,
+        404,
+        2660
+      ],
+      "raw_bbox": [
+        350,
+        2628,
+        410,
+        2666
+      ],
+      "polygon": [
+        [
+          350,
+          2628
+        ],
+        [
+          409,
+          2628
+        ],
+        [
+          409,
+          2665
+        ],
+        [
+          350,
+          2665
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 442,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 442,
+          "raw_area_px": 2280,
+          "refined_area_px": 1200,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLK"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 25.0,
+          "raw_text_height_px": 38.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0417,
+          "raw_height_ratio": 1.5833,
+          "effective_height_ratio": 1.0417,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0065",
+      "type": "text",
+      "category": "other_text",
+      "text": "INTERIOR",
+      "normalized_text": "INTERIOR",
+      "ocr_confidence": 0.999772846698761,
+      "category_confidence": 0.72,
+      "bbox": [
+        692,
+        2716,
+        812,
+        2740
+      ],
+      "raw_bbox": [
+        688,
+        2711,
+        816,
+        2743
+      ],
+      "polygon": [
+        [
+          688,
+          2711
+        ],
+        [
+          815,
+          2711
+        ],
+        [
+          815,
+          2742
+        ],
+        [
+          688,
+          2742
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 1132,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 1132,
+          "raw_area_px": 4096,
+          "refined_area_px": 2880,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 6,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 32.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.3333,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "INTERIOR"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0066",
+      "type": "text",
+      "category": "other_text",
+      "text": "LIGHT$",
+      "normalized_text": "LIGHT$",
+      "ocr_confidence": 0.9715988636016846,
+      "category_confidence": 0.72,
+      "bbox": [
+        710,
+        2749,
+        798,
+        2773
+      ],
+      "raw_bbox": [
+        705,
+        2744,
+        803,
+        2777
+      ],
+      "polygon": [
+        [
+          705,
+          2744
+        ],
+        [
+          802,
+          2744
+        ],
+        [
+          802,
+          2776
+        ],
+        [
+          705,
+          2776
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 704,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 704,
+          "raw_area_px": 3234,
+          "refined_area_px": 2112,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 11,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 33.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.375,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "LIGHT"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0067",
+      "type": "text",
+      "category": "wire_color",
+      "text": "BLK",
+      "normalized_text": "BLK",
+      "ocr_confidence": 0.9996692538261414,
+      "category_confidence": 0.98,
+      "bbox": [
+        882,
+        2749,
+        930,
+        2773
+      ],
+      "raw_bbox": [
+        875,
+        2742,
+        936,
+        2779
+      ],
+      "polygon": [
+        [
+          875,
+          2742
+        ],
+        [
+          935,
+          2742
+        ],
+        [
+          935,
+          2778
+        ],
+        [
+          875,
+          2778
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 440,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 440,
+          "raw_area_px": 2257,
+          "refined_area_px": 1152,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "wire_color_token",
+          "canonical_wire_tokens": [
+            "BLK"
+          ]
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 37.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.5417,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.55,
+          "confidence_rule": "short_wire_color",
+          "alnum_text": "BLK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0068",
+      "type": "text",
+      "category": "other_text",
+      "text": "SYSTEM",
+      "normalized_text": "SYSTEM",
+      "ocr_confidence": 0.994744598865509,
+      "category_confidence": 0.72,
+      "bbox": [
+        698,
+        2786,
+        806,
+        2808
+      ],
+      "raw_bbox": [
+        694,
+        2781,
+        810,
+        2811
+      ],
+      "polygon": [
+        [
+          694,
+          2781
+        ],
+        [
+          809,
+          2781
+        ],
+        [
+          809,
+          2810
+        ],
+        [
+          694,
+          2810
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 772,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 772,
+          "raw_area_px": 3480,
+          "refined_area_px": 2376,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 22.0,
+          "raw_text_height_px": 30.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9167,
+          "raw_height_ratio": 1.25,
+          "effective_height_ratio": 0.9167,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "SYSTEM"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0069",
+      "type": "text",
+      "category": "other_text",
+      "text": "G200",
+      "normalized_text": "G200",
+      "ocr_confidence": 0.9999527335166931,
+      "category_confidence": 0.72,
+      "bbox": [
+        448,
+        2804,
+        516,
+        2827
+      ],
+      "raw_bbox": [
+        442,
+        2796,
+        522,
+        2832
+      ],
+      "polygon": [
+        [
+          442,
+          2798
+        ],
+        [
+          520,
+          2796
+        ],
+        [
+          521,
+          2829
+        ],
+        [
+          443,
+          2831
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 588,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 588,
+          "raw_area_px": 2880,
+          "refined_area_px": 1564,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 6,
+            "line_shaped_excluded_components": 0,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 36.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.5,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.8,
+          "confidence_rule": "short_digit_letter",
+          "alnum_text": "G200"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0070",
+      "type": "text",
+      "category": "other_text",
+      "text": "(LEFT KICK",
+      "normalized_text": "(LEFT KICK",
+      "ocr_confidence": 0.9773725271224976,
+      "category_confidence": 0.72,
+      "bbox": [
+        458,
+        2839,
+        582,
+        2862
+      ],
+      "raw_bbox": [
+        441,
+        2830,
+        588,
+        2872
+      ],
+      "polygon": [
+        [
+          441,
+          2832
+        ],
+        [
+          587,
+          2830
+        ],
+        [
+          587,
+          2869
+        ],
+        [
+          441,
+          2871
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 928,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 928,
+          "raw_area_px": 6174,
+          "refined_area_px": 2852,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 13,
+            "line_shaped_excluded_components": 1,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 42.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.75,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "LEFTKICK"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0071",
+      "type": "text",
+      "category": "other_text",
+      "text": "G402",
+      "normalized_text": "G402",
+      "ocr_confidence": 0.9998948574066162,
+      "category_confidence": 0.72,
+      "bbox": [
+        824,
+        2864,
+        892,
+        2887
+      ],
+      "raw_bbox": [
+        817,
+        2855,
+        898,
+        2893
+      ],
+      "polygon": [
+        [
+          818,
+          2855
+        ],
+        [
+          897,
+          2857
+        ],
+        [
+          896,
+          2892
+        ],
+        [
+          817,
+          2890
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 540,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 540,
+          "raw_area_px": 3078,
+          "refined_area_px": 1564,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 23.0,
+          "raw_text_height_px": 38.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 0.9583,
+          "raw_height_ratio": 1.5833,
+          "effective_height_ratio": 0.9583,
+          "required_confidence": 0.8,
+          "confidence_rule": "short_digit_letter",
+          "alnum_text": "G402"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0072",
+      "type": "text",
+      "category": "other_text",
+      "text": "88172",
+      "normalized_text": "88172",
+      "ocr_confidence": 0.8937959671020508,
+      "category_confidence": 0.72,
+      "bbox": [
+        296,
+        2870,
+        366,
+        2894
+      ],
+      "raw_bbox": [
+        290,
+        2864,
+        372,
+        2899
+      ],
+      "polygon": [
+        [
+          290,
+          2864
+        ],
+        [
+          371,
+          2864
+        ],
+        [
+          371,
+          2898
+        ],
+        [
+          290,
+          2898
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 588,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 588,
+          "raw_area_px": 2870,
+          "refined_area_px": 1680,
+          "text_ink_isolation": {
+            "method": "no_excluded_components"
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 35.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.4583,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "88172"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0073",
+      "type": "text",
+      "category": "other_text",
+      "text": "(LEFT REAR WHEELWELL)",
+      "normalized_text": "(LEFT REAR WHEELWELL)",
+      "ocr_confidence": 0.9749346375465393,
+      "category_confidence": 0.72,
+      "bbox": [
+        986,
+        2870,
+        1289,
+        2894
+      ],
+      "raw_bbox": [
+        970,
+        2862,
+        1302,
+        2902
+      ],
+      "polygon": [
+        [
+          970,
+          2862
+        ],
+        [
+          1301,
+          2864
+        ],
+        [
+          1301,
+          2901
+        ],
+        [
+          970,
+          2900
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 2354,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 2354,
+          "raw_area_px": 13280,
+          "refined_area_px": 7272,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 1,
+            "line_shaped_excluded_components": 2,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 40.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.6667,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "LEFTREARWHEELWELL"
+        }
+      }
+    },
+    {
+      "id": "p003_text_0074",
+      "type": "text",
+      "category": "other_text",
+      "text": "PANEL)",
+      "normalized_text": "PANEL)",
+      "ocr_confidence": 0.952517569065094,
+      "category_confidence": 0.72,
+      "bbox": [
+        448,
+        2874,
+        532,
+        2898
+      ],
+      "raw_bbox": [
+        441,
+        2865,
+        546,
+        2907
+      ],
+      "polygon": [
+        [
+          442,
+          2865
+        ],
+        [
+          545,
+          2867
+        ],
+        [
+          545,
+          2906
+        ],
+        [
+          441,
+          2904
+        ]
+      ],
+      "erased": true,
+      "ink_pixel_count": 722,
+      "debug": {
+        "bbox_refinement": {
+          "method": "foreground_text_ink",
+          "ink_pixels": 722,
+          "raw_area_px": 4410,
+          "refined_area_px": 2016,
+          "text_ink_isolation": {
+            "method": "boundary_and_shape_component_exclusion",
+            "boundary_excluded_components": 9,
+            "line_shaped_excluded_components": 1,
+            "probe_pad_px": 10,
+            "remaining_ink": true
+          },
+          "crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "tight_crossing_line_removal": {
+            "method": "no_full_span_rows"
+          },
+          "edge_divider_removal": {
+            "method": "no_edge_divider_found"
+          },
+          "orientation": "horizontal"
+        },
+        "classification": {
+          "rule": "fallback_other_text"
+        },
+        "quality_gate": {
+          "orientation": "horizontal",
+          "text_height_px": 24.0,
+          "raw_text_height_px": 42.0,
+          "page_reference_height_px": 24.0,
+          "height_ratio": 1.0,
+          "raw_height_ratio": 1.75,
+          "effective_height_ratio": 1.0,
+          "required_confidence": 0.35,
+          "confidence_rule": "default",
+          "alnum_text": "PANEL"
+        }
+      }
+    }
+  ]
+}

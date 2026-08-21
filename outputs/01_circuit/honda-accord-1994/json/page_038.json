@@ -1,0 +1,2952 @@
+{
+  "page": 38,
+  "image_width": 2550,
+  "image_height": 4200,
+  "outer_frame": {
+    "bbox": [
+      376,
+      452,
+      2466,
+      1916
+    ],
+    "inner_bbox": [
+      376,
+      452,
+      2466,
+      1916
+    ],
+    "area_ratio": 0.2856918767507003,
+    "score": 523.4239028944911,
+    "alignment_error": 5.0,
+    "multi_frame": false,
+    "fallback": false,
+    "kind": "missing_bottom",
+    "sub_frames": [
+      {
+        "bbox": [
+          376,
+          452,
+          2466,
+          1916
+        ],
+        "area_ratio": 0.2856918767507003,
+        "score": 523.4239028944911,
+        "alignment_error": 5.0,
+        "partial": true,
+        "fallback": false,
+        "kind": "missing_bottom",
+        "calibration": {
+          "initial_bbox": [
+            376,
+            452,
+            2466,
+            1930
+          ],
+          "preferred_inferred_thickness": 4,
+          "inferred_edges": {
+            "bottom": {
+              "initial_coord": 1930,
+              "final_coord": 1916,
+              "preferred_thickness": 4,
+              "final_thickness": 2,
+              "search_result": "clean_inward",
+              "shift_pixels": -14,
+              "max_inward_pixels": 493,
+              "sampled_attempts": [
+                {
+                  "coord": 1930,
+                  "direction": "inward",
+                  "ink_count": 70,
+                  "band": [
+                    394,
+                    1930,
+                    2448,
+                    1931
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 430,
+                      "band": [
+                        394,
+                        1928,
+                        2448,
+                        1932
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 279,
+                      "band": [
+                        394,
+                        1929,
+                        2448,
+                        1932
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 221,
+                      "band": [
+                        394,
+                        1929,
+                        2448,
+                        1931
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 70,
+                      "band": [
+                        394,
+                        1930,
+                        2448,
+                        1931
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1929,
+                  "direction": "inward",
+                  "ink_count": 151,
+                  "band": [
+                    394,
+                    1929,
+                    2448,
+                    1930
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 508,
+                      "band": [
+                        394,
+                        1927,
+                        2448,
+                        1931
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 372,
+                      "band": [
+                        394,
+                        1928,
+                        2448,
+                        1931
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 302,
+                      "band": [
+                        394,
+                        1928,
+                        2448,
+                        1930
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 151,
+                      "band": [
+                        394,
+                        1929,
+                        2448,
+                        1930
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1928,
+                  "direction": "inward",
+                  "ink_count": 151,
+                  "band": [
+                    394,
+                    1928,
+                    2448,
+                    1929
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 467,
+                      "band": [
+                        394,
+                        1926,
+                        2448,
+                        1930
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 438,
+                      "band": [
+                        394,
+                        1927,
+                        2448,
+                        1930
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 287,
+                      "band": [
+                        394,
+                        1927,
+                        2448,
+                        1929
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 151,
+                      "band": [
+                        394,
+                        1928,
+                        2448,
+                        1929
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1927,
+                  "direction": "inward",
+                  "ink_count": 136,
+                  "band": [
+                    394,
+                    1927,
+                    2448,
+                    1928
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 337,
+                      "band": [
+                        394,
+                        1925,
+                        2448,
+                        1929
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 316,
+                      "band": [
+                        394,
+                        1926,
+                        2448,
+                        1929
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 165,
+                      "band": [
+                        394,
+                        1926,
+                        2448,
+                        1928
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 136,
+                      "band": [
+                        394,
+                        1927,
+                        2448,
+                        1928
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1926,
+                  "direction": "inward",
+                  "ink_count": 29,
+                  "band": [
+                    394,
+                    1926,
+                    2448,
+                    1927
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 208,
+                      "band": [
+                        394,
+                        1924,
+                        2448,
+                        1928
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 186,
+                      "band": [
+                        394,
+                        1925,
+                        2448,
+                        1928
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 50,
+                      "band": [
+                        394,
+                        1925,
+                        2448,
+                        1927
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 29,
+                      "band": [
+                        394,
+                        1926,
+                        2448,
+                        1927
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1925,
+                  "direction": "inward",
+                  "ink_count": 21,
+                  "band": [
+                    394,
+                    1925,
+                    2448,
+                    1926
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 100,
+                      "band": [
+                        394,
+                        1923,
+                        2448,
+                        1927
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 72,
+                      "band": [
+                        394,
+                        1924,
+                        2448,
+                        1927
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 43,
+                      "band": [
+                        394,
+                        1924,
+                        2448,
+                        1926
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 21,
+                      "band": [
+                        394,
+                        1925,
+                        2448,
+                        1926
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1924,
+                  "direction": "inward",
+                  "ink_count": 22,
+                  "band": [
+                    394,
+                    1924,
+                    2448,
+                    1925
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 119,
+                      "band": [
+                        394,
+                        1922,
+                        2448,
+                        1926
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 71,
+                      "band": [
+                        394,
+                        1923,
+                        2448,
+                        1926
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 50,
+                      "band": [
+                        394,
+                        1923,
+                        2448,
+                        1925
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 22,
+                      "band": [
+                        394,
+                        1924,
+                        2448,
+                        1925
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1923,
+                  "direction": "inward",
+                  "ink_count": 28,
+                  "band": [
+                    394,
+                    1923,
+                    2448,
+                    1924
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 142,
+                      "band": [
+                        394,
+                        1921,
+                        2448,
+                        1925
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 98,
+                      "band": [
+                        394,
+                        1922,
+                        2448,
+                        1925
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 76,
+                      "band": [
+                        394,
+                        1922,
+                        2448,
+                        1924
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 28,
+                      "band": [
+                        394,
+                        1923,
+                        2448,
+                        1924
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1922,
+                  "direction": "inward",
+                  "ink_count": 48,
+                  "band": [
+                    394,
+                    1922,
+                    2448,
+                    1923
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 149,
+                      "band": [
+                        394,
+                        1920,
+                        2448,
+                        1924
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 120,
+                      "band": [
+                        394,
+                        1921,
+                        2448,
+                        1924
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 92,
+                      "band": [
+                        394,
+                        1921,
+                        2448,
+                        1923
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 48,
+                      "band": [
+                        394,
+                        1922,
+                        2448,
+                        1923
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1921,
+                  "direction": "inward",
+                  "ink_count": 44,
+                  "band": [
+                    394,
+                    1921,
+                    2448,
+                    1922
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 129,
+                      "band": [
+                        394,
+                        1919,
+                        2448,
+                        1923
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 121,
+                      "band": [
+                        394,
+                        1920,
+                        2448,
+                        1923
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 73,
+                      "band": [
+                        394,
+                        1920,
+                        2448,
+                        1922
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 44,
+                      "band": [
+                        394,
+                        1921,
+                        2448,
+                        1922
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1920,
+                  "direction": "inward",
+                  "ink_count": 29,
+                  "band": [
+                    394,
+                    1920,
+                    2448,
+                    1921
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 89,
+                      "band": [
+                        394,
+                        1918,
+                        2448,
+                        1922
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 81,
+                      "band": [
+                        394,
+                        1919,
+                        2448,
+                        1922
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 37,
+                      "band": [
+                        394,
+                        1919,
+                        2448,
+                        1921
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 29,
+                      "band": [
+                        394,
+                        1920,
+                        2448,
+                        1921
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1919,
+                  "direction": "inward",
+                  "ink_count": 8,
+                  "band": [
+                    394,
+                    1919,
+                    2448,
+                    1920
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 51,
+                      "band": [
+                        394,
+                        1917,
+                        2448,
+                        1921
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 45,
+                      "band": [
+                        394,
+                        1918,
+                        2448,
+                        1921
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 16,
+                      "band": [
+                        394,
+                        1918,
+                        2448,
+                        1920
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 8,
+                      "band": [
+                        394,
+                        1919,
+                        2448,
+                        1920
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "corner_aligned": true,
+          "final_bbox": [
+            376,
+            452,
+            2466,
+            1916
+          ],
+          "line_thickness_by_side": {
+            "top": 4,
+            "bottom": 2,
+            "left": 3,
+            "right": 7
+          }
+        },
+        "line_thickness": {
+          "by_side": {
+            "top": 4,
+            "bottom": 2,
+            "left": 3,
+            "right": 7
+          },
+          "min": 2,
+          "max": 7,
+          "median": 3.5
+        },
+        "sides": {
+          "top": {
+            "bbox": [
+              376,
+              450,
+              2466,
+              454
+            ],
+            "orientation": "horizontal",
+            "length": 2090,
+            "thickness": 4,
+            "center": [
+              1421.0,
+              452.0
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              377,
+              450,
+              2472,
+              454
+            ],
+            "erase_bbox": [
+              377,
+              450,
+              2470,
+              454
+            ]
+          },
+          "bottom": {
+            "bbox": [
+              376,
+              1915,
+              2466,
+              1917
+            ],
+            "orientation": "horizontal",
+            "length": 2090,
+            "thickness": 2,
+            "center": [
+              1421.0,
+              1916.0
+            ],
+            "inferred": true,
+            "adjusted": true,
+            "inference": {
+              "initial_coord": 1930,
+              "final_coord": 1916,
+              "preferred_thickness": 4,
+              "final_thickness": 2,
+              "search_result": "clean_inward",
+              "shift_pixels": -14,
+              "max_inward_pixels": 493,
+              "sampled_attempts": [
+                {
+                  "coord": 1930,
+                  "direction": "inward",
+                  "ink_count": 70,
+                  "band": [
+                    394,
+                    1930,
+                    2448,
+                    1931
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 430,
+                      "band": [
+                        394,
+                        1928,
+                        2448,
+                        1932
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 279,
+                      "band": [
+                        394,
+                        1929,
+                        2448,
+                        1932
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 221,
+                      "band": [
+                        394,
+                        1929,
+                        2448,
+                        1931
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 70,
+                      "band": [
+                        394,
+                        1930,
+                        2448,
+                        1931
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1929,
+                  "direction": "inward",
+                  "ink_count": 151,
+                  "band": [
+                    394,
+                    1929,
+                    2448,
+                    1930
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 508,
+                      "band": [
+                        394,
+                        1927,
+                        2448,
+                        1931
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 372,
+                      "band": [
+                        394,
+                        1928,
+                        2448,
+                        1931
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 302,
+                      "band": [
+                        394,
+                        1928,
+                        2448,
+                        1930
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 151,
+                      "band": [
+                        394,
+                        1929,
+                        2448,
+                        1930
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1928,
+                  "direction": "inward",
+                  "ink_count": 151,
+                  "band": [
+                    394,
+                    1928,
+                    2448,
+                    1929
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 467,
+                      "band": [
+                        394,
+                        1926,
+                        2448,
+                        1930
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 438,
+                      "band": [
+                        394,
+                        1927,
+                        2448,
+                        1930
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 287,
+                      "band": [
+                        394,
+                        1927,
+                        2448,
+                        1929
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 151,
+                      "band": [
+                        394,
+                        1928,
+                        2448,
+                        1929
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1927,
+                  "direction": "inward",
+                  "ink_count": 136,
+                  "band": [
+                    394,
+                    1927,
+                    2448,
+                    1928
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 337,
+                      "band": [
+                        394,
+                        1925,
+                        2448,
+                        1929
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 316,
+                      "band": [
+                        394,
+                        1926,
+                        2448,
+                        1929
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 165,
+                      "band": [
+                        394,
+                        1926,
+                        2448,
+                        1928
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 136,
+                      "band": [
+                        394,
+                        1927,
+                        2448,
+                        1928
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1926,
+                  "direction": "inward",
+                  "ink_count": 29,
+                  "band": [
+                    394,
+                    1926,
+                    2448,
+                    1927
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 208,
+                      "band": [
+                        394,
+                        1924,
+                        2448,
+                        1928
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 186,
+                      "band": [
+                        394,
+                        1925,
+                        2448,
+                        1928
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 50,
+                      "band": [
+                        394,
+                        1925,
+                        2448,
+                        1927
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 29,
+                      "band": [
+                        394,
+                        1926,
+                        2448,
+                        1927
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1925,
+                  "direction": "inward",
+                  "ink_count": 21,
+                  "band": [
+                    394,
+                    1925,
+                    2448,
+                    1926
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 100,
+                      "band": [
+                        394,
+                        1923,
+                        2448,
+                        1927
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 72,
+                      "band": [
+                        394,
+                        1924,
+                        2448,
+                        1927
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 43,
+                      "band": [
+                        394,
+                        1924,
+                        2448,
+                        1926
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 21,
+                      "band": [
+                        394,
+                        1925,
+                        2448,
+                        1926
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1924,
+                  "direction": "inward",
+                  "ink_count": 22,
+                  "band": [
+                    394,
+                    1924,
+                    2448,
+                    1925
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 119,
+                      "band": [
+                        394,
+                        1922,
+                        2448,
+                        1926
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 71,
+                      "band": [
+                        394,
+                        1923,
+                        2448,
+                        1926
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 50,
+                      "band": [
+                        394,
+                        1923,
+                        2448,
+                        1925
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 22,
+                      "band": [
+                        394,
+                        1924,
+                        2448,
+                        1925
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1923,
+                  "direction": "inward",
+                  "ink_count": 28,
+                  "band": [
+                    394,
+                    1923,
+                    2448,
+                    1924
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 142,
+                      "band": [
+                        394,
+                        1921,
+                        2448,
+                        1925
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 98,
+                      "band": [
+                        394,
+                        1922,
+                        2448,
+                        1925
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 76,
+                      "band": [
+                        394,
+                        1922,
+                        2448,
+                        1924
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 28,
+                      "band": [
+                        394,
+                        1923,
+                        2448,
+                        1924
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1922,
+                  "direction": "inward",
+                  "ink_count": 48,
+                  "band": [
+                    394,
+                    1922,
+                    2448,
+                    1923
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 149,
+                      "band": [
+                        394,
+                        1920,
+                        2448,
+                        1924
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 120,
+                      "band": [
+                        394,
+                        1921,
+                        2448,
+                        1924
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 92,
+                      "band": [
+                        394,
+                        1921,
+                        2448,
+                        1923
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 48,
+                      "band": [
+                        394,
+                        1922,
+                        2448,
+                        1923
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1921,
+                  "direction": "inward",
+                  "ink_count": 44,
+                  "band": [
+                    394,
+                    1921,
+                    2448,
+                    1922
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 129,
+                      "band": [
+                        394,
+                        1919,
+                        2448,
+                        1923
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 121,
+                      "band": [
+                        394,
+                        1920,
+                        2448,
+                        1923
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 73,
+                      "band": [
+                        394,
+                        1920,
+                        2448,
+                        1922
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 44,
+                      "band": [
+                        394,
+                        1921,
+                        2448,
+                        1922
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1920,
+                  "direction": "inward",
+                  "ink_count": 29,
+                  "band": [
+                    394,
+                    1920,
+                    2448,
+                    1921
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 89,
+                      "band": [
+                        394,
+                        1918,
+                        2448,
+                        1922
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 81,
+                      "band": [
+                        394,
+                        1919,
+                        2448,
+                        1922
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 37,
+                      "band": [
+                        394,
+                        1919,
+                        2448,
+                        1921
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 29,
+                      "band": [
+                        394,
+                        1920,
+                        2448,
+                        1921
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "coord": 1919,
+                  "direction": "inward",
+                  "ink_count": 8,
+                  "band": [
+                    394,
+                    1919,
+                    2448,
+                    1920
+                  ],
+                  "thickness_attempts": [
+                    {
+                      "thickness": 4,
+                      "ink_count": 51,
+                      "band": [
+                        394,
+                        1917,
+                        2448,
+                        1921
+                      ]
+                    },
+                    {
+                      "thickness": 3,
+                      "ink_count": 45,
+                      "band": [
+                        394,
+                        1918,
+                        2448,
+                        1921
+                      ]
+                    },
+                    {
+                      "thickness": 2,
+                      "ink_count": 16,
+                      "band": [
+                        394,
+                        1918,
+                        2448,
+                        1920
+                      ]
+                    },
+                    {
+                      "thickness": 1,
+                      "ink_count": 8,
+                      "band": [
+                        394,
+                        1919,
+                        2448,
+                        1920
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "left": {
+            "bbox": [
+              375,
+              452,
+              378,
+              1916
+            ],
+            "orientation": "vertical",
+            "length": 1464,
+            "thickness": 3,
+            "center": [
+              376.5,
+              1184.0
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              375,
+              452,
+              378,
+              1949
+            ],
+            "erase_bbox": [
+              375,
+              452,
+              378,
+              1917
+            ]
+          },
+          "right": {
+            "bbox": [
+              2463,
+              452,
+              2470,
+              1916
+            ],
+            "orientation": "vertical",
+            "length": 1464,
+            "thickness": 7,
+            "center": [
+              2466.5,
+              1184.0
+            ],
+            "inferred": false,
+            "adjusted": true,
+            "source_bbox": [
+              2463,
+              452,
+              2470,
+              1912
+            ],
+            "erase_bbox": [
+              2463,
+              452,
+              2470,
+              1912
+            ]
+          }
+        },
+        "inner_bbox": [
+          376,
+          452,
+          2466,
+          1916
+        ]
+      }
+    ],
+    "inner_bboxes": [
+      [
+        376,
+        452,
+        2466,
+        1916
+      ]
+    ]
+  },
+  "frames": [
+    {
+      "bbox": [
+        376,
+        452,
+        2466,
+        1916
+      ],
+      "area_ratio": 0.2856918767507003,
+      "score": 523.4239028944911,
+      "alignment_error": 5.0,
+      "partial": true,
+      "fallback": false,
+      "kind": "missing_bottom",
+      "calibration": {
+        "initial_bbox": [
+          376,
+          452,
+          2466,
+          1930
+        ],
+        "preferred_inferred_thickness": 4,
+        "inferred_edges": {
+          "bottom": {
+            "initial_coord": 1930,
+            "final_coord": 1916,
+            "preferred_thickness": 4,
+            "final_thickness": 2,
+            "search_result": "clean_inward",
+            "shift_pixels": -14,
+            "max_inward_pixels": 493,
+            "sampled_attempts": [
+              {
+                "coord": 1930,
+                "direction": "inward",
+                "ink_count": 70,
+                "band": [
+                  394,
+                  1930,
+                  2448,
+                  1931
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 430,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1932
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 279,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1932
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 221,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 70,
+                    "band": [
+                      394,
+                      1930,
+                      2448,
+                      1931
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1929,
+                "direction": "inward",
+                "ink_count": 151,
+                "band": [
+                  394,
+                  1929,
+                  2448,
+                  1930
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 508,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 372,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 302,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 151,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1930
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1928,
+                "direction": "inward",
+                "ink_count": 151,
+                "band": [
+                  394,
+                  1928,
+                  2448,
+                  1929
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 467,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 438,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 287,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 151,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1929
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1927,
+                "direction": "inward",
+                "ink_count": 136,
+                "band": [
+                  394,
+                  1927,
+                  2448,
+                  1928
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 337,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 316,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 165,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 136,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1928
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1926,
+                "direction": "inward",
+                "ink_count": 29,
+                "band": [
+                  394,
+                  1926,
+                  2448,
+                  1927
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 208,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 186,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1927
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1925,
+                "direction": "inward",
+                "ink_count": 21,
+                "band": [
+                  394,
+                  1925,
+                  2448,
+                  1926
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 100,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 72,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 43,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 21,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1926
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1924,
+                "direction": "inward",
+                "ink_count": 22,
+                "band": [
+                  394,
+                  1924,
+                  2448,
+                  1925
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 119,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 71,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 22,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1925
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1923,
+                "direction": "inward",
+                "ink_count": 28,
+                "band": [
+                  394,
+                  1923,
+                  2448,
+                  1924
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 142,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 98,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 76,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 28,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1924
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1922,
+                "direction": "inward",
+                "ink_count": 48,
+                "band": [
+                  394,
+                  1922,
+                  2448,
+                  1923
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 149,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 120,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 92,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 48,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1923
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1921,
+                "direction": "inward",
+                "ink_count": 44,
+                "band": [
+                  394,
+                  1921,
+                  2448,
+                  1922
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 129,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 121,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 73,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 44,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1922
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1920,
+                "direction": "inward",
+                "ink_count": 29,
+                "band": [
+                  394,
+                  1920,
+                  2448,
+                  1921
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 89,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 81,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 37,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1921
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1919,
+                "direction": "inward",
+                "ink_count": 8,
+                "band": [
+                  394,
+                  1919,
+                  2448,
+                  1920
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 51,
+                    "band": [
+                      394,
+                      1917,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 45,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 16,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1920
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 8,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1920
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "corner_aligned": true,
+        "final_bbox": [
+          376,
+          452,
+          2466,
+          1916
+        ],
+        "line_thickness_by_side": {
+          "top": 4,
+          "bottom": 2,
+          "left": 3,
+          "right": 7
+        }
+      },
+      "line_thickness": {
+        "by_side": {
+          "top": 4,
+          "bottom": 2,
+          "left": 3,
+          "right": 7
+        },
+        "min": 2,
+        "max": 7,
+        "median": 3.5
+      },
+      "sides": {
+        "top": {
+          "bbox": [
+            376,
+            450,
+            2466,
+            454
+          ],
+          "orientation": "horizontal",
+          "length": 2090,
+          "thickness": 4,
+          "center": [
+            1421.0,
+            452.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            377,
+            450,
+            2472,
+            454
+          ],
+          "erase_bbox": [
+            377,
+            450,
+            2470,
+            454
+          ]
+        },
+        "bottom": {
+          "bbox": [
+            376,
+            1915,
+            2466,
+            1917
+          ],
+          "orientation": "horizontal",
+          "length": 2090,
+          "thickness": 2,
+          "center": [
+            1421.0,
+            1916.0
+          ],
+          "inferred": true,
+          "adjusted": true,
+          "inference": {
+            "initial_coord": 1930,
+            "final_coord": 1916,
+            "preferred_thickness": 4,
+            "final_thickness": 2,
+            "search_result": "clean_inward",
+            "shift_pixels": -14,
+            "max_inward_pixels": 493,
+            "sampled_attempts": [
+              {
+                "coord": 1930,
+                "direction": "inward",
+                "ink_count": 70,
+                "band": [
+                  394,
+                  1930,
+                  2448,
+                  1931
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 430,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1932
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 279,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1932
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 221,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 70,
+                    "band": [
+                      394,
+                      1930,
+                      2448,
+                      1931
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1929,
+                "direction": "inward",
+                "ink_count": 151,
+                "band": [
+                  394,
+                  1929,
+                  2448,
+                  1930
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 508,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 372,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1931
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 302,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 151,
+                    "band": [
+                      394,
+                      1929,
+                      2448,
+                      1930
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1928,
+                "direction": "inward",
+                "ink_count": 151,
+                "band": [
+                  394,
+                  1928,
+                  2448,
+                  1929
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 467,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 438,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1930
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 287,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 151,
+                    "band": [
+                      394,
+                      1928,
+                      2448,
+                      1929
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1927,
+                "direction": "inward",
+                "ink_count": 136,
+                "band": [
+                  394,
+                  1927,
+                  2448,
+                  1928
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 337,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 316,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1929
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 165,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 136,
+                    "band": [
+                      394,
+                      1927,
+                      2448,
+                      1928
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1926,
+                "direction": "inward",
+                "ink_count": 29,
+                "band": [
+                  394,
+                  1926,
+                  2448,
+                  1927
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 208,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 186,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1928
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      1926,
+                      2448,
+                      1927
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1925,
+                "direction": "inward",
+                "ink_count": 21,
+                "band": [
+                  394,
+                  1925,
+                  2448,
+                  1926
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 100,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 72,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1927
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 43,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 21,
+                    "band": [
+                      394,
+                      1925,
+                      2448,
+                      1926
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1924,
+                "direction": "inward",
+                "ink_count": 22,
+                "band": [
+                  394,
+                  1924,
+                  2448,
+                  1925
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 119,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 71,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1926
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 50,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 22,
+                    "band": [
+                      394,
+                      1924,
+                      2448,
+                      1925
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1923,
+                "direction": "inward",
+                "ink_count": 28,
+                "band": [
+                  394,
+                  1923,
+                  2448,
+                  1924
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 142,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 98,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1925
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 76,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 28,
+                    "band": [
+                      394,
+                      1923,
+                      2448,
+                      1924
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1922,
+                "direction": "inward",
+                "ink_count": 48,
+                "band": [
+                  394,
+                  1922,
+                  2448,
+                  1923
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 149,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 120,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1924
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 92,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 48,
+                    "band": [
+                      394,
+                      1922,
+                      2448,
+                      1923
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1921,
+                "direction": "inward",
+                "ink_count": 44,
+                "band": [
+                  394,
+                  1921,
+                  2448,
+                  1922
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 129,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 121,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1923
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 73,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 44,
+                    "band": [
+                      394,
+                      1921,
+                      2448,
+                      1922
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1920,
+                "direction": "inward",
+                "ink_count": 29,
+                "band": [
+                  394,
+                  1920,
+                  2448,
+                  1921
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 89,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 81,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1922
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 37,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 29,
+                    "band": [
+                      394,
+                      1920,
+                      2448,
+                      1921
+                    ]
+                  }
+                ]
+              },
+              {
+                "coord": 1919,
+                "direction": "inward",
+                "ink_count": 8,
+                "band": [
+                  394,
+                  1919,
+                  2448,
+                  1920
+                ],
+                "thickness_attempts": [
+                  {
+                    "thickness": 4,
+                    "ink_count": 51,
+                    "band": [
+                      394,
+                      1917,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 3,
+                    "ink_count": 45,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1921
+                    ]
+                  },
+                  {
+                    "thickness": 2,
+                    "ink_count": 16,
+                    "band": [
+                      394,
+                      1918,
+                      2448,
+                      1920
+                    ]
+                  },
+                  {
+                    "thickness": 1,
+                    "ink_count": 8,
+                    "band": [
+                      394,
+                      1919,
+                      2448,
+                      1920
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "left": {
+          "bbox": [
+            375,
+            452,
+            378,
+            1916
+          ],
+          "orientation": "vertical",
+          "length": 1464,
+          "thickness": 3,
+          "center": [
+            376.5,
+            1184.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            375,
+            452,
+            378,
+            1949
+          ],
+          "erase_bbox": [
+            375,
+            452,
+            378,
+            1917
+          ]
+        },
+        "right": {
+          "bbox": [
+            2463,
+            452,
+            2470,
+            1916
+          ],
+          "orientation": "vertical",
+          "length": 1464,
+          "thickness": 7,
+          "center": [
+            2466.5,
+            1184.0
+          ],
+          "inferred": false,
+          "adjusted": true,
+          "source_bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ],
+          "erase_bbox": [
+            2463,
+            452,
+            2470,
+            1912
+          ]
+        }
+      },
+      "inner_bbox": [
+        376,
+        452,
+        2466,
+        1916
+      ]
+    }
+  ],
+  "summary": {
+    "num_axis_lines": 108,
+    "num_frame_boxes": 1,
+    "detection_mode": "closed_partial_l_fallback"
+  }
+}
